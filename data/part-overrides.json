@@ -1,0 +1,66 @@
+{
+ "think": {
+  "pre": "I have ",
+  "post": " about it a lot."
+ },
+ "be": {
+  "pre": "I have ",
+  "post": " tired today."
+ },
+ "have": {
+  "pre": "I have ",
+  "post": " this dog for years."
+ },
+ "know": {
+  "pre": "I have ",
+  "post": " him for years."
+ },
+ "want": {
+  "pre": "I have ",
+  "post": " to learn English for a long time."
+ },
+ "like": {
+  "pre": "I have always ",
+  "post": " coffee with milk."
+ },
+ "love": {
+  "pre": "I have always ",
+  "post": " this song."
+ },
+ "need": {
+  "pre": "I have ",
+  "post": " more sleep lately."
+ },
+ "mean": {
+  "pre": "I have ",
+  "post": " what I said."
+ },
+ "believe": {
+  "pre": "I have always ",
+  "post": " in you."
+ },
+ "understand": {
+  "pre": "I have ",
+  "post": " the problem since yesterday."
+ },
+ "seem": {
+  "pre": "It has ",
+  "post": " cold all day."
+ },
+ "remember": {
+  "pre": "I have always ",
+  "post": " your birthday."
+ },
+ "consider": {
+  "pre": "I have always ",
+  "post": " you a close friend."
+ },
+ "see": {
+  "pre": "I have already ",
+  "post": " my friend today."
+ },
+ "hear": {
+  "pre": "I have already ",
+  "post": " that song."
+ }
+}

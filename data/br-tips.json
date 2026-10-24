@@ -1,0 +1,15 @@
+{
+  "have": "Idade usa <i>be</i>: <b>I am 30</b>, não <i>I have 30 years</i>.",
+  "get": "<b>get</b> muda de sentido conforme a combinação.",
+  "make": "<b>make</b> aparece em combinações como <i>make a mistake</i>.",
+  "do": "<b>do</b> aparece em tarefas e atividades: <i>do homework</i>.",
+  "live": "<b>live</b> = morar → <b>LÍV</b>. <b>live</b> = ao vivo → <b>LÁIV</b>.",
+  "want": "Não acrescente um “i” no final: <b>want</b> → <i>uânt</i>, não <i>uânti</i>.",
+  "think": "No <b>th</b>, coloque a língua entre os dentes. Não transforme em <i>t</i>.",
+  "throw": "No <b>th</b>, língua entre os dentes; depois vem o som de <i>r</i>.",
+  "three": "No <b>th</b>, língua entre os dentes; não é <i>t</i>.",
+  "+final-i": {
+    "purpose": "Lembrete do 'i' final extra (estilo brasileiro). Mostrado APENAS para as palavras desta lista, quando a forma exata estiver em foco — nunca como dica global.",
+    "words": ["want", "work", "think", "ask", "look"]
+  }
+}

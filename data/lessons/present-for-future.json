@@ -1,0 +1,61 @@
+{
+  "id": "present-for-future",
+  "name": "Presente com valor de futuro",
+  "namePt": "Presente com valor de futuro",
+  "group": "related",
+  "order": 2,
+  "aux": "present continuous / present simple",
+  "summaryPt": "Present continuous e present simple para planos e horários futuros combinados.",
+  "meaningUses": [
+    { "pt": "Plano combinado com dia/hora (present continuous)", "en": "I'm meeting my friends at 6.", "enPt": "Vou encontrar meus amigos às 6 (combinado)." },
+    { "pt": "Horário fixo/schedule (present simple)", "en": "The train leaves at 8.", "enPt": "O trem sai às 8." }
+  ],
+  "formation": [
+    { "section": "Plano combinado", "pt": "present continuous (am/is/are + -ing) + tempo futuro.", "pattern": "I'm meeting her at 6 — She's flying to São Paulo on Friday", "examples": [{ "en": "I'm meeting my friends at 6.", "pt": "Vou encontrar meus amigos às 6." }] },
+    { "section": "Horário fixo", "pt": "present simple + horário (schedule).", "pattern": "The train leaves at 8 — The store opens at 9", "examples": [{ "en": "The bus leaves at seven.", "pt": "O ônibus sai às sete." }] }
+  ],
+  "subjectAgreement": [
+    { "pt": "present continuous: I → am, he/she/it → is, we/they → are", "example": "I'm meeting. She is meeting. We are meeting." },
+    { "pt": "present simple com horário: he/she/it → verbo + -s", "example": "The train leaves at 8." }
+  ],
+  "spelling": [],
+  "pronunciation": [
+    { "pt": "Contrações: I'm, she's, we're.", "example": "I'm meeting her at 6." }
+  ],
+  "commonErrors": [
+    { "pt": "Usar present simple para plano pessoal combinado", "wrong": "I meet my friends at 6 tonight. (plano)", "right": "I'm meeting my friends at 6 tonight." },
+    { "pt": "Usar present continuous para horário fixo impessoal", "wrong": "The train is leaving at 8 every day.", "right": "The train leaves at 8 every day." }
+  ],
+  "contrast": [
+    { "with": "future-simple", "pt": "Plano combinado → present continuous. Previsão/espontâneo → will.", "en": "I'm meeting her at 6. (combinado) — I'll help you. (espontâneo)", "enPt": "Vou encontrá-la às 6. — Vou te ajudar." }
+  ],
+  "examples": [
+    { "en": "I'm meeting my friends at 6.", "pt": "Vou encontrar meus amigos às 6." },
+    { "en": "She's flying to São Paulo on Friday.", "pt": "Ela voa para São Paulo na sexta." },
+    { "en": "The train leaves at 8.", "pt": "O trem sai às 8." },
+    { "en": "We're having dinner with my parents tonight.", "pt": "Vamos jantar com meus pais hoje à noite." },
+    { "en": "The store opens at 9.", "pt": "A loja abre às 9." }
+  ],
+  "guidedPractice": [
+    { "id": "pff-g1", "kind": "mc", "difficulty": "basic", "prompt": "I'm ___ my friends at 6.", "options": ["meeting", "meet", "met", "meets"], "answer": "meeting", "full": "I'm meeting my friends at 6.", "pt": "Vou encontrar meus amigos às 6.", "explanation": "Plano combinado → present continuous." },
+    { "id": "pff-g2", "kind": "mc", "difficulty": "basic", "prompt": "The train ___ at 8.", "options": ["leaves", "leave", "leaving", "left"], "answer": "leaves", "full": "The train leaves at 8.", "pt": "O trem sai às 8.", "explanation": "Horário fixo → present simple (it → leaves)." },
+    { "id": "pff-g3", "kind": "typed", "difficulty": "basic", "prompt": "We're ___ (have) dinner tonight.", "accept": ["having"], "answer": "having", "full": "We're having dinner tonight.", "pt": "Vamos jantar hoje à noite.", "explanation": "Plano combinado → present continuous." },
+    { "id": "pff-g4", "kind": "mc", "difficulty": "intermediate", "prompt": "She's ___ to São Paulo on Friday.", "options": ["flying", "flies", "fly", "flew"], "answer": "flying", "full": "She's flying to São Paulo on Friday.", "pt": "Ela voa para São Paulo na sexta.", "explanation": "Plano combinado → present continuous." },
+    { "id": "pff-g5", "kind": "mc", "difficulty": "intermediate", "prompt": "The movie ___ at 7:30.", "options": ["starts", "is starting", "start", "started"], "answer": "starts", "full": "The movie starts at 7:30.", "pt": "O filme começa às 19h30.", "explanation": "Horário fixo → present simple." },
+    { "id": "pff-g6", "kind": "typed", "difficulty": "intermediate", "prompt": "I ___ meeting her tomorrow. (am)", "accept": ["am"], "answer": "am", "full": "I'm meeting her tomorrow.", "pt": "Vou encontrá-la amanhã.", "explanation": "Plano combinado → am/is/are + -ing." },
+    { "id": "pff-g7", "kind": "mc", "difficulty": "advanced", "prompt": "The store ___ at 9 every day.", "options": ["opens", "is opening", "open", "opened"], "answer": "opens", "full": "The store opens at 9 every day.", "pt": "A loja abre às 9 todos os dias.", "explanation": "Horário fixo recorrente → present simple." },
+    { "id": "pff-g8", "kind": "typed", "difficulty": "advanced", "prompt": "We ___ meeting them at 8 tonight. (are)", "accept": ["are"], "answer": "are", "full": "We are meeting them at 8 tonight.", "pt": "Vamos encontrá-los às 8 hoje à noite.", "explanation": "Plano combinado com hora → present continuous." }
+  ],
+  "reviewQuiz": [
+    { "id": "pff-r1", "kind": "mc", "difficulty": "basic", "prompt": "I'm ___ my friends at 6.", "options": ["meeting", "meet", "met", "meets"], "answer": "meeting", "full": "I'm meeting my friends at 6.", "pt": "Vou encontrar meus amigos às 6.", "explanation": "Plano combinado → present continuous." },
+    { "id": "pff-r2", "kind": "mc", "difficulty": "basic", "prompt": "The bus ___ at seven.", "options": ["leaves", "leave", "leaving", "left"], "answer": "leaves", "full": "The bus leaves at seven.", "pt": "O ônibus sai às sete.", "explanation": "Horário fixo → present simple." },
+    { "id": "pff-r3", "kind": "typed", "difficulty": "basic", "prompt": "We're ___ (fly) to Rio on Friday.", "accept": ["flying"], "answer": "flying", "full": "We're flying to Rio on Friday.", "pt": "Vamos voar para o Rio na sexta.", "explanation": "Plano combinado → present continuous." },
+    { "id": "pff-r4", "kind": "mc", "difficulty": "intermediate", "prompt": "The class ___ at 8 a.m.", "options": ["starts", "is starting", "start", "started"], "answer": "starts", "full": "The class starts at 8 a.m.", "pt": "A aula começa às 8h.", "explanation": "Horário fixo → present simple." },
+    { "id": "pff-r5", "kind": "mc", "difficulty": "intermediate", "prompt": "She's ___ her grandmother tomorrow.", "options": ["visiting", "visits", "visit", "visited"], "answer": "visiting", "full": "She's visiting her grandmother tomorrow.", "pt": "Ela vai visitar a avó amanhã.", "explanation": "Plano combinado → present continuous." },
+    { "id": "pff-r6", "kind": "typed", "difficulty": "intermediate", "prompt": "The store ___ (open) at 9.", "accept": ["opens"], "answer": "opens", "full": "The store opens at 9.", "pt": "A loja abre às 9.", "explanation": "Horário fixo → present simple." },
+    { "id": "pff-r7", "kind": "mc", "difficulty": "advanced", "prompt": "I ___ meeting her tomorrow. (am)", "options": ["am", "is", "are", "be"], "answer": "am", "full": "I am meeting her tomorrow.", "pt": "Vou encontrá-la amanhã.", "explanation": "Plano combinado → am + -ing." },
+    { "id": "pff-r8", "kind": "mc", "difficulty": "advanced", "prompt": "The train ___ at 8 every morning.", "options": ["leaves", "is leaving", "leave", "left"], "answer": "leaves", "full": "The train leaves at 8 every morning.", "pt": "O trem sai às 8 todas as manhãs.", "explanation": "Horário fixo recorrente → present simple." },
+    { "id": "pff-r9", "kind": "typed", "difficulty": "advanced", "prompt": "We ___ meeting them at 8 tonight. (are)", "accept": ["are"], "answer": "are", "full": "We are meeting them at 8 tonight.", "pt": "Vamos encontrá-los às 8 hoje à noite.", "explanation": "Plano combinado com hora → present continuous." },
+    { "id": "pff-r10", "kind": "mc", "difficulty": "advanced", "prompt": "The movie ___ at 7:30 tonight.", "options": ["starts", "is starting", "start", "started"], "answer": "starts", "full": "The movie starts at 7:30 tonight.", "pt": "O filme começa às 19h30 hoje.", "explanation": "Horário fixo → present simple." }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+ "make": [
+  "make a decision",
+  "make a mistake",
+  "make plans"
+ ],
+ "do": [
+  "do homework",
+  "do exercise",
+  "do someone a favor"
+ ],
+ "take": [
+  "take a break",
+  "take a shower",
+  "take care of"
+ ],
+ "get": [
+  "get ready",
+  "get home",
+  "get better"
+ ],
+ "have": [
+  "have breakfast",
+  "have a problem",
+  "have fun"
+ ],
+ "go": [
+  "go home",
+  "go out",
+  "go back"
+ ],
+ "keep": [
+  "keep in touch",
+  "keep going"
+ ],
+ "pay": [
+  "pay attention",
+  "pay for"
+ ],
+ "spend": [
+  "spend time",
+  "spend money"
+ ]
+}

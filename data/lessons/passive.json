@@ -1,0 +1,61 @@
+{
+  "id": "passive",
+  "name": "Voz passiva",
+  "namePt": "Voz passiva",
+  "group": "related",
+  "order": 5,
+  "aux": "be + particípio",
+  "summaryPt": "Foco na ação ou no objeto, não em quem faz.",
+  "meaningUses": [
+    { "pt": "Quando o agente é desconhecido ou óbvio", "en": "This house was built in 1990.", "enPt": "Esta casa foi construída em 1990." },
+    { "pt": "Quando queremos focar o objeto/ação", "en": "The report will be finished by Friday.", "enPt": "O relatório será terminado até sexta." }
+  ],
+  "formation": [
+    { "section": "Presente", "pt": "am/is/are + particípio.", "pattern": "is made — are made", "examples": [{ "en": "This bread is made with milk.", "pt": "Este pão é feito com leite." }] },
+    { "section": "Passado", "pt": "was/were + particípio.", "pattern": "was built — were built", "examples": [{ "en": "This house was built in 1990.", "pt": "Esta casa foi construída em 1990." }] },
+    { "section": "Futuro", "pt": "will be + particípio.", "pattern": "will be finished", "examples": [{ "en": "The report will be finished by Friday.", "pt": "O relatório será terminado até sexta." }] },
+    { "section": "Com by", "pt": "by + agente quando necessário.", "pattern": "written by the teacher", "examples": [{ "en": "The song was written by her.", "pt": "A música foi escrita por ela." }] }
+  ],
+  "subjectAgreement": [
+    { "pt": "O verbo to be concorda com o sujeito.", "example": "The house is built. The houses are built." }
+  ],
+  "spelling": [],
+  "pronunciation": [
+    { "pt": "was/were em fala rápida → /wəz/, /wər/.", "example": "It was built in 1990." }
+  ],
+  "commonErrors": [
+    { "pt": "Esquecer o verbo to be", "wrong": "The house built in 1990.", "right": "The house was built in 1990." },
+    { "pt": "Usar particípio no lugar errado", "wrong": "The bread is make with milk.", "right": "The bread is made with milk." },
+    { "pt": "Usar voz passiva onde a ativa é natural", "wrong": "My homework was done by me. (desnecessário)", "right": "I did my homework." }
+  ],
+  "contrast": [
+    { "with": "past-simple", "pt": "Voz ativa = quem faz. Voz passiva = a ação importa mais.", "en": "She wrote the song. (ativa) — The song was written by her. (passiva)", "enPt": "Ela escreveu a música. — A música foi escrita por ela." }
+  ],
+  "examples": [
+    { "en": "This bread is made with milk.", "pt": "Este pão é feito com leite." },
+    { "en": "This house was built in 1990.", "pt": "Esta casa foi construída em 1990." },
+    { "en": "The report will be finished by Friday.", "pt": "O relatório será terminado até sexta." },
+    { "en": "The song was written by her.", "pt": "A música foi escrita por ela." },
+    { "en": "English is spoken in many countries.", "pt": "O inglês é falado em muitos países." }
+  ],
+  "guidedPractice": [
+    { "id": "pas-g1", "kind": "mc", "difficulty": "intermediate", "prompt": "This bread ___ made with milk.", "options": ["is", "are", "was", "be"], "answer": "is", "full": "This bread is made with milk.", "pt": "Este pão é feito com leite.", "explanation": "Passiva no presente: is + particípio." },
+    { "id": "pas-g2", "kind": "mc", "difficulty": "intermediate", "prompt": "This house ___ built in 1990.", "options": ["was", "is", "were", "be"], "answer": "was", "full": "This house was built in 1990.", "pt": "Esta casa foi construída em 1990.", "explanation": "Passiva no passado: was + particípio." },
+    { "id": "pas-g3", "kind": "typed", "difficulty": "intermediate", "prompt": "The report will be ___ (finish) by Friday.", "accept": ["finished"], "answer": "finished", "full": "The report will be finished by Friday.", "pt": "O relatório será terminado até sexta.", "explanation": "Futuro passivo: will be + particípio." },
+    { "id": "pas-g4", "kind": "mc", "difficulty": "intermediate", "prompt": "English ___ spoken in many countries.", "options": ["is", "are", "was", "be"], "answer": "is", "full": "English is spoken in many countries.", "pt": "O inglês é falado em muitos países.", "explanation": "Passiva no presente: is + particípio." },
+    { "id": "pas-g5", "kind": "mc", "difficulty": "advanced", "prompt": "The song ___ written by her.", "options": ["was", "is", "were", "be"], "answer": "was", "full": "The song was written by her.", "pt": "A música foi escrita por ela.", "explanation": "Passiva no passado + by + agente." },
+    { "id": "pas-g6", "kind": "typed", "difficulty": "advanced", "prompt": "These houses ___ built in the 90s. (were)", "accept": ["were"], "answer": "were", "full": "These houses were built in the 90s.", "pt": "Estas casas foram construídas nos anos 90.", "explanation": "Sujeito plural → were." },
+    { "id": "pas-g7", "kind": "mc", "difficulty": "advanced", "prompt": "The email will ___ sent tomorrow.", "options": ["be", "is", "was", "are"], "answer": "be", "full": "The email will be sent tomorrow.", "pt": "O e-mail será enviado amanhã.", "explanation": "Futuro passivo: will be + particípio." },
+    { "id": "pas-g8", "kind": "typed", "difficulty": "advanced", "prompt": "The pizza is ___ (make) with cheese.", "accept": ["made"], "answer": "made", "full": "The pizza is made with cheese.", "pt": "A pizza é feita com queijo.", "explanation": "Particípio de make → made." }
+  ],
+  "reviewQuiz": [
+    { "id": "pas-r1", "kind": "mc", "difficulty": "intermediate", "prompt": "This bread ___ made with milk.", "options": ["is", "are", "was", "be"], "answer": "is", "full": "This bread is made with milk.", "pt": "Este pão é feito com leite.", "explanation": "Passiva no presente: is + particípio." },
+    { "id": "pas-r2", "kind": "mc", "difficulty": "intermediate", "prompt": "The house ___ built in 1990.", "options": ["was", "is", "were", "be"], "answer": "was", "full": "The house was built in 1990.", "pt": "A casa foi construída em 1990.", "explanation": "Passiva no passado: was + particípio." },
+    { "id": "pas-r3", "kind": "typed", "difficulty": "intermediate", "prompt": "English is ___ (speak) in many countries.", "accept": ["spoken"], "answer": "spoken", "full": "English is spoken in many countries.", "pt": "O inglês é falado em muitos países.", "explanation": "Particípio de speak → spoken." },
+    { "id": "pas-r4", "kind": "mc", "difficulty": "intermediate", "prompt": "The windows ___ cleaned every week.", "options": ["are", "is", "was", "be"], "answer": "are", "full": "The windows are cleaned every week.", "pt": "As janelas são limpas toda semana.", "explanation": "Sujeito plural → are." },
+    { "id": "pas-r5", "kind": "mc", "difficulty": "advanced", "prompt": "The report ___ be finished by Friday.", "options": ["will", "is", "was", "are"], "answer": "will", "full": "The report will be finished by Friday.", "pt": "O relatório será terminado até sexta.", "explanation": "Futuro passivo: will be + particípio." },
+    { "id": "pas-r6", "kind": "typed", "difficulty": "advanced", "prompt": "The song was ___ (write) by her.", "accept": ["written"], "answer": "written", "full": "The song was written by her.", "pt": "A música foi escrita por ela.", "explanation": "Particípio de write → written." },
+    { "id": "pas-r7", "kind": "mc", "difficulty": "advanced", "prompt": "These shoes ___ made in Brazil.", "options": ["are", "is", "was", "be"], "answer": "are", "full": "These shoes are made in Brazil.", "pt": "Estes sapatos são feitos no Brasil.", "explanation": "Sujeito plural → are." },
+    { "id": "pas-r8", "kind": "typed", "difficulty": "advanced", "prompt": "The email will be ___ (send) tomorrow.", "accept": ["sent"], "answer": "sent", "full": "The email will be sent tomorrow.", "pt": "O e-mail será enviado amanhã.", "explanation": "Particípio de send → sent." }
+  ]
+}

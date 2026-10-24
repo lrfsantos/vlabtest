@@ -1,0 +1,62 @@
+{
+  "id": "future-perfect",
+  "name": "Future Perfect",
+  "namePt": "Future Perfect",
+  "group": "future",
+  "order": 3,
+  "aux": "will have",
+  "summaryPt": "Ação que estará concluída antes de um momento futuro.",
+  "meaningUses": [
+    { "pt": "Ação concluída antes de um momento futuro", "en": "By 6 p.m., I will have finished my work.", "enPt": "Até às 18h, terei terminado meu trabalho." },
+    { "pt": "Previsão de conclusão", "en": "By 2030, she will have graduated.", "enPt": "Até 2030, ela já terá se formado." }
+  ],
+  "formation": [
+    { "section": "Afirmativa", "pt": "Sujeito + will have + particípio.", "pattern": "I will have finished — she will have gone", "examples": [{ "en": "By 6, I will have finished.", "pt": "Até às 6, terei terminado." }] },
+    { "section": "Negativa", "pt": "Sujeito + won't have + particípio.", "pattern": "I won't have finished", "examples": [{ "en": "I won't have finished by then.", "pt": "Não terei terminado até lá." }] },
+    { "section": "Perguntas", "pt": "Will + sujeito + have + particípio?", "pattern": "Will you have finished?", "examples": [{ "en": "Will you have finished by 6?", "pt": "Você terá terminado até às 6?" }] },
+    { "section": "Respostas curtas", "pt": "Yes, + pronome + will. No, + pronome + won't.", "pattern": "Yes, I will. / No, I won't.", "examples": [{ "en": "A: Will you have finished? B: Yes, I will.", "pt": "A: Você terá terminado? B: Sim." }] }
+  ],
+  "subjectAgreement": [
+    { "pt": "A mesma forma (will have) para todas as pessoas.", "example": "I will have finished. She will have finished. They will have finished." }
+  ],
+  "spelling": [],
+  "pronunciation": [
+    { "pt": "will have em fala rápida → 'll have /aɪl hæv/.", "example": "I'll have finished." }
+  ],
+  "commonErrors": [
+    { "pt": "Esquecer o have", "wrong": "I will finished by 6.", "right": "I will have finished by 6." },
+    { "pt": "Usar verbo no passado em vez do particípio", "wrong": "I will have went.", "right": "I will have gone." }
+  ],
+  "contrast": [
+    { "with": "future-continuous", "pt": "Future perfect = concluído antes de um momento. Future continuous = em andamento num momento.", "en": "By 6, I will have finished. (concluído) — At 6, I will be working. (em andamento)", "enPt": "Até às 6, terei terminado. — Às 6, estarei trabalhando." }
+  ],
+  "examples": [
+    { "en": "By 6 p.m., I will have finished my work.", "pt": "Até às 18h, terei terminado meu trabalho." },
+    { "en": "She will have arrived by 9.", "pt": "Ela terá chegado até às 9." },
+    { "en": "I won't have finished by then.", "pt": "Não terei terminado até lá." },
+    { "en": "Will you have finished by 6?", "pt": "Você terá terminado até às 6?" },
+    { "en": "By 2030, she will have graduated.", "pt": "Até 2030, ela já terá se formado." }
+  ],
+  "guidedPractice": [
+    { "id": "futp-g1", "kind": "mc", "difficulty": "basic", "prompt": "By 6, I will ___ finished.", "options": ["have", "has", "be", "am"], "answer": "have", "full": "By 6, I will have finished.", "pt": "Até às 6, terei terminado.", "explanation": "will + have + particípio." },
+    { "id": "futp-g2", "kind": "typed", "difficulty": "basic", "prompt": "She will have ___ (arrive) by 9.", "accept": ["arrived"], "answer": "arrived", "full": "She will have arrived by 9.", "pt": "Ela terá chegado até às 9.", "explanation": "will have + particípio (arrive → arrived)." },
+    { "id": "futp-g3", "kind": "mc", "difficulty": "basic", "prompt": "I ___ have finished by then.", "options": ["won't", "will", "am", "was"], "answer": "won't", "full": "I won't have finished by then.", "pt": "Não terei terminado até lá.", "explanation": "Negativa: won't + have + particípio." },
+    { "id": "futp-g4", "kind": "mc", "difficulty": "intermediate", "prompt": "___ you have finished by 6?", "options": ["Will", "Do", "Are", "Did"], "answer": "Will", "full": "Will you have finished by 6?", "pt": "Você terá terminado até às 6?", "explanation": "Pergunta: Will + sujeito + have + particípio." },
+    { "id": "futp-g5", "kind": "typed", "difficulty": "intermediate", "prompt": "By 2030, she will have ___ (graduate).", "accept": ["graduated"], "answer": "graduated", "full": "By 2030, she will have graduated.", "pt": "Até 2030, ela já terá se formado.", "explanation": "will have + particípio (graduate → graduated)." },
+    { "id": "futp-g6", "kind": "mc", "difficulty": "intermediate", "prompt": "By the time you arrive, I ___ have cooked dinner.", "options": ["will", "won't", "am", "was"], "answer": "will", "full": "By the time you arrive, I will have cooked dinner.", "pt": "Quando você chegar, terei cozinhado o jantar.", "explanation": "Concluído antes de um momento → will have + particípio." },
+    { "id": "futp-g7", "kind": "mc", "difficulty": "advanced", "prompt": "A: Will you have finished? B: Yes, I ___.", "options": ["will", "have", "do", "am"], "answer": "will", "full": "A: Will you have finished? B: Yes, I will.", "pt": "A: Você terá terminado? B: Sim.", "explanation": "Resposta curta: Yes, + pronome + will." },
+    { "id": "futp-g8", "kind": "typed", "difficulty": "advanced", "prompt": "By noon, she will have ___ (leave).", "accept": ["left"], "answer": "left", "full": "By noon, she will have left.", "pt": "Até ao meio-dia, ela terá saído.", "explanation": "will have + particípio (leave → left)." }
+  ],
+  "reviewQuiz": [
+    { "id": "futp-r1", "kind": "mc", "difficulty": "basic", "prompt": "By 6, I will ___ finished my work.", "options": ["have", "has", "be", "am"], "answer": "have", "full": "By 6, I will have finished my work.", "pt": "Até às 6, terei terminado meu trabalho.", "explanation": "will + have + particípio." },
+    { "id": "futp-r2", "kind": "typed", "difficulty": "basic", "prompt": "She will have ___ (go) by then.", "accept": ["gone"], "answer": "gone", "full": "She will have gone by then.", "pt": "Ela terá ido até lá.", "explanation": "will have + particípio (go → gone)." },
+    { "id": "futp-r3", "kind": "mc", "difficulty": "basic", "prompt": "I ___ have finished by then.", "options": ["won't", "will", "am", "was"], "answer": "won't", "full": "I won't have finished by then.", "pt": "Não terei terminado até lá.", "explanation": "Negativa: won't + have + particípio." },
+    { "id": "futp-r4", "kind": "mc", "difficulty": "intermediate", "prompt": "___ you have left by 8?", "options": ["Will", "Do", "Are", "Did"], "answer": "Will", "full": "Will you have left by 8?", "pt": "Você terá saído até às 8?", "explanation": "Pergunta: Will + sujeito + have + particípio." },
+    { "id": "futp-r5", "kind": "typed", "difficulty": "intermediate", "prompt": "By the time you arrive, I will have ___ (finish).", "accept": ["finished"], "answer": "finished", "full": "By the time you arrive, I will have finished.", "pt": "Quando você chegar, terei terminado.", "explanation": "will have + particípio." },
+    { "id": "futp-r6", "kind": "mc", "difficulty": "intermediate", "prompt": "By 2030, they ___ have built the new school.", "options": ["will", "won't", "are", "did"], "answer": "will", "full": "By 2030, they will have built the new school.", "pt": "Até 2030, eles terão construído a nova escola.", "explanation": "Concluído antes de um momento → will have + particípio." },
+    { "id": "futp-r7", "kind": "mc", "difficulty": "advanced", "prompt": "A: Will she have finished? B: No, she ___.", "options": ["won't", "will", "isn't", "doesn't"], "answer": "won't", "full": "A: Will she have finished? B: No, she won't.", "pt": "A: Ela terá terminado? B: Não.", "explanation": "Resposta curta negativa: No, she won't." },
+    { "id": "futp-r8", "kind": "typed", "difficulty": "advanced", "prompt": "By the weekend, I will have ___ (write) the report.", "accept": ["written"], "answer": "written", "full": "By the weekend, I will have written the report.", "pt": "Até o fim de semana, terei escrito o relatório.", "explanation": "will have + particípio (write → written)." },
+    { "id": "futp-r9", "kind": "mc", "difficulty": "advanced", "prompt": "By the time you wake up, I ___ have left.", "options": ["will", "won't", "am", "was"], "answer": "will", "full": "By the time you wake up, I will have left.", "pt": "Quando você acordar, já terei saído.", "explanation": "By the time + futuro → will have + particípio." },
+    { "id": "futp-r10", "kind": "typed", "difficulty": "advanced", "prompt": "They will have ___ (eat) by 7.", "accept": ["eaten"], "answer": "eaten", "full": "They will have eaten by 7.", "pt": "Eles terão comido até às 7.", "explanation": "will have + particípio (eat → eaten)." }
+  ]
+}

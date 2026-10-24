@@ -1,0 +1,65 @@
+{
+  "id": "modals",
+  "name": "Modais",
+  "namePt": "Verbos modais",
+  "group": "related",
+  "order": 3,
+  "aux": "can, could, should, must, may, might",
+  "summaryPt": "Capacidade, permissão, conselho, obrigação e possibilidade.",
+  "meaningUses": [
+    { "pt": "can = capacidade / permissão", "en": "I can swim. You can go now.", "enPt": "Sei nadar. Você pode ir agora." },
+    { "pt": "should = conselho", "en": "You should drink more water.", "enPt": "Você deveria beber mais água." },
+    { "pt": "must = obrigação forte", "en": "You must wear a seatbelt.", "enPt": "Você deve usar cinto de segurança." },
+    { "pt": "might / may = possibilidade", "en": "It might rain later.", "enPt": "Pode chover mais tarde." }
+  ],
+  "formation": [
+    { "section": "Afirmativa", "pt": "Sujeito + modal + verbo base (sem to).", "pattern": "I can swim — she should study", "examples": [{ "en": "She can speak three languages.", "pt": "Ela fala três idiomas." }] },
+    { "section": "Negativa", "pt": "Sujeito + modal + not + verbo base.", "pattern": "I can't swim — you shouldn't go", "examples": [{ "en": "You shouldn't worry.", "pt": "Você não deveria se preocupar." }] },
+    { "section": "Perguntas", "pt": "Modal + sujeito + verbo base?", "pattern": "Can you help me? — Should I go?", "examples": [{ "en": "Can you help me?", "pt": "Você pode me ajudar?" }] },
+    { "section": "Respostas curtas", "pt": "Yes/No + pronome + modal.", "pattern": "Yes, I can. / No, you shouldn't.", "examples": [{ "en": "A: Can you come? B: Yes, I can.", "pt": "A: Você pode vir? B: Posso." }] }
+  ],
+  "subjectAgreement": [
+    { "pt": "Modais não mudam: mesma forma para todas as pessoas.", "example": "I can go. She can go. They can go." }
+  ],
+  "spelling": [],
+  "pronunciation": [
+    { "pt": "can't é pronunciado /kænt/ nos EUA e /kɑːnt/ no Reino Unido.", "example": "I can't /kænt/ swim." }
+  ],
+  "commonErrors": [
+    { "pt": "Adicionar to depois do modal", "wrong": "I can to swim.", "right": "I can swim." },
+    { "pt": "Adicionar -s na 3ª pessoa", "wrong": "She cans swim.", "right": "She can swim." },
+    { "pt": "Adicionar -ed no verbo depois do modal", "wrong": "You should studied.", "right": "You should study." }
+  ],
+  "contrast": [
+    { "with": "future-simple", "pt": "will = certeza. might = possibilidade.", "en": "It will rain. (certeza) — It might rain. (possibilidade)", "enPt": "Vai chover. — Pode chover." }
+  ],
+  "examples": [
+    { "en": "I can swim.", "pt": "Sei nadar." },
+    { "en": "You should drink more water.", "pt": "Você deveria beber mais água." },
+    { "en": "You must wear a seatbelt.", "pt": "Você deve usar cinto de segurança." },
+    { "en": "It might rain later.", "pt": "Pode chover mais tarde." },
+    { "en": "Can you help me?", "pt": "Você pode me ajudar?" }
+  ],
+  "guidedPractice": [
+    { "id": "mod-g1", "kind": "mc", "difficulty": "basic", "prompt": "I ___ swim.", "options": ["can", "am", "do", "have"], "answer": "can", "full": "I can swim.", "pt": "Sei nadar.", "explanation": "Capacidade → can + verbo base." },
+    { "id": "mod-g2", "kind": "mc", "difficulty": "basic", "prompt": "You ___ drink more water.", "options": ["should", "am", "do", "have"], "answer": "should", "full": "You should drink more water.", "pt": "Você deveria beber mais água.", "explanation": "Conselho → should + verbo base." },
+    { "id": "mod-g3", "kind": "typed", "difficulty": "basic", "prompt": "She ___ speak three languages. (can)", "accept": ["can"], "answer": "can", "full": "She can speak three languages.", "pt": "Ela fala três idiomas.", "explanation": "Modal + verbo base, sem -s." },
+    { "id": "mod-g4", "kind": "mc", "difficulty": "intermediate", "prompt": "You ___ worry so much.", "options": ["shouldn't", "don't", "isn't", "can't"], "answer": "shouldn't", "full": "You shouldn't worry so much.", "pt": "Você não deveria se preocupar tanto.", "explanation": "Negativa: should + not + verbo base." },
+    { "id": "mod-g5", "kind": "mc", "difficulty": "intermediate", "prompt": "___ you help me?", "options": ["Can", "Do", "Are", "Did"], "answer": "Can", "full": "Can you help me?", "pt": "Você pode me ajudar?", "explanation": "Pergunta: Can + sujeito + verbo base." },
+    { "id": "mod-g6", "kind": "typed", "difficulty": "intermediate", "prompt": "It ___ rain later. (might)", "accept": ["might"], "answer": "might", "full": "It might rain later.", "pt": "Pode chover mais tarde.", "explanation": "Possibilidade → might + verbo base." },
+    { "id": "mod-g7", "kind": "mc", "difficulty": "advanced", "prompt": "You ___ wear a seatbelt. It's the law.", "options": ["must", "can", "should", "might"], "answer": "must", "full": "You must wear a seatbelt. It's the law.", "pt": "Você deve usar cinto de segurança. É a lei.", "explanation": "Obrigação forte → must." },
+    { "id": "mod-g8", "kind": "mc", "difficulty": "advanced", "prompt": "A: Can you come? B: Yes, I ___.", "options": ["can", "do", "am", "will"], "answer": "can", "full": "A: Can you come? B: Yes, I can.", "pt": "A: Você pode vir? B: Posso.", "explanation": "Resposta curta: Yes, + pronome + modal." }
+  ],
+  "reviewQuiz": [
+    { "id": "mod-r1", "kind": "mc", "difficulty": "basic", "prompt": "I ___ swim very well.", "options": ["can", "am", "do", "have"], "answer": "can", "full": "I can swim very well.", "pt": "Sei nadar muito bem.", "explanation": "Capacidade → can." },
+    { "id": "mod-r2", "kind": "typed", "difficulty": "basic", "prompt": "You ___ study more. (should)", "accept": ["should"], "answer": "should", "full": "You should study more.", "pt": "Você deveria estudar mais.", "explanation": "Conselho → should." },
+    { "id": "mod-r3", "kind": "mc", "difficulty": "basic", "prompt": "She ___ speak French.", "options": ["can", "cans", "is", "does"], "answer": "can", "full": "She can speak French.", "pt": "Ela fala francês.", "explanation": "Modal não muda (sem -s)." },
+    { "id": "mod-r4", "kind": "mc", "difficulty": "intermediate", "prompt": "You ___ smoke here.", "options": ["mustn't", "don't", "isn't", "can't"], "answer": "mustn't", "full": "You mustn't smoke here.", "pt": "Você não deve fumar aqui.", "explanation": "Proibição → must + not." },
+    { "id": "mod-r5", "kind": "mc", "difficulty": "intermediate", "prompt": "___ I call you later?", "options": ["Can", "Do", "Are", "Did"], "answer": "Can", "full": "Can I call you later?", "pt": "Posso te ligar mais tarde?", "explanation": "Permissão → Can + sujeito + verbo base." },
+    { "id": "mod-r6", "kind": "typed", "difficulty": "intermediate", "prompt": "We ___ go home now. (should)", "accept": ["should"], "answer": "should", "full": "We should go home now.", "pt": "Deveríamos ir para casa agora.", "explanation": "Conselho → should + verbo base." },
+    { "id": "mod-r7", "kind": "mc", "difficulty": "advanced", "prompt": "She ___ be at work by now. It's 9 a.m.", "options": ["must", "can", "should", "might"], "answer": "must", "full": "She must be at work by now. It's 9 a.m.", "pt": "Ela deve estar no trabalho a esta hora. São 9h.", "explanation": "Dedução lógica → must." },
+    { "id": "mod-r8", "kind": "mc", "difficulty": "advanced", "prompt": "A: Should I go? B: Yes, you ___.", "options": ["should", "can", "do", "will"], "answer": "should", "full": "A: Devo ir? B: Sim, deveria.", "pt": "A: Devo ir? B: Sim.", "explanation": "Resposta curta: Yes, + pronome + should." },
+    { "id": "mod-r9", "kind": "typed", "difficulty": "advanced", "prompt": "It ___ snow tonight. (might)", "accept": ["might"], "answer": "might", "full": "It might snow tonight.", "pt": "Pode nevar hoje à noite.", "explanation": "Possibilidade → might." },
+    { "id": "mod-r10", "kind": "mc", "difficulty": "advanced", "prompt": "I ___ find my keys. I've looked everywhere.", "options": ["can't", "shouldn't", "mustn't", "don't"], "answer": "can't", "full": "I can't find my keys. I've looked everywhere.", "pt": "Não consigo achar minhas chaves. Procurei em todo lugar.", "explanation": "Incapacidade → can + not." }
+  ]
+}

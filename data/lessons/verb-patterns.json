@@ -1,0 +1,61 @@
+{
+  "id": "verb-patterns",
+  "name": "Verb patterns",
+  "namePt": "Padrões de verbo (-ing / to + base)",
+  "group": "related",
+  "order": 6,
+  "aux": "verb + -ing / verb + to + base",
+  "summaryPt": "Qual forma vem depois de cada verbo: -ing ou to + verbo base.",
+  "meaningUses": [
+    { "pt": "Alguns verbos pedem -ing depois deles", "en": "She enjoys reading. I finished working.", "enPt": "Ela gosta de ler. Terminei de trabalhar." },
+    { "pt": "Alguns verbos pedem to + base", "en": "I want to go. She decided to stay.", "enPt": "Quero ir. Ela decidiu ficar." },
+    { "pt": "Alguns aceitam os dois, com mudança de sentido", "en": "I stopped to talk. (parei para falar) — I stopped talking. (parei de falar)", "enPt": "Parei para falar. — Parei de falar." }
+  ],
+  "formation": [
+    { "section": "Verbo + -ing", "pt": "enjoy, finish, suggest, mind, avoid, keep + -ing.", "pattern": "enjoy reading — suggest leaving", "examples": [{ "en": "She suggested leaving early.", "pt": "Ela sugeriu sair cedo." }] },
+    { "section": "Verbo + to + base", "pt": "want, need, decide, hope, plan, learn + to + base.", "pattern": "want to go — decide to stay", "examples": [{ "en": "I want to learn English.", "pt": "Quero aprender inglês." }] },
+    { "section": "Os dois com sentido diferente", "pt": "stop, remember, forget, try.", "pattern": "stop to talk vs stop talking", "examples": [{ "en": "Remember to call me. (lembre-se de) — I remember calling you. (lembro de ter)", "pt": "Lembre-se de me ligar. — Lembro de ter ligado para você." }] }
+  ],
+  "subjectAgreement": [
+    { "pt": "A forma do segundo verbo não muda com a pessoa.", "example": "She wants to go. They want to go. I enjoy reading. He enjoys reading." }
+  ],
+  "spelling": [],
+  "pronunciation": [
+    { "pt": "to + verbo: to é fraco → /tə/.", "example": "want to /wɒnt tə/." }
+  ],
+  "commonErrors": [
+    { "pt": "Usar to + base depois de verbos de -ing", "wrong": "She suggested to leave early.", "right": "She suggested leaving early." },
+    { "pt": "Usar -ing depois de want/need/decide", "wrong": "I want going home.", "right": "I want to go home." },
+    { "pt": "Esquecer o to", "wrong": "I want go home.", "right": "I want to go home." }
+  ],
+  "contrast": [
+    { "with": "modals", "pt": "Modais vêm sem to. Outros verbos pedem to + base.", "en": "I can go. (sem to) — I want to go. (com to)", "enPt": "Eu posso ir. — Eu quero ir." }
+  ],
+  "examples": [
+    { "en": "She enjoys reading.", "pt": "Ela gosta de ler." },
+    { "en": "I want to learn English.", "pt": "Quero aprender inglês." },
+    { "en": "She suggested leaving early.", "pt": "Ela sugeriu sair cedo." },
+    { "en": "I stopped to talk to my friend.", "pt": "Parei para conversar com meu amigo." },
+    { "en": "He decided to stay home.", "pt": "Ele decidiu ficar em casa." }
+  ],
+  "guidedPractice": [
+    { "id": "vp-g1", "kind": "mc", "difficulty": "intermediate", "prompt": "She enjoys ___.", "options": ["reading", "to read", "read", "reads"], "answer": "reading", "full": "She enjoys reading.", "pt": "Ela gosta de ler.", "explanation": "enjoy + -ing." },
+    { "id": "vp-g2", "kind": "mc", "difficulty": "intermediate", "prompt": "I want ___ home.", "options": ["to go", "going", "go", "gone"], "answer": "to go", "full": "I want to go home.", "pt": "Quero ir para casa.", "explanation": "want + to + base." },
+    { "id": "vp-g3", "kind": "typed", "difficulty": "intermediate", "prompt": "She suggested ___ (leave) early.", "accept": ["leaving"], "answer": "leaving", "full": "She suggested leaving early.", "pt": "Ela sugeriu sair cedo.", "explanation": "suggest + -ing." },
+    { "id": "vp-g4", "kind": "mc", "difficulty": "intermediate", "prompt": "He decided ___ home.", "options": ["to stay", "staying", "stay", "stayed"], "answer": "to stay", "full": "He decided to stay home.", "pt": "Ele decidiu ficar em casa.", "explanation": "decide + to + base." },
+    { "id": "vp-g5", "kind": "typed", "difficulty": "advanced", "prompt": "I remember ___ (call) you. (lembro de ter)", "accept": ["calling"], "answer": "calling", "full": "I remember calling you.", "pt": "Lembro de ter ligado para você.", "explanation": "remember + -ing = lembrar de ter feito." },
+    { "id": "vp-g6", "kind": "mc", "difficulty": "advanced", "prompt": "Remember ___ call me. (lembre-se de)", "options": ["to", "ing", "at", "for"], "answer": "to", "full": "Remember to call me.", "pt": "Lembre-se de me ligar.", "explanation": "remember + to = lembrar de fazer." },
+    { "id": "vp-g7", "kind": "mc", "difficulty": "advanced", "prompt": "I stopped ___ to my friend. (parei para falar)", "options": ["to talk", "talking", "talk", "talked"], "answer": "to talk", "full": "I stopped to talk to my friend.", "pt": "Parei para conversar com meu amigo.", "explanation": "stop + to = parar para fazer algo." },
+    { "id": "vp-g8", "kind": "typed", "difficulty": "advanced", "prompt": "I stopped ___ (talk). (parei de falar)", "accept": ["talking"], "answer": "talking", "full": "I stopped talking.", "pt": "Parei de falar.", "explanation": "stop + -ing = parar de fazer algo." }
+  ],
+  "reviewQuiz": [
+    { "id": "vp-r1", "kind": "mc", "difficulty": "intermediate", "prompt": "She enjoys ___ books.", "options": ["reading", "to read", "read", "reads"], "answer": "reading", "full": "She enjoys reading books.", "pt": "Ela gosta de ler livros.", "explanation": "enjoy + -ing." },
+    { "id": "vp-r2", "kind": "mc", "difficulty": "intermediate", "prompt": "I need ___ early.", "options": ["to wake up", "waking up", "wake up", "woke up"], "answer": "to wake up", "full": "I need to wake up early.", "pt": "Preciso acordar cedo.", "explanation": "need + to + base." },
+    { "id": "vp-r3", "kind": "typed", "difficulty": "intermediate", "prompt": "She suggested ___ (leave) soon.", "accept": ["leaving"], "answer": "leaving", "full": "She suggested leaving soon.", "pt": "Ela sugeriu sair logo.", "explanation": "suggest + -ing." },
+    { "id": "vp-r4", "kind": "mc", "difficulty": "intermediate", "prompt": "I hope ___ you soon.", "options": ["to see", "seeing", "see", "saw"], "answer": "to see", "full": "I hope to see you soon.", "pt": "Espero te ver em breve.", "explanation": "hope + to + base." },
+    { "id": "vp-r5", "kind": "mc", "difficulty": "advanced", "prompt": "He stopped ___ coffee. (parou de tomar)", "options": ["drinking", "to drink", "drink", "drank"], "answer": "drinking", "full": "He stopped drinking coffee.", "pt": "Ele parou de tomar café.", "explanation": "stop + -ing = parar de fazer." },
+    { "id": "vp-r6", "kind": "typed", "difficulty": "advanced", "prompt": "She decided ___ (stay) home.", "accept": ["to stay"], "answer": "to stay", "full": "She decided to stay home.", "pt": "Ela decidiu ficar em casa.", "explanation": "decide + to + base." },
+    { "id": "vp-r7", "kind": "mc", "difficulty": "advanced", "prompt": "Remember ___ the door. (lembre-se de fechar)", "options": ["to close", "closing", "close", "closed"], "answer": "to close", "full": "Remember to close the door.", "pt": "Lembre-se de fechar a porta.", "explanation": "remember + to = lembrar de fazer." },
+    { "id": "vp-r8", "kind": "typed", "difficulty": "advanced", "prompt": "I finished ___ (work) at 6.", "accept": ["working"], "answer": "working", "full": "I finished working at 6.", "pt": "Terminei de trabalhar às 6.", "explanation": "finish + -ing." }
+  ]
+}

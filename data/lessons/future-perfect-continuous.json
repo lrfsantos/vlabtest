@@ -1,0 +1,62 @@
+{
+  "id": "future-perfect-continuous",
+  "name": "Future Perfect Continuous",
+  "namePt": "Future Perfect Continuous",
+  "group": "future",
+  "order": 4,
+  "aux": "will have been",
+  "summaryPt": "Ação contínua que estará em andamento por um período até um momento futuro.",
+  "meaningUses": [
+    { "pt": "Duração até um momento futuro", "en": "By June, I will have been working here for five years.", "enPt": "Até junho, estarei trabalhando aqui há cinco anos." },
+    { "pt": "Ênfase na duração contínua", "en": "By the time she arrives, we will have been waiting for two hours.", "enPt": "Quando ela chegar, estaremos esperando há duas horas." }
+  ],
+  "formation": [
+    { "section": "Afirmativa", "pt": "Sujeito + will have been + verbo + -ing.", "pattern": "I will have been working — she will have been working", "examples": [{ "en": "By June, I will have been working here for five years.", "pt": "Até junho, estarei trabalhando aqui há cinco anos." }] },
+    { "section": "Negativa", "pt": "Sujeito + won't have been + verbo + -ing.", "pattern": "I won't have been working", "examples": [{ "en": "I won't have been waiting long.", "pt": "Não estarei esperando há muito tempo." }] },
+    { "section": "Perguntas", "pt": "Will + sujeito + have been + verbo + -ing?", "pattern": "Will you have been waiting long?", "examples": [{ "en": "Will you have been studying long by then?", "pt": "Você estará estudando há muito tempo até lá?" }] },
+    { "section": "Respostas curtas", "pt": "Yes, + pronome + will. No, + pronome + won't.", "pattern": "Yes, I will. / No, I won't.", "examples": [{ "en": "A: Will you have been working long? B: Yes, I will.", "pt": "A: Você estará trabalhando há muito tempo? B: Sim." }] }
+  ],
+  "subjectAgreement": [
+    { "pt": "A mesma forma (will have been) para todas as pessoas.", "example": "I will have been working. She will have been working. They will have been working." }
+  ],
+  "spelling": [],
+  "pronunciation": [
+    { "pt": "Frase longa; em fala rápida, encurte: I'll've been → /aɪləv bɪn/.", "example": "I'll have been working." }
+  ],
+  "commonErrors": [
+    { "pt": "Esquecer o been", "wrong": "By June, I will have working here for five years.", "right": "By June, I will have been working here for five years." },
+    { "pt": "Usar forma simples quando há ênfase na duração", "wrong": "By June, I will have worked here for five years. (possível, mas sem ênfase na duração)", "right": "By June, I will have been working here for five years. (ênfase na duração)" }
+  ],
+  "contrast": [
+    { "with": "future-perfect", "pt": "Future perfect = concluído. Future perfect continuous = duração contínua até um momento futuro.", "en": "By June, I will have worked here. (fato) — By June, I will have been working here for five years. (duração)", "enPt": "Até junho, terei trabalhado aqui. — Até junho, estarei trabalhando aqui há cinco anos." }
+  ],
+  "examples": [
+    { "en": "By June, I will have been working here for five years.", "pt": "Até junho, estarei trabalhando aqui há cinco anos." },
+    { "en": "By the time she arrives, we will have been waiting for two hours.", "pt": "Quando ela chegar, estaremos esperando há duas horas." },
+    { "en": "By next month, they will have been living here for a year.", "pt": "Até o mês que vem, eles estarão morando aqui há um ano." },
+    { "en": "I won't have been waiting long.", "pt": "Não estarei esperando há muito tempo." },
+    { "en": "Will you have been studying long by then?", "pt": "Você estará estudando há muito tempo até lá?" }
+  ],
+  "guidedPractice": [
+    { "id": "futpc-g1", "kind": "mc", "difficulty": "basic", "prompt": "By June, I will have ___ working here for five years.", "options": ["been", "being", "be", "was"], "answer": "been", "full": "By June, I will have been working here for five years.", "pt": "Até junho, estarei trabalhando aqui há cinco anos.", "explanation": "will + have + been + -ing." },
+    { "id": "futpc-g2", "kind": "typed", "difficulty": "basic", "prompt": "She will have been ___ (work) all day.", "accept": ["working"], "answer": "working", "full": "She will have been working all day.", "pt": "Ela estará trabalhando o dia todo.", "explanation": "will have been + -ing." },
+    { "id": "futpc-g3", "kind": "mc", "difficulty": "basic", "prompt": "By next month, they ___ have been living here for a year.", "options": ["will", "won't", "are", "did"], "answer": "will", "full": "By next month, they will have been living here for a year.", "pt": "Até o mês que vem, eles estarão morando aqui há um ano.", "explanation": "Duração até um momento futuro." },
+    { "id": "futpc-g4", "kind": "mc", "difficulty": "intermediate", "prompt": "By the time she arrives, we ___ have been waiting for two hours.", "options": ["will", "won't", "are", "did"], "answer": "will", "full": "By the time she arrives, we will have been waiting for two hours.", "pt": "Quando ela chegar, estaremos esperando há duas horas.", "explanation": "Duração até um momento futuro." },
+    { "id": "futpc-g5", "kind": "typed", "difficulty": "intermediate", "prompt": "By then, I will have been ___ (learn) English for five years.", "accept": ["learning"], "answer": "learning", "full": "By then, I will have been learning English for five years.", "pt": "Até lá, estarei estudando inglês há cinco anos.", "explanation": "will have been + -ing." },
+    { "id": "futpc-g6", "kind": "mc", "difficulty": "intermediate", "prompt": "I ___ have been waiting long.", "options": ["won't", "will", "am", "was"], "answer": "won't", "full": "I won't have been waiting long.", "pt": "Não estarei esperando há muito tempo.", "explanation": "Negativa: won't + have been + -ing." },
+    { "id": "futpc-g7", "kind": "mc", "difficulty": "advanced", "prompt": "A: Will you have been working long? B: Yes, I ___.", "options": ["will", "have", "do", "am"], "answer": "will", "full": "A: Will you have been working long? B: Yes, I will.", "pt": "A: Você estará trabalhando há muito tempo? B: Sim.", "explanation": "Resposta curta: Yes, + pronome + will." },
+    { "id": "futpc-g8", "kind": "typed", "difficulty": "advanced", "prompt": "By next week, I will have been ___ (run) for a whole year.", "accept": ["running"], "answer": "running", "full": "By next week, I will have been running for a whole year.", "pt": "Na próxima semana, estarei correndo há um ano inteiro.", "explanation": "will have been + -ing (run → running)." }
+  ],
+  "reviewQuiz": [
+    { "id": "futpc-r1", "kind": "mc", "difficulty": "basic", "prompt": "By June, she will have ___ working here for a year.", "options": ["been", "being", "be", "was"], "answer": "been", "full": "By June, she will have been working here for a year.", "pt": "Até junho, ela estará trabalhando aqui há um ano.", "explanation": "will have been + -ing." },
+    { "id": "futpc-r2", "kind": "typed", "difficulty": "basic", "prompt": "I will have been ___ (study) for hours.", "accept": ["studying"], "answer": "studying", "full": "I will have been studying for hours.", "pt": "Estarei estudando há horas.", "explanation": "will have been + -ing." },
+    { "id": "futpc-r3", "kind": "mc", "difficulty": "basic", "prompt": "By 2030, they ___ have been living here long.", "options": ["will", "won't", "are", "did"], "answer": "will", "full": "By 2030, they will have been living here long.", "pt": "Até 2030, eles estarão morando aqui há muito tempo.", "explanation": "Duração até um momento futuro." },
+    { "id": "futpc-r4", "kind": "mc", "difficulty": "intermediate", "prompt": "I ___ have been sleeping well by then.", "options": ["won't", "will", "am", "was"], "answer": "won't", "full": "I won't have been sleeping well by then.", "pt": "Não estarei dormindo bem até lá.", "explanation": "Negativa: won't + have been + -ing." },
+    { "id": "futpc-r5", "kind": "mc", "difficulty": "intermediate", "prompt": "By the time we arrive, they ___ have been waiting for hours.", "options": ["will", "won't", "are", "did"], "answer": "will", "full": "By the time we arrive, they will have been waiting for hours.", "pt": "Quando chegarmos, eles estarão esperando há horas.", "explanation": "Duração até um momento futuro." },
+    { "id": "futpc-r6", "kind": "typed", "difficulty": "intermediate", "prompt": "By then, she will have been ___ (teach) for ten years.", "accept": ["teaching"], "answer": "teaching", "full": "By then, she will have been teaching for ten years.", "pt": "Até lá, ela estará lecionando há dez anos.", "explanation": "will have been + -ing." },
+    { "id": "futpc-r7", "kind": "mc", "difficulty": "advanced", "prompt": "A: Will she have been working long? B: No, she ___.", "options": ["won't", "will", "isn't", "doesn't"], "answer": "won't", "full": "A: Will she have been working long? B: No, she won't.", "pt": "A: Ela estará trabalhando há muito tempo? B: Não.", "explanation": "Resposta curta negativa: No, she won't." },
+    { "id": "futpc-r8", "kind": "typed", "difficulty": "advanced", "prompt": "By next year, we will have been ___ (live) here for a decade.", "accept": ["living"], "answer": "living", "full": "By next year, we will have been living here for a decade.", "pt": "No ano que vem, estaremos morando aqui há uma década.", "explanation": "live → living." },
+    { "id": "futpc-r9", "kind": "mc", "difficulty": "advanced", "prompt": "By the time she arrives, we ___ have been waiting for two hours.", "options": ["will", "won't", "are", "did"], "answer": "will", "full": "By the time she arrives, we will have been waiting for two hours.", "pt": "Quando ela chegar, estaremos esperando há duas horas.", "explanation": "By the time + duração até momento futuro." },
+    { "id": "futpc-r10", "kind": "typed", "difficulty": "advanced", "prompt": "By midnight, they will have been ___ (dance) for hours.", "accept": ["dancing"], "answer": "dancing", "full": "By midnight, they will have been dancing for hours.", "pt": "Até a meia-noite, eles estarão dançando há horas.", "explanation": "will have been + -ing (dance → dancing)." }
+  ]
+}

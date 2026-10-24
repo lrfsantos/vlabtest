@@ -1,0 +1,72 @@
+{
+  "id": "present-continuous",
+  "name": "Present Continuous",
+  "namePt": "Presente Contínuo",
+  "group": "present",
+  "order": 2,
+  "aux": "am / is / are",
+  "summaryPt": "Ação em andamento agora, planos próximos ou situações temporárias.",
+  "meaningUses": [
+    { "pt": "Acontecendo agora", "en": "I am working right now.", "enPt": "Estou trabalhando agora." },
+    { "pt": "Situação temporária", "en": "She is staying with her cousin this month.", "enPt": "Ela está ficando com a prima neste mês." },
+    { "pt": "Planos próximos (com tempo)", "en": "We are meeting at six.", "enPt": "Vamos nos encontrar às seis." }
+  ],
+  "formation": [
+    { "section": "Afirmativa", "pt": "Sujeito + am / is / are + verbo + -ing.", "pattern": "I am working — she is working — we are working", "examples": [{ "en": "She is working now.", "pt": "Ela está trabalhando agora." }] },
+    { "section": "Negativa", "pt": "Sujeito + am/is/are + not + verbo + -ing.", "pattern": "I'm not working — she isn't working", "examples": [{ "en": "I'm not working right now.", "pt": "Não estou trabalhando agora." }] },
+    { "section": "Perguntas", "pt": "Am / Is / Are + sujeito + verbo + -ing?", "pattern": "Is she working? — Are you coming?", "examples": [{ "en": "Are you coming to the party?", "pt": "Você está vindo para a festa?" }] },
+    { "section": "Respostas curtas", "pt": "Yes, + pronome + am/is/are. No, + pronome + 'm not/isn't/aren't.", "pattern": "Yes, I am. / No, she isn't.", "examples": [{ "en": "A: Are you busy? B: Yes, I am.", "pt": "A: Você está ocupado? B: Sim." }] }
+  ],
+  "subjectAgreement": [
+    { "pt": "I → am", "example": "I am studying." },
+    { "pt": "he / she / it → is", "example": "She is studying." },
+    { "pt": "you / we / they → are", "example": "You are studying. We are studying." }
+  ],
+  "spelling": [
+    { "pt": "Verbo + -ing na maioria dos casos", "example": "work → working, play → playing" },
+    { "pt": "E mudo cai antes do -ing", "example": "write → writing, take → taking" },
+    { "pt": "Consoante-vogal-consoante (curta): dobra a consoante final", "example": "run → running, sit → sitting" },
+    { "pt": "ie → y antes do -ing", "example": "die → dying, lie → lying" }
+  ],
+  "pronunciation": [
+    { "pt": "O -ing é pronunciado como /ɪŋ/ (com som nasal de 'ng').", "example": "working /ˈwɜːrkɪŋ/" },
+    { "pt": "Cuidado para não pronunciar o -g com som de 'g' forte.", "example": "saying → 'sêi-ing', não 'sêi-gue'." }
+  ],
+  "commonErrors": [
+    { "pt": "Esquecer o verbo to be", "wrong": "She working now.", "right": "She is working now." },
+    { "pt": "Usar presente simples para algo acontecendo agora", "wrong": "I work right now.", "right": "I am working right now." },
+    { "pt": "Usar -ing com verbos de estado em situações normais", "wrong": "I am knowing the answer.", "right": "I know the answer." }
+  ],
+  "contrast": [
+    { "with": "present-simple", "pt": "Present simple = rotina. Present continuous = agora.", "en": "I work every day. (rotina) — I am working now. (agora)", "enPt": "Trabalho todos os dias. — Estou trabalhando agora." }
+  ],
+  "examples": [
+    { "en": "She is reading a book.", "pt": "Ela está lendo um livro." },
+    { "en": "We are having dinner.", "pt": "Estamos jantando." },
+    { "en": "I'm not feeling well today.", "pt": "Não estou me sentindo bem hoje." },
+    { "en": "Are they playing outside?", "pt": "Eles estão brincando lá fora?" },
+    { "en": "She is staying with her cousin this month.", "pt": "Ela está ficando com a prima neste mês." }
+  ],
+  "guidedPractice": [
+    { "id": "pc-g1", "kind": "mc", "difficulty": "basic", "prompt": "She ___ working now.", "options": ["is", "are", "am", "be"], "answer": "is", "full": "She is working now.", "pt": "Ela está trabalhando agora.", "explanation": "Com she, use is." },
+    { "id": "pc-g2", "kind": "typed", "difficulty": "basic", "prompt": "I ___ (run) in the park.", "accept": ["am running"], "answer": "am running", "full": "I am running in the park.", "pt": "Estou correndo no parque.", "explanation": "I → am; run → running (dobra a consoante)." },
+    { "id": "pc-g3", "kind": "mc", "difficulty": "basic", "prompt": "We ___ watching a movie.", "options": ["are", "is", "am", "be"], "answer": "are", "full": "We are watching a movie.", "pt": "Estamos assistindo a um filme.", "explanation": "Com we, use are." },
+    { "id": "pc-g4", "kind": "typed", "difficulty": "intermediate", "prompt": "They ___ (not come) to the party.", "accept": ["aren't coming", "are not coming"], "answer": "aren't coming", "full": "They aren't coming to the party.", "pt": "Eles não estão vindo para a festa.", "explanation": "Negativa: are + not + -ing." },
+    { "id": "pc-g5", "kind": "mc", "difficulty": "intermediate", "prompt": "___ you listening to me?", "options": ["Are", "Is", "Am", "Do"], "answer": "Are", "full": "Are you listening to me?", "pt": "Você está me ouvindo?", "explanation": "Pergunta com you: Are + sujeito + -ing." },
+    { "id": "pc-g6", "kind": "typed", "difficulty": "intermediate", "prompt": "She is ___ (write) an email.", "accept": ["writing"], "answer": "writing", "full": "She is writing an email.", "pt": "Ela está escrevendo um e-mail.", "explanation": "write → writing (e mudo cai)." },
+    { "id": "pc-g7", "kind": "mc", "difficulty": "advanced", "prompt": "A: Are you busy? B: Yes, I ___.", "options": ["am", "is", "are", "be"], "answer": "am", "full": "A: Are you busy? B: Yes, I am.", "pt": "A: Você está ocupado? B: Sim.", "explanation": "Resposta curta com I: Yes, I am." },
+    { "id": "pc-g8", "kind": "typed", "difficulty": "advanced", "prompt": "She is ___ (die) to see the show.", "accept": ["dying"], "answer": "dying", "full": "She is dying to see the show.", "pt": "Ela está louca para ver o show.", "explanation": "die → dying (ie → y)." }
+  ],
+  "reviewQuiz": [
+    { "id": "pc-r1", "kind": "mc", "difficulty": "basic", "prompt": "I ___ studying English now.", "options": ["am", "is", "are", "be"], "answer": "am", "full": "I am studying English now.", "pt": "Estou estudando inglês agora.", "explanation": "Com I, use am." },
+    { "id": "pc-r2", "kind": "typed", "difficulty": "basic", "prompt": "He ___ (work) from home today.", "accept": ["is working"], "answer": "is working", "full": "He is working from home today.", "pt": "Ele está trabalhando de casa hoje.", "explanation": "Com he, use is + -ing." },
+    { "id": "pc-r3", "kind": "mc", "difficulty": "basic", "prompt": "The kids ___ playing outside.", "options": ["are", "is", "am", "be"], "answer": "are", "full": "The kids are playing outside.", "pt": "As crianças estão brincando lá fora.", "explanation": "The kids (they) → are." },
+    { "id": "pc-r4", "kind": "mc", "difficulty": "intermediate", "prompt": "She ___ sleeping right now.", "options": ["isn't", "aren't", "don't", "doesn't"], "answer": "isn't", "full": "She isn't sleeping right now.", "pt": "Ela não está dormindo agora.", "explanation": "Negativa com she: is + not." },
+    { "id": "pc-r5", "kind": "typed", "difficulty": "intermediate", "prompt": "___ you ___ (come) with us? (Are)", "accept": ["are you coming"], "answer": "are you coming", "full": "Are you coming with us?", "pt": "Você está vindo conosco?", "explanation": "Pergunta: Are + you + verbo + -ing." },
+    { "id": "pc-r6", "kind": "mc", "difficulty": "intermediate", "prompt": "We ___ watching TV. We're studying.", "options": ["aren't", "isn't", "don't", "doesn't"], "answer": "aren't", "full": "We aren't watching TV. We're studying.", "pt": "Não estamos assistindo TV. Estamos estudando.", "explanation": "Negativa com we: are + not." },
+    { "id": "pc-r7", "kind": "typed", "difficulty": "advanced", "prompt": "She is ___ (swim) in the pool.", "accept": ["swimming"], "answer": "swimming", "full": "She is swimming in the pool.", "pt": "Ela está nadando na piscina.", "explanation": "swim → swimming (consoante-vogal-consoante)." },
+    { "id": "pc-r8", "kind": "mc", "difficulty": "advanced", "prompt": "A: Is she working? B: No, she ___.", "options": ["isn't", "aren't", "doesn't", "don't"], "answer": "isn't", "full": "A: Is she working? B: No, she isn't.", "pt": "A: Ela está trabalhando? B: Não.", "explanation": "Resposta curta negativa: No, she isn't." },
+    { "id": "pc-r9", "kind": "mc", "difficulty": "advanced", "prompt": "Right now, I ___ my homework.", "options": ["am doing", "do", "did", "have done"], "answer": "am doing", "full": "Right now, I am doing my homework.", "pt": "Agora, estou fazendo minha lição.", "explanation": "Ação em andamento agora → presente contínuo." },
+    { "id": "pc-r10", "kind": "typed", "difficulty": "advanced", "prompt": "She is ___ (take) a shower.", "accept": ["taking"], "answer": "taking", "full": "She is taking a shower.", "pt": "Ela está tomando banho.", "explanation": "take → taking (e mudo cai)." }
+  ]
+}

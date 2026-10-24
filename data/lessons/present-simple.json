@@ -1,0 +1,72 @@
+{
+  "id": "present-simple",
+  "name": "Present Simple",
+  "namePt": "Presente Simples",
+  "group": "present",
+  "order": 1,
+  "aux": "do / does",
+  "summaryPt": "Ação habitual, rotina, fatos e verdades gerais.",
+  "meaningUses": [
+    { "pt": "Rotinas e hábitos", "en": "I drink coffee every morning.", "enPt": "Bebo café toda manhã." },
+    { "pt": "Fatos e verdades gerais", "en": "Water boils at 100 degrees.", "enPt": "A água ferve a 100 graus." },
+    { "pt": "Horários fixos e rotinas (ônibus, aulas, lojas)", "en": "The bus leaves at seven.", "enPt": "O ônibus sai às sete." },
+    { "pt": "Opiniões e estados permanentes", "en": "I like this song.", "enPt": "Gosto desta música." }
+  ],
+  "formation": [
+    { "section": "Afirmativa", "pt": "Sujeito + verbo base. Na 3ª pessoa do singular (he/she/it), o verbo ganha -s/-es.", "pattern": "I / you / we / they work — he / she / it works", "examples": [{ "en": "She works at a bank.", "pt": "Ela trabalha em um banco." }] },
+    { "section": "Negativa", "pt": "don't (do not) ou doesn't (does not) + verbo base. O -s vai para o doesn't.", "pattern": "I don't work — she doesn't work", "examples": [{ "en": "I don't drink coffee.", "pt": "Não bebo café." }, { "en": "She doesn't work on Sundays.", "pt": "Ela não trabalha aos domingos." }] },
+    { "section": "Perguntas", "pt": "Do / Does + sujeito + verbo base.", "pattern": "Do you work? — Does she work?", "examples": [{ "en": "Do you play soccer?", "pt": "Você joga futebol?" }, { "en": "Does she live here?", "pt": "Ela mora aqui?" }] },
+    { "section": "Respostas curtas", "pt": "Yes, + pronome + do/does. No, + pronome + don't/doesn't.", "pattern": "Yes, I do. / No, she doesn't.", "examples": [{ "en": "A: Do you like tea? B: Yes, I do.", "pt": "A: Você gosta de chá? B: Sim." }] }
+  ],
+  "subjectAgreement": [
+    { "pt": "he / she / it → verbo + -s", "example": "He works. She reads. It rains." },
+    { "pt": "I / you / we / they → verbo base, sem -s", "example": "I work. You work. We work. They work." },
+    { "pt": "Com doesn't, o verbo volta ao base (sem -s)", "example": "She doesn't work. (não: She doesn't works)" }
+  ],
+  "spelling": [
+    { "pt": "Verbos terminados em -s, -ss, -sh, -ch, -x, -o ganham -es", "example": "go → goes, watch → watches, wash → washes" },
+    { "pt": "Consoante + y → -ies", "example": "study → studies, try → tries" },
+    { "pt": "Vogal + y → apenas -s", "example": "play → plays, say → says" }
+  ],
+  "pronunciation": [
+    { "pt": "A terminação -s/-es é pronunciada de três maneiras: /s/, /z/ ou /ɪz/.", "example": "works /wɜːrks/, goes /ɡoʊz/, watches /ˈwɒtʃɪz/" },
+    { "pt": "Não acrescente um 'i' extra depois da consoante final.", "example": "works → 'uarks', não 'uarksi'." }
+  ],
+  "commonErrors": [
+    { "pt": "Esquecer o -s na 3ª pessoa", "wrong": "She work at a bank.", "right": "She works at a bank." },
+    { "pt": "Usar -s com I / you / we / they", "wrong": "I works on Monday.", "right": "I work on Monday." },
+    { "pt": "Manter o -s depois do doesn't", "wrong": "She doesn't works here.", "right": "She doesn't work here." }
+  ],
+  "contrast": [
+    { "with": "present-continuous", "pt": "O presente simples fala de rotina; o contínuo fala do que está acontecendo agora.", "en": "I work every day. (rotina) — I am working right now. (agora)", "enPt": "Trabalho todos os dias. — Estou trabalhando agora." }
+  ],
+  "examples": [
+    { "en": "I wake up at six on weekdays.", "pt": "Acordo às seis nos dias de semana." },
+    { "en": "She goes to school by bus.", "pt": "Ela vai para a escola de ônibus." },
+    { "en": "We don't watch TV at night.", "pt": "Não assistimos TV à noite." },
+    { "en": "Do they speak English here?", "pt": "Eles falam inglês aqui?" },
+    { "en": "My brother studies a lot.", "pt": "Meu irmão estuda bastante." }
+  ],
+  "guidedPractice": [
+    { "id": "ps-g1", "kind": "mc", "difficulty": "basic", "prompt": "She ___ (work) at a bank.", "options": ["works", "work", "worked", "working"], "answer": "works", "full": "She works at a bank.", "pt": "Ela trabalha em um banco.", "explanation": "Na 3ª pessoa do singular (she), o verbo ganha -s: work → works." },
+    { "id": "ps-g2", "kind": "mc", "difficulty": "basic", "prompt": "I ___ coffee every morning.", "options": ["drink", "drinks", "drinking", "drank"], "answer": "drink", "full": "I drink coffee every morning.", "pt": "Bebo café toda manhã.", "explanation": "Com I, o verbo fica no base, sem -s." },
+    { "id": "ps-g3", "kind": "typed", "difficulty": "basic", "prompt": "My brother ___ (study) a lot.", "accept": ["studies"], "answer": "studies", "full": "My brother studies a lot.", "pt": "Meu irmão estuda bastante.", "explanation": "Consoante + y → -ies: study → studies." },
+    { "id": "ps-g4", "kind": "mc", "difficulty": "intermediate", "prompt": "She ___ work on Sundays.", "options": ["doesn't", "don't", "isn't", "does"], "answer": "doesn't", "full": "She doesn't work on Sundays.", "pt": "Ela não trabalha aos domingos.", "explanation": "Negativa com she: doesn't + verbo base." },
+    { "id": "ps-g5", "kind": "mc", "difficulty": "intermediate", "prompt": "___ you play soccer?", "options": ["Do", "Does", "Is", "Are"], "answer": "Do", "full": "Do you play soccer?", "pt": "Você joga futebol?", "explanation": "Pergunta com you: Do + sujeito + verbo base." },
+    { "id": "ps-g6", "kind": "typed", "difficulty": "intermediate", "prompt": "Water ___ (boil) at 100 degrees.", "accept": ["boils"], "answer": "boils", "full": "Water boils at 100 degrees.", "pt": "A água ferve a 100 graus.", "explanation": "Fato geral → presente simples. Water (it) → verbo + -s." },
+    { "id": "ps-g7", "kind": "mc", "difficulty": "advanced", "prompt": "A: Do you like tea? B: Yes, I ___.", "options": ["do", "does", "like", "am"], "answer": "do", "full": "A: Do you like tea? B: Yes, I do.", "pt": "A: Você gosta de chá? B: Sim.", "explanation": "Resposta curta afirmativa: Yes, + pronome + do." },
+    { "id": "ps-g8", "kind": "typed", "difficulty": "advanced", "prompt": "The bus ___ (leave) at seven every day.", "accept": ["leaves"], "answer": "leaves", "full": "The bus leaves at seven every day.", "pt": "O ônibus sai às sete todos os dias.", "explanation": "Horário fixo → presente simples; he/she/it → verbo + -s (leave → leaves)." }
+  ],
+  "reviewQuiz": [
+    { "id": "ps-r1", "kind": "mc", "difficulty": "basic", "prompt": "She ___ at a hospital.", "options": ["works", "work", "working", "worked"], "answer": "works", "full": "She works at a hospital.", "pt": "Ela trabalha em um hospital.", "explanation": "3ª pessoa do singular → verbo + -s." },
+    { "id": "ps-r2", "kind": "mc", "difficulty": "basic", "prompt": "We ___ English on Mondays.", "options": ["study", "studies", "studying", "studied"], "answer": "study", "full": "We study English on Mondays.", "pt": "Estudamos inglês às segundas.", "explanation": "Com we, o verbo fica no base." },
+    { "id": "ps-r3", "kind": "typed", "difficulty": "basic", "prompt": "He ___ (watch) TV at night.", "accept": ["watches"], "answer": "watches", "full": "He watches TV at night.", "pt": "Ele assiste TV à noite.", "explanation": "ch → -es: watch → watches." },
+    { "id": "ps-r4", "kind": "mc", "difficulty": "intermediate", "prompt": "I ___ like this movie.", "options": ["don't", "doesn't", "am not", "not"], "answer": "don't", "full": "I don't like this movie.", "pt": "Não gosto deste filme.", "explanation": "Negativa com I: don't + verbo base." },
+    { "id": "ps-r5", "kind": "mc", "difficulty": "intermediate", "prompt": "___ she live near you?", "options": ["Does", "Do", "Is", "Has"], "answer": "Does", "full": "Does she live near you?", "pt": "Ela mora perto de você?", "explanation": "Pergunta com she: Does + sujeito + verbo base." },
+    { "id": "ps-r6", "kind": "typed", "difficulty": "intermediate", "prompt": "My mom ___ (go) to the market on Saturdays.", "accept": ["goes"], "answer": "goes", "full": "My mom goes to the market on Saturdays.", "pt": "Minha mãe vai ao mercado aos sábados.", "explanation": "go → goes (o → -es)." },
+    { "id": "ps-r7", "kind": "mc", "difficulty": "intermediate", "prompt": "They ___ come to the party.", "options": ["don't", "doesn't", "aren't", "not"], "answer": "don't", "full": "They don't come to the party.", "pt": "Eles não vêm à festa.", "explanation": "Negativa com they: don't + verbo base." },
+    { "id": "ps-r8", "kind": "typed", "difficulty": "advanced", "prompt": "She ___ (try) her best every day.", "accept": ["tries"], "answer": "tries", "full": "She tries her best every day.", "pt": "Ela dá o melhor de si todos os dias.", "explanation": "Consoante + y → -ies: try → tries." },
+    { "id": "ps-r9", "kind": "mc", "difficulty": "advanced", "prompt": "A: Does he work here? B: No, he ___.", "options": ["doesn't", "don't", "isn't", "does"], "answer": "doesn't", "full": "A: Does he work here? B: No, he doesn't.", "pt": "A: Ele trabalha aqui? B: Não.", "explanation": "Resposta curta negativa: No, + pronome + doesn't." },
+    { "id": "ps-r10", "kind": "mc", "difficulty": "advanced", "prompt": "This song ___ nice. I love it.", "options": ["sounds", "sound", "sounding", "sounded"], "answer": "sounds", "full": "This song sounds nice. I love it.", "pt": "Esta música soa bem. Amo ela.", "explanation": "Fato/opinião → presente simples; this song (it) → verbo + -s." }
+  ]
+}

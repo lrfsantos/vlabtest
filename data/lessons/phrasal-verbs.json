@@ -1,0 +1,60 @@
+{
+  "id": "phrasal-verbs",
+  "name": "Phrasal verbs e combinações",
+  "namePt": "Phrasal verbs e combinações",
+  "group": "related",
+  "order": 7,
+  "aux": "verbo + preposição / advérbio",
+  "summaryPt": "Combinações verbo + preposição mudam o sentido do verbo.",
+  "meaningUses": [
+    { "pt": "A preposição muda o sentido", "en": "look = olhar, look for = procurar, look after = cuidar", "enPt": "look = olhar, look for = procurar, look after = cuidar" },
+    { "pt": "Combinações comuns de rotina", "en": "get up, wake up, turn on, turn off", "enPt": "levantar, acordar, ligar, desligar" },
+    { "pt": "Algumas são separáveis (put on / put the shoes on)", "en": "Put on your shoes. / Put your shoes on.", "enPt": "Calce seus sapatos. / Calce seus sapatos." }
+  ],
+  "formation": [
+    { "section": "Verbo + preposição fixa", "pt": "A combinação funciona como um verbo só.", "pattern": "look for, get up, turn on", "examples": [{ "en": "I look for my keys.", "pt": "Procuro minhas chaves." }] },
+    { "section": "Com objeto (separável)", "pt": "O objeto pode ir entre o verbo e a partícula.", "pattern": "turn on the light / turn the light on", "examples": [{ "en": "I turn on the light. / I turn the light on.", "pt": "Ligo a luz." }] }
+  ],
+  "subjectAgreement": [
+    { "pt": "O verbo concorda normalmente (3ª pessoa -s).", "example": "She looks for her keys. He gets up at 6." }
+  ],
+  "spelling": [],
+  "pronunciation": [
+    { "pt": "Em combinações com up/on/off, a partícula costuma ser fraca, mas em phrasal verbs destacada.", "example": "get up → /ɡet ˈʌp/" }
+  ],
+  "commonErrors": [
+    { "pt": "Traduzir palavra por palavra", "wrong": "look for → 'olhar para'", "right": "look for = procurar" },
+    { "pt": "Esquecer a preposição", "wrong": "I look my keys.", "right": "I look for my keys." },
+    { "pt": "Adicionar preposição que não existe", "wrong": "I like of coffee.", "right": "I like coffee." }
+  ],
+  "contrast": [
+    { "with": "present-simple", "pt": "O verbo + preposição segue as regras normais do tempo verbal.", "en": "I get up at 6. (present simple) — I got up at 6. (past)", "enPt": "Levanto às 6. — Levantei às 6." }
+  ],
+  "examples": [
+    { "en": "I look for my keys every morning.", "pt": "Procuro minhas chaves toda manhã." },
+    { "en": "I get up at six.", "pt": "Levanto às seis." },
+    { "en": "Turn on the light, please.", "pt": "Ligue a luz, por favor." },
+    { "en": "She looks after her little brother.", "pt": "Ela cuida do irmãozinho." },
+    { "en": "I'm looking forward to the weekend.", "pt": "Estou ansioso pelo fim de semana." }
+  ],
+  "guidedPractice": [
+    { "id": "pv-g1", "kind": "mc", "difficulty": "basic", "prompt": "I ___ for my keys.", "options": ["look", "looks", "looking", "looked"], "answer": "look", "full": "I look for my keys.", "pt": "Procuro minhas chaves.", "explanation": "look for = procurar." },
+    { "id": "pv-g2", "kind": "mc", "difficulty": "basic", "prompt": "I ___ up at six.", "options": ["get", "gets", "getting", "got"], "answer": "get", "full": "I get up at six.", "pt": "Levanto às seis.", "explanation": "get up = levantar." },
+    { "id": "pv-g3", "kind": "typed", "difficulty": "basic", "prompt": "Turn ___ the light, please. (on)", "accept": ["on"], "answer": "on", "full": "Turn on the light, please.", "pt": "Ligue a luz, por favor.", "explanation": "turn on = ligar." },
+    { "id": "pv-g4", "kind": "mc", "difficulty": "intermediate", "prompt": "She looks ___ her little brother.", "options": ["after", "for", "at", "up"], "answer": "after", "full": "She looks after her little brother.", "pt": "Ela cuida do irmãozinho.", "explanation": "look after = cuidar de." },
+    { "id": "pv-g5", "kind": "typed", "difficulty": "intermediate", "prompt": "I'm looking forward ___ the weekend. (to)", "accept": ["to"], "answer": "to", "full": "I'm looking forward to the weekend.", "pt": "Estou ansioso pelo fim de semana.", "explanation": "look forward to = aguardar com expectativa." },
+    { "id": "pv-g6", "kind": "mc", "difficulty": "intermediate", "prompt": "I ___ off the TV before bed.", "options": ["turn", "turns", "turning", "turned"], "answer": "turn", "full": "I turn off the TV before bed.", "pt": "Desligo a TV antes de dormir.", "explanation": "turn off = desligar." },
+    { "id": "pv-g7", "kind": "mc", "difficulty": "advanced", "prompt": "I can't find my keys. I need to ___ for them.", "options": ["look", "looks", "looking", "looked"], "answer": "look", "full": "I need to look for my keys.", "pt": "Preciso procurar minhas chaves.", "explanation": "need to + look for = precisar procurar." },
+    { "id": "pv-g8", "kind": "typed", "difficulty": "advanced", "prompt": "She ___ care of her mom. (takes)", "accept": ["takes"], "answer": "takes", "full": "She takes care of her mom.", "pt": "Ela cuida da mãe.", "explanation": "take care of = cuidar de (fixo)." }
+  ],
+  "reviewQuiz": [
+    { "id": "pv-r1", "kind": "mc", "difficulty": "basic", "prompt": "I ___ for my keys.", "options": ["look", "looks", "looking", "looked"], "answer": "look", "full": "I look for my keys.", "pt": "Procuro minhas chaves.", "explanation": "look for = procurar." },
+    { "id": "pv-r2", "kind": "mc", "difficulty": "basic", "prompt": "I get ___ at six.", "options": ["up", "on", "off", "at"], "answer": "up", "full": "I get up at six.", "pt": "Levanto às seis.", "explanation": "get up = levantar." },
+    { "id": "pv-r3", "kind": "typed", "difficulty": "basic", "prompt": "Turn ___ the light, please. (off)", "accept": ["off"], "answer": "off", "full": "Turn off the light, please.", "pt": "Desligue a luz, por favor.", "explanation": "turn off = desligar." },
+    { "id": "pv-r4", "kind": "mc", "difficulty": "intermediate", "prompt": "She looks ___ her little brother.", "options": ["after", "for", "at", "up"], "answer": "after", "full": "She looks after her little brother.", "pt": "Ela cuida do irmãozinho.", "explanation": "look after = cuidar de." },
+    { "id": "pv-r5", "kind": "mc", "difficulty": "intermediate", "prompt": "I'm looking forward ___ the weekend.", "options": ["to", "for", "at", "on"], "answer": "to", "full": "I'm looking forward to the weekend.", "pt": "Estou ansioso pelo fim de semana.", "explanation": "look forward to + objeto." },
+    { "id": "pv-r6", "kind": "typed", "difficulty": "intermediate", "prompt": "I ___ off the TV before bed. (turn)", "accept": ["turn"], "answer": "turn", "full": "I turn off the TV before bed.", "pt": "Desligo a TV antes de dormir.", "explanation": "turn off = desligar." },
+    { "id": "pv-r7", "kind": "mc", "difficulty": "advanced", "prompt": "She ___ care of her mom.", "options": ["takes", "take", "taking", "took"], "answer": "takes", "full": "She takes care of her mom.", "pt": "Ela cuida da mãe.", "explanation": "take care of (fixo); com she → takes." },
+    { "id": "pv-r8", "kind": "typed", "difficulty": "advanced", "prompt": "I woke ___ late this morning. (up)", "accept": ["up"], "answer": "up", "full": "I woke up late this morning.", "pt": "Acordei tarde esta manhã.", "explanation": "wake up = acordar (wake → woke no passado)." }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "past-perfect-continuous",
+  "name": "Past Perfect Continuous",
+  "namePt": "Past Perfect Continuous",
+  "group": "past",
+  "order": 4,
+  "aux": "had been",
+  "summaryPt": "Ação contínua que aconteceu antes de outra no passado, com ênfase na duração.",
+  "meaningUses": [
+    { "pt": "Duração de uma ação antes de outra no passado", "en": "I had been working for hours when she called.", "enPt": "Eu estava trabalhando há horas quando ela ligou." },
+    { "pt": "Causa de um estado no passado", "en": "She was tired because she had been studying all night.", "enPt": "Ela estava cansada porque tinha estudado a noite toda." }
+  ],
+  "formation": [
+    { "section": "Afirmativa", "pt": "Sujeito + had been + verbo + -ing.", "pattern": "I had been working — she had been working", "examples": [{ "en": "I had been working for hours.", "pt": "Eu estava trabalhando há horas." }] },
+    { "section": "Negativa", "pt": "Sujeito + hadn't been + verbo + -ing.", "pattern": "I hadn't been sleeping", "examples": [{ "en": "I hadn't been sleeping well.", "pt": "Eu não estava dormindo bem." }] },
+    { "section": "Perguntas", "pt": "Had + sujeito + been + verbo + -ing?", "pattern": "Had you been waiting long?", "examples": [{ "en": "Had you been waiting long?", "pt": "Você estava esperando há muito tempo?" }] },
+    { "section": "Respostas curtas", "pt": "Yes, + pronome + had. No, + pronome + hadn't.", "pattern": "Yes, I had. / No, I hadn't.", "examples": [{ "en": "A: Had you been waiting? B: Yes, I had.", "pt": "A: Você estava esperando? B: Sim." }] }
+  ],
+  "subjectAgreement": [
+    { "pt": "A mesma forma (had been) para todas as pessoas.", "example": "I had been working. She had been working. They had been working." }
+  ],
+  "spelling": [],
+  "pronunciation": [
+    { "pt": "had been em fala rápida → /həd bɪn/.", "example": "I'd been working." }
+  ],
+  "commonErrors": [
+    { "pt": "Esquecer o been", "wrong": "I had working for hours.", "right": "I had been working for hours." },
+    { "pt": "Usar past perfect simples sem ênfase na duração", "wrong": "I had worked for hours when she called.", "right": "I had been working for hours when she called. (ênfase na duração)" }
+  ],
+  "contrast": [
+    { "with": "past-perfect", "pt": "Past perfect = resultado. Past perfect continuous = duração/processo antes de outra ação.", "en": "I had written the report. (pronto) — I had been writing the report. (processo)", "enPt": "Eu tinha escrito o relatório. — Eu estava escrevendo o relatório." }
+  ],
+  "examples": [
+    { "en": "I had been working for hours when she called.", "pt": "Eu estava trabalhando há horas quando ela ligou." },
+    { "en": "She was tired because she had been studying all night.", "pt": "Ela estava cansada porque tinha estudado a noite toda." },
+    { "en": "We had been waiting for an hour.", "pt": "Estávamos esperando havia uma hora." },
+    { "en": "I hadn't been sleeping well.", "pt": "Eu não estava dormindo bem." },
+    { "en": "Had you been working here long?", "pt": "Você estava trabalhando aqui há muito tempo?" }
+  ],
+  "guidedPractice": [
+    { "id": "pastpc-g1", "kind": "mc", "difficulty": "basic", "prompt": "I had ___ working for hours when she called.", "options": ["been", "being", "be", "was"], "answer": "been", "full": "I had been working for hours when she called.", "pt": "Eu estava trabalhando há horas quando ela ligou.", "explanation": "had + been + -ing." },
+    { "id": "pastpc-g2", "kind": "mc", "difficulty": "basic", "prompt": "She ___ been studying all night.", "options": ["had", "has", "have", "did"], "answer": "had", "full": "She had been studying all night.", "pt": "Ela tinha estudado a noite toda.", "explanation": "Com she, use had." },
+    { "id": "pastpc-g3", "kind": "typed", "difficulty": "basic", "prompt": "We had been ___ (wait) for an hour.", "accept": ["waiting"], "answer": "waiting", "full": "We had been waiting for an hour.", "pt": "Estávamos esperando havia uma hora.", "explanation": "had been + -ing." },
+    { "id": "pastpc-g4", "kind": "mc", "difficulty": "intermediate", "prompt": "I ___ been sleeping well.", "options": ["hadn't", "haven't", "hasn't", "didn't"], "answer": "hadn't", "full": "I hadn't been sleeping well.", "pt": "Eu não estava dormindo bem.", "explanation": "Negativa: had + not + been." },
+    { "id": "pastpc-g5", "kind": "mc", "difficulty": "intermediate", "prompt": "___ you been waiting long?", "options": ["Had", "Have", "Has", "Did"], "answer": "Had", "full": "Had you been waiting long?", "pt": "Você estava esperando há muito tempo?", "explanation": "Pergunta: Had + sujeito + been + -ing." },
+    { "id": "pastpc-g6", "kind": "typed", "difficulty": "intermediate", "prompt": "She had been ___ (learn) English for years.", "accept": ["learning"], "answer": "learning", "full": "She had been learning English for years.", "pt": "Ela estudava inglês havia anos.", "explanation": "had been + -ing." },
+    { "id": "pastpc-g7", "kind": "mc", "difficulty": "advanced", "prompt": "A: Had you been waiting? B: Yes, I ___.", "options": ["had", "have", "did", "was"], "answer": "had", "full": "A: Had you been waiting? B: Yes, I had.", "pt": "A: Você estava esperando? B: Sim.", "explanation": "Resposta curta: Yes, + pronome + had." },
+    { "id": "pastpc-g8", "kind": "typed", "difficulty": "advanced", "prompt": "He had been ___ (run) for an hour before the race.", "accept": ["running"], "answer": "running", "full": "He had been running for an hour before the race.", "pt": "Ele estava correndo havia uma hora antes da corrida.", "explanation": "had been + -ing (run → running)." }
+  ],
+  "reviewQuiz": [
+    { "id": "pastpc-r1", "kind": "mc", "difficulty": "basic", "prompt": "They had ___ working all morning.", "options": ["been", "being", "be", "was"], "answer": "been", "full": "They had been working all morning.", "pt": "Eles estavam trabalhando a manhã toda.", "explanation": "had + been + -ing." },
+    { "id": "pastpc-r2", "kind": "mc", "difficulty": "basic", "prompt": "She ___ been crying.", "options": ["had", "has", "have", "did"], "answer": "had", "full": "She had been crying.", "pt": "Ela tinha estado chorando.", "explanation": "Com she, use had." },
+    { "id": "pastpc-r3", "kind": "typed", "difficulty": "basic", "prompt": "I had been ___ (work) all day.", "accept": ["working"], "answer": "working", "full": "I had been working all day.", "pt": "Eu tinha trabalhado o dia todo.", "explanation": "had been + -ing." },
+    { "id": "pastpc-r4", "kind": "mc", "difficulty": "intermediate", "prompt": "She ___ been feeling well.", "options": ["hadn't", "haven't", "hasn't", "didn't"], "answer": "hadn't", "full": "She hadn't been feeling well.", "pt": "Ela não estava se sentindo bem.", "explanation": "Negativa: had + not + been." },
+    { "id": "pastpc-r5", "kind": "mc", "difficulty": "intermediate", "prompt": "___ he been playing video games?", "options": ["Had", "Has", "Have", "Did"], "answer": "Had", "full": "Had he been playing video games?", "pt": "Ele estava jogando videogame?", "explanation": "Pergunta: Had + sujeito + been + -ing." },
+    { "id": "pastpc-r6", "kind": "typed", "difficulty": "intermediate", "prompt": "They had been ___ (live) there for years.", "accept": ["living"], "answer": "living", "full": "They had been living there for years.", "pt": "Eles moravam lá havia anos.", "explanation": "live → living." },
+    { "id": "pastpc-r7", "kind": "mc", "difficulty": "advanced", "prompt": "A: Had she been studying? B: No, she ___.", "options": ["hadn't", "hasn't", "didn't", "wasn't"], "answer": "hadn't", "full": "A: Had she been studying? B: No, she hadn't.", "pt": "A: Ela estava estudando? B: Não.", "explanation": "Resposta curta negativa: No, she hadn't." },
+    { "id": "pastpc-r8", "kind": "typed", "difficulty": "advanced", "prompt": "He had been ___ (swim) all afternoon.", "accept": ["swimming"], "answer": "swimming", "full": "He had been swimming all afternoon.", "pt": "Ele estava nadando a tarde toda.", "explanation": "swim → swimming." },
+    { "id": "pastpc-r9", "kind": "mc", "difficulty": "advanced", "prompt": "I had been studying ___ hours when she called.", "options": ["for", "since", "during", "from"], "answer": "for", "full": "I had been studying for hours when she called.", "pt": "Eu estava estudando havia horas quando ela ligou.", "explanation": "for + duração." },
+    { "id": "pastpc-r10", "kind": "mc", "difficulty": "advanced", "prompt": "She was tired because she ___ been studying all night.", "options": ["had", "has", "have", "did"], "answer": "had", "full": "She was tired because she had been studying all night.", "pt": "Ela estava cansada porque tinha estudado a noite toda.", "explanation": "Causa no passado → had been + -ing." }
+  ]
+}

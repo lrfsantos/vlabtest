@@ -1,0 +1,249 @@
+[
+ {
+  "level": "intermediate",
+  "prompt": "I ___ here since 2022.",
+  "ans": "have lived",
+  "bad": [
+   "lived",
+   "am living",
+   "live"
+  ],
+  "full": "I have lived here since 2022.",
+  "pt": "Moro aqui desde 2022.",
+  "note": "Com <b>since</b>, o present perfect liga o passado ao presente: <i>have + particípio</i>."
+ },
+ {
+  "level": "intermediate",
+  "prompt": "She ___ coffee every morning.",
+  "ans": "drinks",
+  "bad": [
+   "drink",
+   "drinking",
+   "drank"
+  ],
+  "full": "She drinks coffee every morning.",
+  "pt": "Ela toma café toda manhã.",
+  "note": "Com <b>he / she / it</b>, o verbo no presente ganha <b>-s</b>."
+ },
+ {
+  "level": "intermediate",
+  "prompt": "I ___ my homework yesterday.",
+  "ans": "did",
+  "bad": [
+   "do",
+   "have done",
+   "doing"
+  ],
+  "full": "I did my homework yesterday.",
+  "pt": "Fiz minha lição ontem.",
+  "note": "Com <b>yesterday</b>, use o simple past: <i>do → did</i>."
+ },
+ {
+  "level": "intermediate",
+  "prompt": "We ___ to the store last night.",
+  "ans": "went",
+  "bad": [
+   "go",
+   "gone",
+   "going"
+  ],
+  "full": "We went to the store last night.",
+  "pt": "Fomos à loja ontem à noite.",
+  "note": "<b>Go → went</b>: passado irregular."
+ },
+ {
+  "level": "intermediate",
+  "prompt": "I am interested ___ English.",
+  "ans": "in",
+  "bad": [
+   "on",
+   "at",
+   "to"
+  ],
+  "full": "I am interested in English.",
+  "pt": "Tenho interesse em inglês.",
+  "note": "<b>interested in</b> é uma combinação fixa."
+ },
+ {
+  "level": "intermediate",
+  "prompt": "Can you ___ me a favor?",
+  "ans": "do",
+  "bad": [
+   "make",
+   "take",
+   "give"
+  ],
+  "full": "Can you do me a favor?",
+  "pt": "Você pode me fazer um favor?",
+  "note": "Dizemos <b>do someone a favor</b>, não <i>make a favor</i>."
+ },
+ {
+  "level": "intermediate",
+  "prompt": "I ___ a mistake yesterday.",
+  "ans": "made",
+  "bad": [
+   "did",
+   "make",
+   "have made"
+  ],
+  "full": "I made a mistake yesterday.",
+  "pt": "Cometi um erro ontem.",
+  "note": "A combinação natural é <b>make a mistake</b>."
+ },
+ {
+  "level": "intermediate",
+  "prompt": "I ___ my keys. Can you help me?",
+  "ans": "lost",
+  "bad": [
+   "lose",
+   "have lose",
+   "losing"
+  ],
+  "full": "I lost my keys. Can you help me?",
+  "pt": "Perdi minhas chaves. Você pode me ajudar?",
+  "note": "<b>lose → lost</b> no passado."
+ },
+ {
+  "level": "advanced",
+  "prompt": "If I ___ more time, I would study more.",
+  "ans": "had",
+  "bad": [
+   "have",
+   "will have",
+   "would have"
+  ],
+  "full": "If I had more time, I would study more.",
+  "pt": "Se eu tivesse mais tempo, estudaria mais.",
+  "note": "Second conditional: <b>if + past</b> → <b>would + verbo</b>."
+ },
+ {
+  "level": "advanced",
+  "prompt": "I wish I ___ more confident speaking English.",
+  "ans": "were",
+  "bad": [
+   "was",
+   "am",
+   "be"
+  ],
+  "full": "I wish I were more confident speaking English.",
+  "pt": "Eu gostaria de ter mais confiança para falar inglês.",
+  "note": "Em desejos hipotéticos, <b>were</b> é a forma tradicional: <i>I wish I were...</i>."
+ },
+ {
+  "level": "advanced",
+  "prompt": "The meeting ___ by the time I arrived.",
+  "ans": "had started",
+  "bad": [
+   "started",
+   "has started",
+   "was starting"
+  ],
+  "full": "The meeting had started by the time I arrived.",
+  "pt": "A reunião já tinha começado quando cheguei.",
+  "note": "Past perfect marca a ação que aconteceu antes de outra ação no passado."
+ },
+ {
+  "level": "advanced",
+  "prompt": "She is used ___ early.",
+  "ans": "to getting up",
+  "bad": [
+   "to get up",
+   "getting up",
+   "get up"
+  ],
+  "full": "She is used to getting up early.",
+  "pt": "Ela está acostumada a acordar cedo.",
+  "note": "Em <b>be used to</b>, <i>to</i> é preposição: use <b>-ing</b> depois dela."
+ },
+ {
+  "level": "advanced",
+  "prompt": "I look forward to ___ from you.",
+  "ans": "hearing",
+  "bad": [
+   "hear",
+   "heard",
+   "hearing to"
+  ],
+  "full": "I look forward to hearing from you.",
+  "pt": "Aguardo seu contato.",
+  "note": "<b>look forward to</b> usa <b>-ing</b>: <i>to</i> é preposição aqui."
+ },
+ {
+  "level": "advanced",
+  "prompt": "The report needs ___ before Friday.",
+  "ans": "to be finished",
+  "bad": [
+   "finishing it",
+   "be finished",
+   "to finish"
+  ],
+  "full": "The report needs to be finished before Friday.",
+  "pt": "O relatório precisa ser terminado antes de sexta.",
+  "note": "Aqui usamos a estrutura <b>need + to be + particípio</b>."
+ },
+ {
+  "level": "advanced",
+  "prompt": "I have no idea what he ___.",
+  "ans": "meant",
+  "bad": [
+   "mean",
+   "means",
+   "meaning"
+  ],
+  "full": "I have no idea what he meant.",
+  "pt": "Não faço ideia do que ele quis dizer.",
+  "note": "O verbo <b>mean</b> muda para <b>meant</b> no passado."
+ },
+ {
+  "level": "advanced",
+  "prompt": "She suggested ___ earlier.",
+  "ans": "leaving",
+  "bad": [
+   "to leave",
+   "leave",
+   "left"
+  ],
+  "full": "She suggested leaving earlier.",
+  "pt": "Ela sugeriu sair mais cedo.",
+  "note": "<b>suggest</b> normalmente vem seguido de <b>-ing</b>."
+ },
+ {
+  "level": "advanced",
+  "prompt": "I have been studying English ___ three years.",
+  "ans": "for",
+  "bad": [
+   "since",
+   "during",
+   "from"
+  ],
+  "full": "I have been studying English for three years.",
+  "pt": "Estudo inglês há três anos.",
+  "note": "Use <b>for</b> com duração; <b>since</b> com o ponto de início."
+ },
+ {
+  "level": "advanced",
+  "prompt": "Actually, I ___ agree with you.",
+  "ans": "do",
+  "bad": [
+   "am",
+   "make",
+   "have"
+  ],
+  "full": "Actually, I do agree with you.",
+  "pt": "Na verdade, eu concordo com você.",
+  "note": "<b>Actually</b> significa “na verdade”, não “atualmente”."
+ },
+ {
+  "level": "advanced",
+  "prompt": "I am looking for my keys.",
+  "ans": "procurando",
+  "bad": [
+   "olhando",
+   "cuidando",
+   "esperando"
+  ],
+  "full": "look for = procurar",
+  "pt": "look for = procurar",
+  "note": "<b>look for</b> = procurar. <i>look at</i> = olhar para."
+ }
+]

@@ -1,0 +1,182 @@
+[
+ {
+  "id": "look_at",
+  "base": "look at",
+  "pt": "olhar para",
+  "exEn": "I look at my phone.",
+  "exPt": "Olho para meu celular.",
+  "pron": "LÚK ÉT",
+  "verb": "look"
+ },
+ {
+  "id": "look_for",
+  "base": "look for",
+  "pt": "procurar",
+  "exEn": "I look for my keys.",
+  "exPt": "Procuro minhas chaves.",
+  "pron": "LÚK FÓR",
+  "verb": "look"
+ },
+ {
+  "id": "look_after",
+  "base": "look after",
+  "pt": "cuidar de",
+  "exEn": "I look after my dog.",
+  "exPt": "Cuido do meu cachorro.",
+  "pron": "LÚK ÁF-ter",
+  "verb": "look"
+ },
+ {
+  "id": "get_up",
+  "base": "get up",
+  "pt": "levantar",
+  "exEn": "I get up at 6.",
+  "exPt": "Levanto às 6.",
+  "pron": "GUÉT ÂP",
+  "verb": "get"
+ },
+ {
+  "id": "get_home",
+  "base": "get home",
+  "pt": "chegar em casa",
+  "exEn": "I get home at 6.",
+  "exPt": "Chego em casa às 6.",
+  "pron": "GUÉT RÔUM",
+  "verb": "get"
+ },
+ {
+  "id": "get_over",
+  "base": "get over",
+  "pt": "superar",
+  "exEn": "I get over a cold fast.",
+  "exPt": "Me recupero de um resfriado rápido.",
+  "pron": "GUÉT ÔU-ver",
+  "verb": "get"
+ },
+ {
+  "id": "put_on",
+  "base": "put on",
+  "pt": "vestir / colocar",
+  "exEn": "I put on my shoes.",
+  "exPt": "Calço meus sapatos.",
+  "pron": "PÚT ÓN",
+  "verb": "put"
+ },
+ {
+  "id": "take_off",
+  "base": "take off",
+  "pt": "tirar / decolar",
+  "exEn": "I take off my shoes.",
+  "exPt": "Tiro meus sapatos.",
+  "pron": "TÊIK ÓF",
+  "verb": "take"
+ },
+ {
+  "id": "turn_on",
+  "base": "turn on",
+  "pt": "ligar",
+  "exEn": "I turn on the light.",
+  "exPt": "Ligo a luz.",
+  "pron": "TÂRN ÓN",
+  "verb": "turn"
+ },
+ {
+  "id": "turn_off",
+  "base": "turn off",
+  "pt": "desligar",
+  "exEn": "I turn off the light.",
+  "exPt": "Desligo a luz.",
+  "pron": "TÂRN ÓF",
+  "verb": "turn"
+ },
+ {
+  "id": "come_back",
+  "base": "come back",
+  "pt": "voltar",
+  "exEn": "I come back at 5.",
+  "exPt": "Volto às 5.",
+  "pron": "KÂM BÉK",
+  "verb": "come"
+ },
+ {
+  "id": "go_out",
+  "base": "go out",
+  "pt": "sair",
+  "exEn": "I go out on Fridays.",
+  "exPt": "Saio às sextas.",
+  "pron": "GÔU ÁUT",
+  "verb": "go"
+ },
+ {
+  "id": "wake_up",
+  "base": "wake up",
+  "pt": "acordar",
+  "exEn": "I wake up at 6.",
+  "exPt": "Acordo às 6.",
+  "pron": "UÊIK ÂP",
+  "verb": "wake"
+ },
+ {
+  "id": "clean_up",
+  "base": "clean up",
+  "pt": "arrumar / limpar",
+  "exEn": "I clean up my room.",
+  "exPt": "Arrumo meu quarto.",
+  "pron": "KLÍIN ÂP",
+  "verb": "clean"
+ },
+ {
+  "id": "work_on",
+  "base": "work on",
+  "pt": "trabalhar em",
+  "exEn": "I work on my English.",
+  "exPt": "Trabalho no meu inglês.",
+  "pron": "UÂRK ÓN",
+  "verb": "work"
+ },
+ {
+  "id": "take_care",
+  "base": "take care of",
+  "pt": "cuidar de",
+  "exEn": "I take care of my mom.",
+  "exPt": "Cuido da minha mãe.",
+  "pron": "TÊIK KÉR ÓV",
+  "verb": "take"
+ },
+ {
+  "id": "go_back",
+  "base": "go back",
+  "pt": "voltar",
+  "exEn": "I go back home now.",
+  "exPt": "Volto pra casa agora.",
+  "pron": "GÔU BÉK",
+  "verb": "go"
+ },
+ {
+  "id": "come_in",
+  "base": "come in",
+  "pt": "entrar",
+  "exEn": "I come in after lunch.",
+  "exPt": "Entro depois do almoço.",
+  "pron": "KÂM ÍN",
+  "verb": "come"
+ },
+ {
+  "id": "put_off",
+  "base": "put off",
+  "pt": "adiar",
+  "exEn": "I put off my trip.",
+  "exPt": "Adio minha viagem.",
+  "pron": "PÚT ÓF",
+  "verb": "put"
+ },
+ {
+  "id": "look_forward",
+  "base": "look forward to",
+  "pt": "aguardar com expectativa",
+  "exEn": "I look forward to Sunday.",
+  "exPt": "Aguardo ansioso por domingo.",
+  "pron": "LÚK FÓR-uerd TÚ",
+  "verb": "look"
+ }
+]

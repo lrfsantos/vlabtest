@@ -1,0 +1,61 @@
+{
+  "id": "past-perfect",
+  "name": "Past Perfect",
+  "namePt": "Past Perfect",
+  "group": "past",
+  "order": 3,
+  "aux": "had",
+  "summaryPt": "Ação que aconteceu antes de outra ação no passado.",
+  "meaningUses": [
+    { "pt": "Ação que ocorreu antes de outra no passado", "en": "The meeting had started before I arrived.", "enPt": "A reunião já tinha começado antes de eu chegar." },
+    { "pt": "Explicar o que já tinha acontecido", "en": "I was tired because I had worked all day.", "enPt": "Eu estava cansado porque tinha trabalhado o dia todo." }
+  ],
+  "formation": [
+    { "section": "Afirmativa", "pt": "Sujeito + had + particípio passado.", "pattern": "I had worked — she had gone", "examples": [{ "en": "I had finished before you came.", "pt": "Eu tinha terminado antes de você chegar." }] },
+    { "section": "Negativa", "pt": "Sujeito + hadn't + particípio.", "pattern": "I hadn't finished", "examples": [{ "en": "I hadn't seen that before.", "pt": "Eu não tinha visto isso antes." }] },
+    { "section": "Perguntas", "pt": "Had + sujeito + particípio?", "pattern": "Had you finished?", "examples": [{ "en": "Had you seen the movie before?", "pt": "Você já tinha visto o filme antes?" }] },
+    { "section": "Respostas curtas", "pt": "Yes, + pronome + had. No, + pronome + hadn't.", "pattern": "Yes, I had. / No, I hadn't.", "examples": [{ "en": "A: Had you eaten? B: No, I hadn't.", "pt": "A: Você tinha comido? B: Não." }] }
+  ],
+  "subjectAgreement": [
+    { "pt": "A mesma forma (had) para todas as pessoas.", "example": "I had gone. She had gone. They had gone." }
+  ],
+  "spelling": [],
+  "pronunciation": [
+    { "pt": "had é pronunciado /hæd/, mas na fala rápida pode virar /əd/ ou /d/.", "example": "I'd gone. She'd left." }
+  ],
+  "commonErrors": [
+    { "pt": "Usar past simple onde o past perfect marca 'antes de'", "wrong": "The meeting started before I arrived, but I didn't know.", "right": "The meeting had started before I arrived.", "explanation": "A reunião começou ANTES de eu chegar → past perfect." }
+  ],
+  "contrast": [
+    { "with": "past-simple", "pt": "Past simple = ação no passado. Past perfect = ação que já tinha ocorrido antes de outra.", "en": "I arrived at 9. The meeting had started at 8:30.", "enPt": "Cheguei às 9. A reunião tinha começado às 8h30." }
+  ],
+  "examples": [
+    { "en": "The meeting had started before I arrived.", "pt": "A reunião já tinha começado antes de eu chegar." },
+    { "en": "I was tired because I had worked all day.", "pt": "Eu estava cansado porque tinha trabalhado o dia todo." },
+    { "en": "She had left before we got there.", "pt": "Ela tinha saído antes de chegarmos lá." },
+    { "en": "I hadn't seen that before.", "pt": "Eu não tinha visto isso antes." },
+    { "en": "Had you finished your homework before dinner?", "pt": "Você tinha terminado a lição antes do jantar?" }
+  ],
+  "guidedPractice": [
+    { "id": "pastp-g1", "kind": "mc", "difficulty": "basic", "prompt": "The meeting ___ started before I arrived.", "options": ["had", "has", "have", "did"], "answer": "had", "full": "The meeting had started before I arrived.", "pt": "A reunião já tinha começado antes de eu chegar.", "explanation": "Ação antes de outra no passado → had + particípio." },
+    { "id": "pastp-g2", "kind": "typed", "difficulty": "basic", "prompt": "I ___ (finish) before you came.", "accept": ["had finished"], "answer": "had finished", "full": "I had finished before you came.", "pt": "Eu tinha terminado antes de você chegar.", "explanation": "had + particípio (finish → finished)." },
+    { "id": "pastp-g3", "kind": "mc", "difficulty": "basic", "prompt": "She had ___ before we got there.", "options": ["left", "leave", "leaves", "leaving"], "answer": "left", "full": "She had left before we got there.", "pt": "Ela tinha saído antes de chegarmos lá.", "explanation": "had + particípio (leave → left)." },
+    { "id": "pastp-g4", "kind": "mc", "difficulty": "intermediate", "prompt": "I was tired because I ___ worked all day.", "options": ["had", "have", "has", "did"], "answer": "had", "full": "I was tired because I had worked all day.", "pt": "Eu estava cansado porque tinha trabalhado o dia todo.", "explanation": "Causa anterior → had + particípio." },
+    { "id": "pastp-g5", "kind": "mc", "difficulty": "intermediate", "prompt": "I ___ seen that before.", "options": ["hadn't", "haven't", "hasn't", "didn't"], "answer": "hadn't", "full": "I hadn't seen that before.", "pt": "Eu não tinha visto isso antes.", "explanation": "Negativa: had + not + particípio." },
+    { "id": "pastp-g6", "kind": "typed", "difficulty": "intermediate", "prompt": "___ you ___ (eat) before the party? (Had)", "accept": ["had you eaten"], "answer": "had you eaten", "full": "Had you eaten before the party?", "pt": "Você tinha comido antes da festa?", "explanation": "Pergunta: Had + sujeito + particípio." },
+    { "id": "pastp-g7", "kind": "mc", "difficulty": "advanced", "prompt": "A: Had you finished? B: Yes, I ___.", "options": ["had", "have", "did", "was"], "answer": "had", "full": "A: Had you finished? B: Yes, I had.", "pt": "A: Você tinha terminado? B: Sim.", "explanation": "Resposta curta: Yes, + pronome + had." },
+    { "id": "pastp-g8", "kind": "typed", "difficulty": "advanced", "prompt": "She had ___ (write) the report before the meeting.", "accept": ["written"], "answer": "written", "full": "She had written the report before the meeting.", "pt": "Ela tinha escrito o relatório antes da reunião.", "explanation": "had + particípio (write → written)." }
+  ],
+  "reviewQuiz": [
+    { "id": "pastp-r1", "kind": "mc", "difficulty": "basic", "prompt": "The train ___ left before we arrived.", "options": ["had", "has", "have", "did"], "answer": "had", "full": "The train had left before we arrived.", "pt": "O trem tinha saído antes de chegarmos.", "explanation": "Ação anterior → had + particípio." },
+    { "id": "pastp-r2", "kind": "typed", "difficulty": "basic", "prompt": "She ___ (finish) before we called.", "accept": ["had finished"], "answer": "had finished", "full": "She had finished before we called.", "pt": "Ela tinha terminado antes de ligarmos.", "explanation": "had + particípio." },
+    { "id": "pastp-r3", "kind": "mc", "difficulty": "basic", "prompt": "I had ___ my keys before leaving.", "options": ["found", "find", "finds", "finding"], "answer": "found", "full": "I had found my keys before leaving.", "pt": "Eu tinha achado minhas chaves antes de sair.", "explanation": "had + particípio (find → found)." },
+    { "id": "pastp-r4", "kind": "mc", "difficulty": "intermediate", "prompt": "She was sad because she ___ lost her phone.", "options": ["had", "has", "have", "did"], "answer": "had", "full": "She was sad because she had lost her phone.", "pt": "Ela estava triste porque tinha perdido o celular.", "explanation": "Causa anterior → had + particípio." },
+    { "id": "pastp-r5", "kind": "mc", "difficulty": "intermediate", "prompt": "They ___ eaten before the party.", "options": ["hadn't", "haven't", "hasn't", "didn't"], "answer": "hadn't", "full": "They hadn't eaten before the party.", "pt": "Eles não tinham comido antes da festa.", "explanation": "Negativa: had + not + particípio." },
+    { "id": "pastp-r6", "kind": "typed", "difficulty": "intermediate", "prompt": "___ she ___ (leave) before you arrived? (Had)", "accept": ["had she left"], "answer": "had she left", "full": "Had she left before you arrived?", "pt": "Ela tinha saído antes de você chegar?", "explanation": "Pergunta: Had + sujeito + particípio." },
+    { "id": "pastp-r7", "kind": "mc", "difficulty": "advanced", "prompt": "A: Had she called? B: No, she ___.", "options": ["hadn't", "hasn't", "didn't", "wasn't"], "answer": "hadn't", "full": "A: Had she called? B: No, she hadn't.", "pt": "A: Ela tinha ligado? B: Não.", "explanation": "Resposta curta negativa: No, she hadn't." },
+    { "id": "pastp-r8", "kind": "typed", "difficulty": "advanced", "prompt": "They had ___ (go) home before the storm.", "accept": ["gone"], "answer": "gone", "full": "They had gone home before the storm.", "pt": "Eles tinham ido para casa antes da tempestade.", "explanation": "had + particípio (go → gone)." },
+    { "id": "pastp-r9", "kind": "mc", "difficulty": "advanced", "prompt": "The movie ___ already started when we sat down.", "options": ["had", "has", "have", "was"], "answer": "had", "full": "The movie had already started when we sat down.", "pt": "O filme já tinha começado quando sentamos.", "explanation": "already + past perfect para 'antes de'." },
+    { "id": "pastp-r10", "kind": "typed", "difficulty": "advanced", "prompt": "By the time I arrived, they ___ (leave).", "accept": ["had left"], "answer": "had left", "full": "By the time I arrived, they had left.", "pt": "Quando cheguei, eles já tinham saído.", "explanation": "By the time + ação anterior → had + particípio." }
+  ]
+}

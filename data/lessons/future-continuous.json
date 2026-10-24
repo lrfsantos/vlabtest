@@ -1,0 +1,62 @@
+{
+  "id": "future-continuous",
+  "name": "Future Continuous",
+  "namePt": "Futuro Contínuo",
+  "group": "future",
+  "order": 2,
+  "aux": "will be",
+  "summaryPt": "Ação que estará em andamento em um momento futuro.",
+  "meaningUses": [
+    { "pt": "Ação em andamento em um momento futuro", "en": "I will be working at 9 a.m. tomorrow.", "enPt": "Estarei trabalhando às 9h amanhã." },
+    { "pt": "Contexto de algo que acontecerá", "en": "Don't call at 8. I'll be driving.", "enPt": "Não ligue às 8. Estarei dirigindo." }
+  ],
+  "formation": [
+    { "section": "Afirmativa", "pt": "Sujeito + will be + verbo + -ing.", "pattern": "I will be working — she will be working", "examples": [{ "en": "I will be working at 9.", "pt": "Estarei trabalhando às 9." }] },
+    { "section": "Negativa", "pt": "Sujeito + won't be + verbo + -ing.", "pattern": "I won't be working", "examples": [{ "en": "I won't be sleeping.", "pt": "Não estarei dormindo." }] },
+    { "section": "Perguntas", "pt": "Will + sujeito + be + verbo + -ing?", "pattern": "Will you be working?", "examples": [{ "en": "Will you be studying tonight?", "pt": "Você estará estudando hoje à noite?" }] },
+    { "section": "Respostas curtas", "pt": "Yes, + pronome + will. No, + pronome + won't.", "pattern": "Yes, I will. / No, I won't.", "examples": [{ "en": "A: Will you be there? B: Yes, I will.", "pt": "A: Você estará lá? B: Sim." }] }
+  ],
+  "subjectAgreement": [
+    { "pt": "A mesma forma (will be) para todas as pessoas.", "example": "I will be working. She will be working. They will be working." }
+  ],
+  "spelling": [],
+  "pronunciation": [
+    { "pt": "will be em fala rápida → 'll be.", "example": "I'll be working." }
+  ],
+  "commonErrors": [
+    { "pt": "Esquecer o be", "wrong": "I will working at 9.", "right": "I will be working at 9." },
+    { "pt": "Esquecer o -ing", "wrong": "I'll be work at 9.", "right": "I'll be working at 9." }
+  ],
+  "contrast": [
+    { "with": "future-simple", "pt": "Future simple = decisão/previsão. Future continuous = ação em andamento num momento futuro.", "en": "I'll help you. (decisão) — I'll be working at 9. (em andamento)", "enPt": "Vou te ajudar. — Estarei trabalhando às 9." }
+  ],
+  "examples": [
+    { "en": "I will be working at 9 a.m. tomorrow.", "pt": "Estarei trabalhando às 9h amanhã." },
+    { "en": "Don't call at 8. I'll be driving.", "pt": "Não ligue às 8. Estarei dirigindo." },
+    { "en": "She will be waiting for us.", "pt": "Ela estará esperando por nós." },
+    { "en": "I won't be sleeping.", "pt": "Não estarei dormindo." },
+    { "en": "Will you be studying tonight?", "pt": "Você estará estudando hoje à noite?" }
+  ],
+  "guidedPractice": [
+    { "id": "futc-g1", "kind": "mc", "difficulty": "basic", "prompt": "I will ___ working at 9.", "options": ["be", "being", "am", "was"], "answer": "be", "full": "I will be working at 9.", "pt": "Estarei trabalhando às 9.", "explanation": "will + be + -ing." },
+    { "id": "futc-g2", "kind": "typed", "difficulty": "basic", "prompt": "She will be ___ (wait) for us.", "accept": ["waiting"], "answer": "waiting", "full": "She will be waiting for us.", "pt": "Ela estará esperando por nós.", "explanation": "will be + -ing." },
+    { "id": "futc-g3", "kind": "mc", "difficulty": "basic", "prompt": "I ___ be sleeping at that time.", "options": ["won't", "will", "am", "was"], "answer": "won't", "full": "I won't be sleeping at that time.", "pt": "Não estarei dormindo nessa hora.", "explanation": "Negativa: won't + be + -ing." },
+    { "id": "futc-g4", "kind": "mc", "difficulty": "intermediate", "prompt": "___ you be studying tonight?", "options": ["Will", "Do", "Are", "Did"], "answer": "Will", "full": "Will you be studying tonight?", "pt": "Você estará estudando hoje à noite?", "explanation": "Pergunta: Will + sujeito + be + -ing." },
+    { "id": "futc-g5", "kind": "typed", "difficulty": "intermediate", "prompt": "Don't call at 8. I'll be ___ (drive).", "accept": ["driving"], "answer": "driving", "full": "Don't call at 8. I'll be driving.", "pt": "Não ligue às 8. Estarei dirigindo.", "explanation": "will be + -ing (drive → driving)." },
+    { "id": "futc-g6", "kind": "mc", "difficulty": "intermediate", "prompt": "This time tomorrow, I ___ flying to Paris.", "options": ["will be", "will", "am", "was"], "answer": "will be", "full": "This time tomorrow, I will be flying to Paris.", "pt": "Amanhã a esta hora, estarei voando para Paris.", "explanation": "Em andamento num momento futuro → will be + -ing." },
+    { "id": "futc-g7", "kind": "mc", "difficulty": "advanced", "prompt": "A: Will you be there? B: Yes, I ___.", "options": ["will", "be", "am", "do"], "answer": "will", "full": "A: Will you be there? B: Yes, I will.", "pt": "A: Você estará lá? B: Sim.", "explanation": "Resposta curta: Yes, + pronome + will." },
+    { "id": "futc-g8", "kind": "typed", "difficulty": "advanced", "prompt": "They will be ___ (come) at 6.", "accept": ["coming"], "answer": "coming", "full": "They will be coming at 6.", "pt": "Eles estarão vindo às 6.", "explanation": "will be + -ing (come → coming)." }
+  ],
+  "reviewQuiz": [
+    { "id": "futc-r1", "kind": "mc", "difficulty": "basic", "prompt": "I will ___ sleeping at that time.", "options": ["be", "being", "am", "was"], "answer": "be", "full": "I will be sleeping at that time.", "pt": "Estarei dormindo nessa hora.", "explanation": "will + be + -ing." },
+    { "id": "futc-r2", "kind": "typed", "difficulty": "basic", "prompt": "She will be ___ (work) at 9.", "accept": ["working"], "answer": "working", "full": "She will be working at 9.", "pt": "Ela estará trabalhando às 9.", "explanation": "will be + -ing." },
+    { "id": "futc-r3", "kind": "mc", "difficulty": "basic", "prompt": "I ___ be working on Sunday.", "options": ["won't", "will", "am", "was"], "answer": "won't", "full": "I won't be working on Sunday.", "pt": "Não estarei trabalhando no domingo.", "explanation": "Negativa: won't + be + -ing." },
+    { "id": "futc-r4", "kind": "mc", "difficulty": "intermediate", "prompt": "___ you be using the car?", "options": ["Will", "Do", "Are", "Did"], "answer": "Will", "full": "Will you be using the car?", "pt": "Você estará usando o carro?", "explanation": "Pergunta: Will + sujeito + be + -ing." },
+    { "id": "futc-r5", "kind": "typed", "difficulty": "intermediate", "prompt": "Don't call at 10. I'll be ___ (sleep).", "accept": ["sleeping"], "answer": "sleeping", "full": "Don't call at 10. I'll be sleeping.", "pt": "Não ligue às 10. Estarei dormindo.", "explanation": "will be + -ing." },
+    { "id": "futc-r6", "kind": "mc", "difficulty": "intermediate", "prompt": "This time next week, I ___ on the beach.", "options": ["will be relaxing", "will relax", "am relaxing", "relax"], "answer": "will be relaxing", "full": "This time next week, I will be relaxing on the beach.", "pt": "Na próxima semana a esta hora, estarei relaxando na praia.", "explanation": "Em andamento num momento futuro." },
+    {"id": "futc-r7", "kind": "mc", "difficulty": "advanced", "prompt": "A: Will she be working? B: No, she ___.", "options": ["won't", "will", "isn't", "doesn't"], "answer": "won't", "full": "A: Will she be working? B: No, she won't.", "pt": "A: Ela estará trabalhando? B: Não.", "explanation": "Resposta curta negativa: No, she won't." },
+    { "id": "futc-r8", "kind": "typed", "difficulty": "advanced", "prompt": "He will be ___ (run) at 6 a.m.", "accept": ["running"], "answer": "running", "full": "He will be running at 6 a.m.", "pt": "Ele estará correndo às 6h.", "explanation": "will be + -ing (run → running)." },
+    { "id": "futc-r9", "kind": "mc", "difficulty": "advanced", "prompt": "Don't call me then. I'll ___ a meeting.", "options": ["be having", "have", "am having", "had"], "answer": "be having", "full": "Don't call me then. I'll be having a meeting.", "pt": "Não me ligue nessa hora. Estarei numa reunião.", "explanation": "Em andamento num momento futuro → will be + -ing." },
+    { "id": "futc-r10", "kind": "typed", "difficulty": "advanced", "prompt": "Tomorrow at 8, we will be ___ (eat) dinner.", "accept": ["eating"], "answer": "eating", "full": "Tomorrow at 8, we will be eating dinner.", "pt": "Amanhã às 8, estaremos jantando.", "explanation": "will be + -ing." }
+  ]
+}

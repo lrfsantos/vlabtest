@@ -1,0 +1,23 @@
+{
+ "travel": {
+  "past": [
+   "travelled"
+  ],
+  "part": [
+   "travelled"
+  ]
+ },
+ "learn": {
+  "past": [
+   "learnt"
+  ],
+  "part": [
+   "learnt"
+  ]
+ },
+ "get": {
+  "part": [
+   "got"
+  ]
+ }
+}

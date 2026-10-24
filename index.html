@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data:; manifest-src 'self'; connect-src 'self'; worker-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Verb Lab</title>
+<meta name="theme-color" content="#F7F6F2">
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Verb Lab">
+<meta name="description" content="Verb Lab — prática de verbos em inglês, feita para estudo livre e não comercial.">
+</head>
+<body>
+<header id="header"><div class="brand"><svg class="logo" viewBox="0 0 28 28" width="28" height="28" aria-hidden="true"><rect x="2" y="5" width="12" height="4" rx="2" fill="currentColor"/><rect x="2" y="12" width="20" height="4" rx="2" fill="currentColor"/><rect x="2" y="19" width="24" height="4" rx="2" fill="currentColor"/></svg><span class="sr-only">Verb Lab</span><span aria-hidden="true">verb<b>lab</b></span></div><div class="stats" aria-label="Seu progresso"><span class="stat"><b id="xpPill">0 XP</b><button type="button" class="hint" data-hint="xp" aria-label="Ajuda: o que é XP?">?</button></span><span class="stat streak" id="streakPill">Sequência <b id="streakNum">0</b> dias<button type="button" class="hint" data-hint="streak" aria-label="Ajuda: o que é sequência?">?</button></span><span id="levelPill" hidden></span></div><div class="header-controls"><div class="seg" role="group" aria-label="Tamanho do texto"><button class="ts-btn" id="tsDown" aria-label="Diminuir texto">A−</button><button class="ts-btn" id="tsUp" aria-label="Aumentar texto">A+</button></div><button class="menu-btn" id="helpBtn">Ajuda</button><button class="menu-btn" id="menuBtn" aria-haspopup="true" aria-expanded="false">Menu</button></div></header>
+<div class="menu-overlay" id="menuOverlay"></div>
+<div class="menu-sheet" id="menuSheet" role="menu" aria-label="Menu">
+  <button role="menuitem" data-action="startGuide">Guia passo a passo</button>
+  <button role="menuitem" data-action="openHelp">Ajuda e perguntas</button>
+  <button role="menuitem" data-action="openPicker">Mudar o que estudar</button>
+  <button role="menuitem" data-action="openExplore">Explorar verbos</button>
+  <button role="menuitem" data-action="openChart">Tabela de irregulares</button>
+  <button role="menuitem" data-action="openKeep">Keep Your English (5 min)</button>
+  <button role="menuitem" data-action="openMissed" id="menuMissedBtn">Revisar erros</button>
+  <button role="menuitem" data-action="openSettings">Opções e texto</button>
+</div>
+<main>
+<h1 id="title"></h1>
+<div class="sub" id="sub"></div>
+<div class="tabs" id="tabs"></div>
+<div id="content"></div>
+</main>
+<div class="cta-wrap"><div class="cta-inner"><button class="btn-primary" id="practiceBtn" disabled><span id="practiceLabel">Praticar</span><span id="xpGain"></span></button><div class="btn-sub" id="hint"></div></div></div>
+
+<div id="quiz" role="dialog" aria-modal="true" aria-label="Exercício"><div class="quiz-head"><button class="icon-btn" data-action="quitQuiz" aria-label="sair">✕</button><div class="q-progress"><i id="qbar"></i></div><div class="q-count" id="qcount" aria-live="polite"></div></div><div class="quiz-body" id="quizBody" aria-live="polite"></div></div>
+
+<div id="explore" role="dialog" aria-modal="true" aria-label="Explorar verbos"><div class="explore-backdrop" data-action="closeExplore"></div><div class="explore-sheet"><div class="explore-head"><b style="font-weight:900">Explorar verbos</b><button class="icon-btn" data-action="closeExplore">✕</button></div><div class="explore-search"><input id="searchInput" placeholder="Buscar: go, comer, have..."></div><div class="chips" id="chips"></div><div class="explore-list" id="exploreList"></div></div></div>
+
+<div class="done-screen" id="doneScreen" role="dialog" aria-modal="true" aria-label="Resultado da prática"><div class="done-card"><canvas class="confetti" id="confetti" aria-hidden="true"></canvas><div class="done-ico" aria-hidden="true"><svg viewBox="0 0 24 24" width="56" height="56" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12.5l3 3 5-6"/></svg></div><div style="font-size:1.625rem;font-weight:900;margin-top:8px" id="doneScore" aria-live="polite">–</div><div style="font-size:0.9375rem;color:var(--muted);margin-top:4px;font-weight:700" id="doneXP" aria-live="polite">–</div><div style="margin-top:12px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap"><div class="pill streak show">Sequência <b id="doneStreak">0</b> dias</div><div class="pill level" id="doneLevel">Lv 1</div></div><div style="margin-top:14px"><div class="level-bar" style="height:10px"><i id="doneBar"></i></div><div class="level-text" id="doneLevelText" style="margin-top:6px;text-align:center">0 / 100 XP → Lv 2</div></div><div style="margin-top:14px;text-align:left;background:var(--paper-2);border:1px solid var(--line);border-radius:8px;padding:12px;font-size:1rem;color:var(--ink)" id="doneText"></div><button class="btn-primary" data-action="closeDone" style="margin-top:16px">Continuar</button></div></div>
+
+<div class="welcome-screen" id="welcome" role="dialog" aria-modal="true" aria-label="Escolha seu nível"><div class="welcome-card"><div class="welcome-title">Como você quer praticar hoje?</div><div class="welcome-grid" id="welcomeGrid"></div><div class="welcome-actions"><button class="btn-primary" id="welcomeStart" disabled data-action="confirmWelcome">Começar</button><button class="welcome-custom" data-action="openPicker">Escolher o que estudar</button></div></div></div>
+<div class="done-screen" id="picker" role="dialog" aria-modal="true" aria-label="Escolher o que estudar"></div>
+<div class="done-screen" id="settings" role="dialog" aria-modal="true" aria-label="Opções"></div>
+<div class="done-screen" id="chart" role="dialog" aria-modal="true" aria-label="Tabela de irregulares"></div>
+<div class="done-screen" id="selftest" role="dialog" aria-modal="true" aria-label="Autoteste"></div>
+<div class="done-screen" id="help" role="dialog" aria-modal="true" aria-label="Ajuda"></div>
+<div id="coach" class="coach" role="region" aria-label="Guia passo a passo" aria-live="polite" hidden></div>
+<div id="hintSheet" class="coach hintsheet" role="dialog" aria-label="Ajuda rápida" hidden></div>
+<div id="srStatus" class="sr-only" role="status" aria-live="polite"></div>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

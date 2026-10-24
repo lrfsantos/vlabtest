@@ -1,0 +1,64 @@
+{
+  "id": "going-to",
+  "name": "be going to",
+  "namePt": "be going to",
+  "group": "related",
+  "order": 1,
+  "aux": "am/is/are going to",
+  "summaryPt": "Planos já decididos e previsões com evidência.",
+  "meaningUses": [
+    { "pt": "Plano ou intenção já decididos", "en": "I'm going to visit my mom this weekend.", "enPt": "Vou visitar minha mãe neste fim de semana." },
+    { "pt": "Previsão com evidência visível", "en": "Look at those clouds. It's going to rain.", "enPt": "Olha aquelas nuvens. Vai chover." }
+  ],
+  "formation": [
+    { "section": "Afirmativa", "pt": "Sujeito + am/is/are + going to + verbo base.", "pattern": "I am going to work — she is going to work", "examples": [{ "en": "I'm going to call my mom.", "pt": "Vou ligar para minha mãe." }] },
+    { "section": "Negativa", "pt": "Sujeito + am/is/are + not + going to + verbo base.", "pattern": "I'm not going to work", "examples": [{ "en": "I'm not going to go out tonight.", "pt": "Não vou sair hoje à noite." }] },
+    { "section": "Perguntas", "pt": "Am/Is/Are + sujeito + going to + verbo base?", "pattern": "Are you going to study?", "examples": [{ "en": "Are you going to study tonight?", "pt": "Você vai estudar hoje à noite?" }] },
+    { "section": "Respostas curtas", "pt": "Yes, + pronome + am/is/are. No, + pronome + 'm not/isn't/aren't.", "pattern": "Yes, I am. / No, she isn't.", "examples": [{ "en": "A: Are you going to come? B: Yes, I am.", "pt": "A: Você vai vir? B: Sim." }] }
+  ],
+  "subjectAgreement": [
+    { "pt": "I → am going to", "example": "I'm going to study." },
+    { "pt": "he / she / it → is going to", "example": "She is going to study." },
+    { "pt": "you / we / they → are going to", "example": "We are going to study." }
+  ],
+  "spelling": [],
+  "pronunciation": [
+    { "pt": "going to em fala rápida → gonna.", "example": "I'm gonna call you. (informal)" }
+  ],
+  "commonErrors": [
+    { "pt": "Esquecer o verbo to be", "wrong": "I going to study.", "right": "I am going to study." },
+    { "pt": "Colocar to be depois do going to", "wrong": "I'm going to am study.", "right": "I'm going to study." }
+  ],
+  "contrast": [
+    { "with": "future-simple", "pt": "be going to = plano decidido. will = decisão espontânea/previsão.", "en": "I'm going to visit my mom. (plano) — I'll help you. (espontâneo)", "enPt": "Vou visitar minha mãe. — Vou te ajudar." }
+  ],
+  "examples": [
+    { "en": "I'm going to visit my mom this weekend.", "pt": "Vou visitar minha mãe neste fim de semana." },
+    { "en": "It's going to rain.", "pt": "Vai chover." },
+    { "en": "We're going to have pizza for dinner.", "pt": "Vamos comer pizza no jantar." },
+    { "en": "I'm not going to go out tonight.", "pt": "Não vou sair hoje à noite." },
+    { "en": "Are you going to study tonight?", "pt": "Você vai estudar hoje à noite?" }
+  ],
+  "guidedPractice": [
+    { "id": "gt-g1", "kind": "mc", "difficulty": "basic", "prompt": "I ___ going to study tonight.", "options": ["am", "is", "are", "be"], "answer": "am", "full": "I am going to study tonight.", "pt": "Vou estudar hoje à noite.", "explanation": "Com I, use am." },
+    { "id": "gt-g2", "kind": "typed", "difficulty": "basic", "prompt": "She ___ going to call you. (is)", "accept": ["is"], "answer": "is", "full": "She is going to call you.", "pt": "Ela vai te ligar.", "explanation": "Com she, use is." },
+    { "id": "gt-g3", "kind": "mc", "difficulty": "basic", "prompt": "We ___ going to have pizza.", "options": ["are", "is", "am", "be"], "answer": "are", "full": "We are going to have pizza.", "pt": "Vamos comer pizza.", "explanation": "Com we, use are." },
+    { "id": "gt-g4", "kind": "mc", "difficulty": "intermediate", "prompt": "Look at those clouds. It ___ going to rain.", "options": ["is", "are", "am", "be"], "answer": "is", "full": "Look at those clouds. It is going to rain.", "pt": "Olha aquelas nuvens. Vai chover.", "explanation": "Previsão com evidência → is going to." },
+    { "id": "gt-g5", "kind": "typed", "difficulty": "intermediate", "prompt": "I ___ going to buy a new phone. (am not)", "accept": ["am not", "'m not"], "answer": "am not", "full": "I'm not going to buy a new phone.", "pt": "Não vou comprar um celular novo.", "explanation": "Negativa: am + not + going to." },
+    { "id": "gt-g6", "kind": "mc", "difficulty": "intermediate", "prompt": "___ you going to study tonight?", "options": ["Are", "Is", "Am", "Do"], "answer": "Are", "full": "Are you going to study tonight?", "pt": "Você vai estudar hoje à noite?", "explanation": "Pergunta com you: Are + sujeito + going to." },
+    { "id": "gt-g7", "kind": "mc", "difficulty": "advanced", "prompt": "A: Are you going to come? B: Yes, I ___.", "options": ["am", "is", "are", "do"], "answer": "am", "full": "A: Are you going to come? B: Yes, I am.", "pt": "A: Você vai vir? B: Sim.", "explanation": "Resposta curta com going to: Yes, I am." },
+    { "id": "gt-g8", "kind": "typed", "difficulty": "advanced", "prompt": "They ___ going to move next month. (are not)", "accept": ["aren't", "are not"], "answer": "aren't", "full": "They aren't going to move next month.", "pt": "Eles não vão se mudar no mês que vem.", "explanation": "Negativa com they: are + not." }
+  ],
+  "reviewQuiz": [
+    { "id": "gt-r1", "kind": "mc", "difficulty": "basic", "prompt": "I ___ going to visit my mom.", "options": ["am", "is", "are", "be"], "answer": "am", "full": "I am going to visit my mom.", "pt": "Vou visitar minha mãe.", "explanation": "Com I, use am." },
+    { "id": "gt-r2", "kind": "typed", "difficulty": "basic", "prompt": "She ___ going to work. (is)", "accept": ["is"], "answer": "is", "full": "She is going to work.", "pt": "Ela vai trabalhar.", "explanation": "Com she, use is." },
+    { "id": "gt-r3", "kind": "mc", "difficulty": "basic", "prompt": "They ___ going to play soccer.", "options": ["are", "is", "am", "be"], "answer": "are", "full": "They are going to play soccer.", "pt": "Eles vão jogar futebol.", "explanation": "Com they, use are." },
+    { "id": "gt-r4", "kind": "mc", "difficulty": "intermediate", "prompt": "It's very cloudy. It ___ going to rain.", "options": ["is", "are", "am", "be"], "answer": "is", "full": "It's very cloudy. It is going to rain.", "pt": "Está muito nublado. Vai chover.", "explanation": "Previsão com evidência → is going to." },
+    { "id": "gt-r5", "kind": "mc", "difficulty": "intermediate", "prompt": "I ___ going to go out tonight.", "options": ["am not", "isn't", "aren't", "don't"], "answer": "am not", "full": "I'm not going to go out tonight.", "pt": "Não vou sair hoje à noite.", "explanation": "Negativa com I: am + not." },
+    { "id": "gt-r6", "kind": "mc", "difficulty": "intermediate", "prompt": "___ she going to join us?", "options": ["Is", "Are", "Am", "Do"], "answer": "Is", "full": "Is she going to join us?", "pt": "Ela vai se juntar a nós?", "explanation": "Pergunta com she: Is + sujeito + going to." },
+    { "id": "gt-r7", "kind": "mc", "difficulty": "advanced", "prompt": "A: Is he going to come? B: No, he ___.", "options": ["isn't", "aren't", "doesn't", "won't"], "answer": "isn't", "full": "A: Is he going to come? B: No, he isn't.", "pt": "A: Ele vai vir? B: Não.", "explanation": "Resposta curta negativa: No, he isn't." },
+    { "id": "gt-r8", "kind": "typed", "difficulty": "advanced", "prompt": "We ___ going to move next month. (are not)", "accept": ["aren't", "are not"], "answer": "aren't", "full": "We aren't going to move next month.", "pt": "Não vamos nos mudar no mês que vem.", "explanation": "Negativa com we: are + not." },
+    { "id": "gt-r9", "kind": "mc", "difficulty": "advanced", "prompt": "I've decided. I ___ going to study medicine.", "options": ["am", "is", "are", "be"], "answer": "am", "full": "I've decided. I am going to study medicine.", "pt": "Decidi. Vou estudar medicina.", "explanation": "Plano decidido → be going to." },
+    { "id": "gt-r10", "kind": "typed", "difficulty": "advanced", "prompt": "He ___ going to buy a car. (is not)", "accept": ["isn't", "is not"], "answer": "isn't", "full": "He isn't going to buy a car.", "pt": "Ele não vai comprar um carro.", "explanation": "Negativa com he: is + not." }
+  ]
+}

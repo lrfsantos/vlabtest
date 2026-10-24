@@ -1,0 +1,70 @@
+{
+  "id": "past-simple",
+  "name": "Past Simple",
+  "namePt": "Passado Simples",
+  "group": "past",
+  "order": 1,
+  "aux": "did",
+  "summaryPt": "Ação concluída no passado, com tempo definido ou implícito.",
+  "meaningUses": [
+    { "pt": "Ação concluída com tempo definido", "en": "I visited Rio in 2019.", "enPt": "Visitei o Rio em 2019." },
+    { "pt": "Sequência de eventos no passado", "en": "I woke up, ate breakfast, and left.", "enPt": "Acordei, tomei café e saí." },
+    { "pt": "Histórias e lembranças", "en": "We had a great time.", "enPt": "Nós nos divertimos muito." }
+  ],
+  "formation": [
+    { "section": "Afirmativa", "pt": "Verbos regulares: verbo + -ed. Irregulares: forma própria (go → went).", "pattern": "I worked — she went", "examples": [{ "en": "She worked late last night.", "pt": "Ela trabalhou até tarde ontem à noite." }] },
+    { "section": "Negativa", "pt": "didn't (did not) + verbo base.", "pattern": "I didn't work — she didn't go", "examples": [{ "en": "I didn't watch TV last night.", "pt": "Não assisti TV ontem à noite." }] },
+    { "section": "Perguntas", "pt": "Did + sujeito + verbo base?", "pattern": "Did you work? — Did she go?", "examples": [{ "en": "Did you sleep well?", "pt": "Você dormiu bem?" }] },
+    { "section": "Respostas curtas", "pt": "Yes, + pronome + did. No, + pronome + didn't.", "pattern": "Yes, I did. / No, she didn't.", "examples": [{ "en": "A: Did you go? B: Yes, I did.", "pt": "A: Você foi? B: Sim." }] }
+  ],
+  "subjectAgreement": [
+    { "pt": "A mesma forma para todas as pessoas.", "example": "I worked. You worked. She worked. We worked. They worked." }
+  ],
+  "spelling": [
+    { "pt": "Verbos regulares: verbo + -ed", "example": "work → worked, play → played" },
+    { "pt": "Terminados em -e: só + -d", "example": "live → lived, like → liked" },
+    { "pt": "Consoante + y → -ied", "example": "study → studied, try → tried" },
+    { "pt": "Consoante-vogal-consoante (curta): dobra a consoante", "example": "stop → stopped, plan → planned" }
+  ],
+  "pronunciation": [
+    { "pt": "O -ed é pronunciado /t/, /d/ ou /ɪd/, conforme o som final.", "example": "worked /t/, played /d/, wanted /ɪd/" },
+    { "pt": "/ɪd/ só depois de som de t ou d.", "example": "wanted, needed, started" }
+  ],
+  "commonErrors": [
+    { "pt": "Usar presente em vez de passado com tempo definido", "wrong": "I visit Rio in 2019.", "right": "I visited Rio in 2019." },
+    { "pt": "Esquecer o -ed nos regulares", "wrong": "She work late.", "right": "She worked late." },
+    { "pt": "Manter o verbo no passado depois do didn't", "wrong": "I didn't worked.", "right": "I didn't work." }
+  ],
+  "contrast": [
+    { "with": "present-perfect", "pt": "Past simple = tempo definido. Present perfect = experiência sem tempo.", "en": "I visited Rio in 2019. — I have visited Rio.", "enPt": "Visitei o Rio em 2019. — Já visitei o Rio." }
+  ],
+  "examples": [
+    { "en": "She worked late last night.", "pt": "Ela trabalhou até tarde ontem à noite." },
+    { "en": "We went to the beach on Sunday.", "pt": "Fomos à praia no domingo." },
+    { "en": "I didn't watch TV last night.", "pt": "Não assisti TV ontem à noite." },
+    { "en": "Did you sleep well?", "pt": "Você dormiu bem?" },
+    { "en": "They studied for the test.", "pt": "Eles estudaram para a prova." }
+  ],
+  "guidedPractice": [
+    { "id": "past-g1", "kind": "mc", "difficulty": "basic", "prompt": "She ___ late last night.", "options": ["worked", "work", "working", "works"], "answer": "worked", "full": "She worked late last night.", "pt": "Ela trabalhou até tarde ontem à noite.", "explanation": "Regular: work → worked." },
+    { "id": "past-g2", "kind": "typed", "difficulty": "basic", "prompt": "We ___ (go) to the beach on Sunday.", "accept": ["went"], "answer": "went", "full": "We went to the beach on Sunday.", "pt": "Fomos à praia no domingo.", "explanation": "Irregular: go → went." },
+    { "id": "past-g3", "kind": "mc", "difficulty": "basic", "prompt": "I ___ TV last night.", "options": ["didn't watch", "don't watch", "didn't watched", "not watch"], "answer": "didn't watch", "full": "I didn't watch TV last night.", "pt": "Não assisti TV ontem à noite.", "explanation": "Negativa: didn't + verbo base." },
+    { "id": "past-g4", "kind": "mc", "difficulty": "intermediate", "prompt": "___ you sleep well?", "options": ["Did", "Do", "Does", "Were"], "answer": "Did", "full": "Did you sleep well?", "pt": "Você dormiu bem?", "explanation": "Pergunta no passado: Did + sujeito + verbo base." },
+    { "id": "past-g5", "kind": "typed", "difficulty": "intermediate", "prompt": "She ___ (study) for the test.", "accept": ["studied"], "answer": "studied", "full": "She studied for the test.", "pt": "Ela estudou para a prova.", "explanation": "Consoante + y → -ied: study → studied." },
+    { "id": "past-g6", "kind": "mc", "difficulty": "intermediate", "prompt": "They ___ the bus this morning.", "options": ["missed", "miss", "missing", "misses"], "answer": "missed", "full": "They missed the bus this morning.", "pt": "Eles perderam o ônibus esta manhã.", "explanation": "Regular: miss → missed." },
+    { "id": "past-g7", "kind": "mc", "difficulty": "advanced", "prompt": "A: Did you go? B: Yes, I ___.", "options": ["did", "do", "went", "go"], "answer": "did", "full": "A: Did you go? B: Yes, I did.", "pt": "A: Você foi? B: Sim.", "explanation": "Resposta curta: Yes, + pronome + did." },
+    { "id": "past-g8", "kind": "typed", "difficulty": "advanced", "prompt": "We ___ (stop) at the red light.", "accept": ["stopped"], "answer": "stopped", "full": "We stopped at the red light.", "pt": "Paramos no sinal vermelho.", "explanation": "Consoante-vogal-consoante: stop → stopped." }
+  ],
+  "reviewQuiz": [
+    { "id": "past-r1", "kind": "mc", "difficulty": "basic", "prompt": "I ___ my homework yesterday.", "options": ["did", "do", "done", "doing"], "answer": "did", "full": "I did my homework yesterday.", "pt": "Fiz minha lição ontem.", "explanation": "Irregular: do → did." },
+    { "id": "past-r2", "kind": "typed", "difficulty": "basic", "prompt": "She ___ (walk) to school.", "accept": ["walked"], "answer": "walked", "full": "She walked to school.", "pt": "Ela foi a pé para a escola.", "explanation": "Regular: walk → walked." },
+    { "id": "past-r3", "kind": "mc", "difficulty": "basic", "prompt": "He ___ at home last night.", "options": ["stayed", "stay", "staying", "stays"], "answer": "stayed", "full": "He stayed at home last night.", "pt": "Ele ficou em casa ontem à noite.", "explanation": "Regular: stay → stayed." },
+    { "id": "past-r4", "kind": "mc", "difficulty": "intermediate", "prompt": "I ___ the movie yesterday.", "options": ["didn't watch", "don't watch", "didn't watched", "not watch"], "answer": "didn't watch", "full": "I didn't watch the movie yesterday.", "pt": "Não assisti ao filme ontem.", "explanation": "Negativa: didn't + verbo base." },
+    { "id": "past-r5", "kind": "mc", "difficulty": "intermediate", "prompt": "___ she call you?", "options": ["Did", "Do", "Does", "Was"], "answer": "Did", "full": "Did she call you?", "pt": "Ela ligou para você?", "explanation": "Pergunta no passado: Did + sujeito + verbo base." },
+    { "id": "past-r6", "kind": "typed", "difficulty": "intermediate", "prompt": "They ___ (visit) their grandparents.", "accept": ["visited"], "answer": "visited", "full": "They visited their grandparents.", "pt": "Eles visitaram os avós.", "explanation": "Regular: visit → visited." },
+    { "id": "past-r7", "kind": "mc", "difficulty": "advanced", "prompt": "A: Did she study? B: No, she ___.", "options": ["didn't", "doesn't", "don't", "wasn't"], "answer": "didn't", "full": "A: Did she study? B: No, she didn't.", "pt": "A: Ela estudou? B: Não.", "explanation": "Resposta curta negativa: No, she didn't." },
+    { "id": "past-r8", "kind": "typed", "difficulty": "advanced", "prompt": "We ___ (have) a great time.", "accept": ["had"], "answer": "had", "full": "We had a great time.", "pt": "Nós nos divertimos muito.", "explanation": "Irregular: have → had." },
+    { "id": "past-r9", "kind": "mc", "difficulty": "advanced", "prompt": "I woke up, ate breakfast, and ___ for work.", "options": ["left", "leave", "leaves", "leaving"], "answer": "left", "full": "I woke up, ate breakfast, and left for work.", "pt": "Acordei, tomei café e saí para o trabalho.", "explanation": "Sequência no passado: leave → left." },
+    { "id": "past-r10", "kind": "typed", "difficulty": "advanced", "prompt": "She ___ (carry) the bags alone.", "accept": ["carried"], "answer": "carried", "full": "She carried the bags alone.", "pt": "Ela carregou as sacolas sozinha.", "explanation": "Consoante + y → -ied: carry → carried." }
+  ]
+}

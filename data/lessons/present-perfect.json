@@ -1,0 +1,66 @@
+{
+  "id": "present-perfect",
+  "name": "Present Perfect",
+  "namePt": "Present Perfect",
+  "group": "present",
+  "order": 3,
+  "aux": "have / has",
+  "summaryPt": "Liga passado e presente: experiências, resultados recentes e ações que continuam até agora.",
+  "meaningUses": [
+    { "pt": "Experiências de vida (sem dizer quando)", "en": "I have visited Rio.", "enPt": "Já visitei o Rio." },
+    { "pt": "Ações que terminaram agora / resultado recente", "en": "I have lost my keys.", "enPt": "Perdi minhas chaves (agora estou sem elas)." },
+    { "pt": "Ações que começaram no passado e continuam", "en": "She has lived here since 2020.", "enPt": "Ela mora aqui desde 2020." }
+  ],
+  "formation": [
+    { "section": "Afirmativa", "pt": "Sujeito + have/has + particípio passado.", "pattern": "I have worked — she has worked", "examples": [{ "en": "I have seen that movie.", "pt": "Já vi esse filme." }] },
+    { "section": "Negativa", "pt": "Sujeito + haven't/hasn't + particípio.", "pattern": "I haven't seen it — she hasn't eaten", "examples": [{ "en": "I haven't finished yet.", "pt": "Ainda não terminei." }] },
+    { "section": "Perguntas", "pt": "Have / Has + sujeito + particípio?", "pattern": "Have you seen it? — Has she arrived?", "examples": [{ "en": "Have you ever been to Japan?", "pt": "Você já esteve no Japão?" }] },
+    { "section": "Respostas curtas", "pt": "Yes, + pronome + have/has. No, + pronome + haven't/hasn't.", "pattern": "Yes, I have. / No, she hasn't.", "examples": [{ "en": "A: Have you eaten? B: Yes, I have.", "pt": "A: Você comeu? B: Sim." }] }
+  ],
+  "subjectAgreement": [
+    { "pt": "he / she / it → has", "example": "She has gone." },
+    { "pt": "I / you / we / they → have", "example": "I have gone. We have gone." }
+  ],
+  "spelling": [],
+  "pronunciation": [
+    { "pt": "have/has são curtos e átonos em frases comuns.", "example": "I've done it. She's gone." },
+    { "pt": "O particípio irregular não ganha -ed. Decore as formas.", "example": "go → gone, see → seen, eat → eaten" }
+  ],
+  "commonErrors": [
+    { "pt": "Usar presente simples para experiência", "wrong": "I visit Rio.", "right": "I have visited Rio." },
+    { "pt": "Confundir has (3ª pessoa) com have", "wrong": "She have gone.", "right": "She has gone." },
+    { "pt": "Usar particípio no lugar errado", "wrong": "I seen that movie.", "right": "I have seen that movie." }
+  ],
+  "contrast": [
+    { "with": "past-simple", "pt": "Past simple = ação concluída com tempo definido. Present perfect = experiência sem tempo definido ou ação que continua.", "en": "I visited Rio in 2019. (definido) — I have visited Rio. (experiência)", "enPt": "Visitei o Rio em 2019. — Já visitei o Rio." }
+  ],
+  "examples": [
+    { "en": "I have finished my homework.", "pt": "Terminei minha lição." },
+    { "en": "She has lived here since 2020.", "pt": "Ela mora aqui desde 2020." },
+    { "en": "We haven't seen that movie yet.", "pt": "Ainda não vimos esse filme." },
+    { "en": "Have you ever been to Japan?", "pt": "Você já esteve no Japão?" },
+    { "en": "I have lost my keys.", "pt": "Perdi minhas chaves (agora)." }
+  ],
+  "guidedPractice": [
+    { "id": "pp-g1", "kind": "mc", "difficulty": "basic", "prompt": "I have ___ the movie.", "options": ["seen", "saw", "see", "seeing"], "answer": "seen", "full": "I have seen the movie.", "pt": "Já vi o filme.", "explanation": "Particiípio de see → seen." },
+    { "id": "pp-g2", "kind": "mc", "difficulty": "basic", "prompt": "She ___ finished her work.", "options": ["has", "have", "is", "does"], "answer": "has", "full": "She has finished her work.", "pt": "Ela terminou o trabalho.", "explanation": "Com she, use has." },
+    { "id": "pp-g3", "kind": "typed", "difficulty": "basic", "prompt": "I have ___ (eat) breakfast.", "accept": ["eaten"], "answer": "eaten", "full": "I have eaten breakfast.", "pt": "Já comi o café da manhã.", "explanation": "Particípio irregular de eat → eaten." },
+    { "id": "pp-g4", "kind": "mc", "difficulty": "intermediate", "prompt": "___ you ever been to Rio?", "options": ["Have", "Has", "Do", "Are"], "answer": "Have", "full": "Have you ever been to Rio?", "pt": "Você já esteve no Rio?", "explanation": "Pergunta com you: Have + sujeito + particípio." },
+    { "id": "pp-g5", "kind": "mc", "difficulty": "intermediate", "prompt": "She has ___ here since 2020.", "options": ["lived", "live", "living", "lives"], "answer": "lived", "full": "She has lived here since 2020.", "pt": "Ela mora aqui desde 2020.", "explanation": "Ação que começou no passado e continua → have/has + particípio (regular: lived)." },
+    { "id": "pp-g6", "kind": "typed", "difficulty": "intermediate", "prompt": "I ___ (not finish) my homework yet.", "accept": ["haven't finished", "have not finished"], "answer": "haven't finished", "full": "I haven't finished my homework yet.", "pt": "Ainda não terminei minha lição.", "explanation": "Negativa: have + not + particípio." },
+    { "id": "pp-g7", "kind": "mc", "difficulty": "advanced", "prompt": "A: Have you eaten? B: Yes, I ___.", "options": ["have", "has", "did", "am"], "answer": "have", "full": "A: Have you eaten? B: Yes, I have.", "pt": "A: Você comeu? B: Sim.", "explanation": "Resposta curta: Yes, + pronome + have." },
+    { "id": "pp-g8", "kind": "typed", "difficulty": "advanced", "prompt": "She has ___ (write) three books.", "accept": ["written"], "answer": "written", "full": "She has written three books.", "pt": "Ela escreveu três livros.", "explanation": "Particípio irregular de write → written." }
+  ],
+  "reviewQuiz": [
+    { "id": "pp-r1", "kind": "mc", "difficulty": "basic", "prompt": "I have ___ that movie.", "options": ["seen", "saw", "see", "seeing"], "answer": "seen", "full": "I have seen that movie.", "pt": "Já vi esse filme.", "explanation": "Present perfect → have + particípio (seen)." },
+    { "id": "pp-r2", "kind": "mc", "difficulty": "basic", "prompt": "She ___ arrived.", "options": ["has", "have", "is", "does"], "answer": "has", "full": "She has arrived.", "pt": "Ela chegou.", "explanation": "Com she, use has." },
+    { "id": "pp-r3", "kind": "typed", "difficulty": "basic", "prompt": "We have ___ (go) home.", "accept": ["gone"], "answer": "gone", "full": "We have gone home.", "pt": "Fomos para casa.", "explanation": "Particípio de go → gone." },
+    { "id": "pp-r4", "kind": "mc", "difficulty": "intermediate", "prompt": "I ___ visited Japan yet.", "options": ["haven't", "hasn't", "don't", "isn't"], "answer": "haven't", "full": "I haven't visited Japan yet.", "pt": "Ainda não visitei o Japão.", "explanation": "Negativa com I: have + not." },
+    { "id": "pp-r5", "kind": "mc", "difficulty": "intermediate", "prompt": "___ she finished the report?", "options": ["Has", "Have", "Is", "Does"], "answer": "Has", "full": "Has she finished the report?", "pt": "Ela terminou o relatório?", "explanation": "Pergunta com she: Has + sujeito + particípio." },
+    { "id": "pp-r6", "kind": "typed", "difficulty": "intermediate", "prompt": "I have ___ (live) here for five years.", "accept": ["lived"], "answer": "lived", "full": "I have lived here for five years.", "pt": "Moro aqui há cinco anos.", "explanation": "Ação contínua → have + particípio regular (lived)." },
+    { "id": "pp-r7", "kind": "mc", "difficulty": "advanced", "prompt": "A: Has she called? B: No, she ___.", "options": ["hasn't", "haven't", "isn't", "doesn't"], "answer": "hasn't", "full": "A: Has she called? B: No, she hasn't.", "pt": "A: Ela ligou? B: Não.", "explanation": "Resposta curta negativa: No, she hasn't." },
+    { "id": "pp-r8", "kind": "typed", "difficulty": "advanced", "prompt": "They have ___ (break) the window.", "accept": ["broken"], "answer": "broken", "full": "They have broken the window.", "pt": "Eles quebraram a janela.", "explanation": "Particípio irregular de break → broken." },
+    { "id": "pp-r9", "kind": "mc", "difficulty": "advanced", "prompt": "She has lived here ___ 2020.", "options": ["since", "for", "during", "from"], "answer": "since", "full": "She has lived here since 2020.", "pt": "Ela mora aqui desde 2020.", "explanation": "since + ponto de início; for + duração." },
+    { "id": "pp-r10", "kind": "mc", "difficulty": "advanced", "prompt": "I have studied English ___ three years.", "options": ["for", "since", "during", "from"], "answer": "for", "full": "I have studied English for three years.", "pt": "Estudo inglês há três anos.", "explanation": "for + duração (três anos)." }
+  ]
+}

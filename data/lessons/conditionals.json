@@ -1,0 +1,64 @@
+{
+  "id": "conditionals",
+  "name": "Condicionais",
+  "namePt": "Frases condicionais (if)",
+  "group": "related",
+  "order": 4,
+  "aux": "if + will / would / had",
+  "summaryPt": "Estruturas if para situações reais, hipotéticas e passadas.",
+  "meaningUses": [
+    { "pt": "Zero conditional: fatos", "en": "If you heat water, it boils.", "enPt": "Se você aquece a água, ela ferve." },
+    { "pt": "First conditional: futuro real", "en": "If it rains, I'll stay home.", "enPt": "Se chover, vou ficar em casa." },
+    { "pt": "Second conditional: hipótese no presente/futuro", "en": "If I had money, I would travel.", "enPt": "Se eu tivesse dinheiro, viajaria." },
+    { "pt": "Third conditional: hipótese no passado", "en": "If I had studied, I would have passed.", "enPt": "Se eu tivesse estudado, teria passado." }
+  ],
+  "formation": [
+    { "section": "Zero", "pt": "If + presente, presente.", "pattern": "If you heat water, it boils.", "examples": [{ "en": "If you heat water, it boils.", "pt": "Se você aquece a água, ela ferve." }] },
+    { "section": "First", "pt": "If + presente, will + verbo base.", "pattern": "If it rains, I'll stay home.", "examples": [{ "en": "If it rains, I'll stay home.", "pt": "Se chover, vou ficar em casa." }] },
+    { "section": "Second", "pt": "If + passado, would + verbo base.", "pattern": "If I had money, I would travel.", "examples": [{ "en": "If I had money, I would travel.", "pt": "Se eu tivesse dinheiro, viajaria." }] },
+    { "section": "Third", "pt": "If + past perfect, would have + particípio.", "pattern": "If I had studied, I would have passed.", "examples": [{ "en": "If I had studied, I would have passed.", "pt": "Se eu tivesse estudado, teria passado." }] }
+  ],
+  "subjectAgreement": [
+    { "pt": "No zero/first, o verbo na cláusula if concorda normalmente (3ª pessoa -s).", "example": "If she comes, we'll start." },
+    { "pt": "No second, todas as pessoas usam was/were ou o passado simples.", "example": "If I were rich, I would help. (were formal)" }
+  ],
+  "spelling": [],
+  "pronunciation": [
+    { "pt": "would é geralmente contraído para 'd.", "example": "I'd go. She'd help." }
+  ],
+  "commonErrors": [
+    { "pt": "Usar will dentro da cláusula if (first)", "wrong": "If it will rain, I'll stay home.", "right": "If it rains, I'll stay home." },
+    { "pt": "Usar would dentro da cláusula if (second)", "wrong": "If I would have money, I would travel.", "right": "If I had money, I would travel." },
+    { "pt": "Trocar as formas do second e third", "wrong": "If I studied, I would have passed.", "right": "If I had studied, I would have passed." }
+  ],
+  "contrast": [
+    { "with": "past-perfect", "pt": "Third conditional usa past perfect na cláusula if.", "en": "If I had studied, I would have passed.", "enPt": "Se eu tivesse estudado, teria passado." }
+  ],
+  "examples": [
+    { "en": "If you heat water, it boils.", "pt": "Se você aquece a água, ela ferve." },
+    { "en": "If it rains, I'll stay home.", "pt": "Se chover, vou ficar em casa." },
+    { "en": "If I had money, I would travel.", "pt": "Se eu tivesse dinheiro, viajaria." },
+    { "en": "If I had studied, I would have passed.", "pt": "Se eu tivesse estudado, teria passado." },
+    { "en": "If she comes, we'll start.", "pt": "Se ela vier, começamos." }
+  ],
+  "guidedPractice": [
+    { "id": "cond-g1", "kind": "mc", "difficulty": "intermediate", "prompt": "If it ___, I'll stay home.", "options": ["rains", "will rain", "rained", "would rain"], "answer": "rains", "full": "If it rains, I'll stay home.", "pt": "Se chover, vou ficar em casa.", "explanation": "First conditional: if + presente, will + verbo." },
+    { "id": "cond-g2", "kind": "mc", "difficulty": "intermediate", "prompt": "If I ___ money, I would travel.", "options": ["had", "have", "will have", "would have"], "answer": "had", "full": "If I had money, I would travel.", "pt": "Se eu tivesse dinheiro, viajaria.", "explanation": "Second conditional: if + passado, would + verbo." },
+    { "id": "cond-g3", "kind": "mc", "difficulty": "advanced", "prompt": "If I ___ studied, I would have passed.", "options": ["had", "have", "would", "did"], "answer": "had", "full": "If I had studied, I would have passed.", "pt": "Se eu tivesse estudado, teria passado.", "explanation": "Third conditional: if + past perfect, would have + particípio." },
+    { "id": "cond-g4", "kind": "typed", "difficulty": "intermediate", "prompt": "If you heat water, it ___ (boil).", "accept": ["boils"], "answer": "boils", "full": "If you heat water, it boils.", "pt": "Se você aquece a água, ela ferve.", "explanation": "Zero conditional: presente + presente." },
+    { "id": "cond-g5", "kind": "mc", "difficulty": "intermediate", "prompt": "If she ___, we'll start.", "options": ["comes", "will come", "came", "would come"], "answer": "comes", "full": "If she comes, we'll start.", "pt": "Se ela vier, começamos.", "explanation": "First conditional: if + presente (com -s)." },
+    { "id": "cond-g6", "kind": "typed", "difficulty": "advanced", "prompt": "If I had money, I ___ (travel).", "accept": ["would travel"], "answer": "would travel", "full": "If I had money, I would travel.", "pt": "Se eu tivesse dinheiro, viajaria.", "explanation": "Second conditional: would + verbo base." },
+    { "id": "cond-g7", "kind": "mc", "difficulty": "advanced", "prompt": "If I had studied, I ___ have passed.", "options": ["would", "will", "had", "did"], "answer": "would", "full": "If I had studied, I would have passed.", "pt": "Se eu tivesse estudado, teria passado.", "explanation": "Third conditional: would have + particípio." },
+    { "id": "cond-g8", "kind": "typed", "difficulty": "advanced", "prompt": "If I were rich, I ___ help people. (would)", "accept": ["would"], "answer": "would", "full": "If I were rich, I would help people.", "pt": "Se eu fosse rico, ajudaria as pessoas.", "explanation": "Second conditional: were (formal) + would." }
+  ],
+  "reviewQuiz": [
+    { "id": "cond-r1", "kind": "mc", "difficulty": "intermediate", "prompt": "If you heat water, it ___.", "options": ["boils", "will boil", "boiled", "would boil"], "answer": "boils", "full": "If you heat water, it boils.", "pt": "Se você aquece a água, ela ferve.", "explanation": "Zero conditional: presente + presente." },
+    { "id": "cond-r2", "kind": "mc", "difficulty": "intermediate", "prompt": "If it rains, I ___ stay home.", "options": ["will", "would", "did", "had"], "answer": "will", "full": "If it rains, I'll stay home.", "pt": "Se chover, vou ficar em casa.", "explanation": "First conditional: will + verbo." },
+    { "id": "cond-r3", "kind": "mc", "difficulty": "intermediate", "prompt": "If I ___ money, I would travel.", "options": ["had", "have", "will have", "would have"], "answer": "had", "full": "If I had money, I would travel.", "pt": "Se eu tivesse dinheiro, viajaria.", "explanation": "Second conditional: if + passado." },
+    { "id": "cond-r4", "kind": "typed", "difficulty": "intermediate", "prompt": "If she comes, we ___ start. (will)", "accept": ["will"], "answer": "will", "full": "If she comes, we'll start.", "pt": "Se ela vier, começamos.", "explanation": "First conditional: will + verbo." },
+    { "id": "cond-r5", "kind": "mc", "difficulty": "advanced", "prompt": "If I had studied, I ___ have passed.", "options": ["would", "will", "had", "did"], "answer": "would", "full": "If I had studied, I would have passed.", "pt": "Se eu tivesse estudado, teria passado.", "explanation": "Third conditional: would have + particípio." },
+    { "id": "cond-r6", "kind": "typed", "difficulty": "advanced", "prompt": "If I were you, I ___ call him. (would)", "accept": ["would"], "answer": "would", "full": "If I were you, I would call him.", "pt": "Se eu fosse você, ligaria para ele.", "explanation": "Second conditional: were (formal) + would." },
+    { "id": "cond-r7", "kind": "mc", "difficulty": "advanced", "prompt": "If it rains tomorrow, ___ the game.", "options": ["we'll cancel", "we cancel", "we'd cancel", "we cancel will"], "answer": "we'll cancel", "full": "If it rains tomorrow, we'll cancel the game.", "pt": "Se chover amanhã, vamos cancelar o jogo.", "explanation": "First conditional: will + verbo base." },
+    { "id": "cond-r8", "kind": "typed", "difficulty": "advanced", "prompt": "If I had studied, I would have ___ (pass).", "accept": ["passed"], "answer": "passed", "full": "If I had studied, I would have passed.", "pt": "Se eu tivesse estudado, teria passado.", "explanation": "would have + particípio (pass → passed)." }
+  ]
+}

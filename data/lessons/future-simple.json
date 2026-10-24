@@ -1,0 +1,64 @@
+{
+  "id": "future-simple",
+  "name": "Future Simple (will)",
+  "namePt": "Futuro Simples (will)",
+  "group": "future",
+  "order": 1,
+  "aux": "will",
+  "summaryPt": "Decisões espontâneas, previsões e promessas.",
+  "meaningUses": [
+    { "pt": "Decisão espontânea na hora de falar", "en": "I'll help you.", "enPt": "Eu vou te ajudar." },
+    { "pt": "Previsão (com ou sem evidência)", "en": "It will rain tomorrow.", "enPt": "Vai chover amanhã." },
+    { "pt": "Promessa ou oferta", "en": "I'll call you later.", "enPt": "Vou te ligar mais tarde." }
+  ],
+  "formation": [
+    { "section": "Afirmativa", "pt": "Sujeito + will + verbo base.", "pattern": "I will go — she will go", "examples": [{ "en": "I'll call you later.", "pt": "Vou te ligar mais tarde." }] },
+    { "section": "Negativa", "pt": "Sujeito + won't (will not) + verbo base.", "pattern": "I won't go", "examples": [{ "en": "I won't be late.", "pt": "Não vou me atrasar." }] },
+    { "section": "Perguntas", "pt": "Will + sujeito + verbo base?", "pattern": "Will you come?", "examples": [{ "en": "Will you help me?", "pt": "Você vai me ajudar?" }] },
+    { "section": "Respostas curtas", "pt": "Yes, + pronome + will. No, + pronome + won't.", "pattern": "Yes, I will. / No, I won't.", "examples": [{ "en": "A: Will you come? B: Yes, I will.", "pt": "A: Você vai vir? B: Sim." }] }
+  ],
+  "subjectAgreement": [
+    { "pt": "A mesma forma (will) para todas as pessoas.", "example": "I will go. She will go. They will go." }
+  ],
+  "spelling": [],
+  "pronunciation": [
+    { "pt": "will é geralmente contraído para 'll na fala.", "example": "I'll, she'll, they'll" },
+    { "pt": "won't rima com don't.", "example": "won't /woʊnt/" }
+  ],
+  "commonErrors": [
+    { "pt": "Usar will + forma do passado", "wrong": "I will went.", "right": "I will go." },
+    { "pt": "Usar 'will' para planos já combinados (melhor: be going to ou presente contínuo)", "wrong": "I will meet her at 6. (decidido antes)", "right": "I'm meeting her at 6. (plano combinado)" }
+  ],
+  "contrast": [
+    { "with": "going-to", "pt": "will = decisão espontânea/previsão. be going to = plano já decidido.", "en": "It's raining. I'll take an umbrella. (espontâneo) — I'm going to visit my mom. (plano)", "enPt": "Está chovendo. Vou levar um guarda-chuva. — Vou visitar minha mãe." }
+  ],
+  "examples": [
+    { "en": "I'll call you later.", "pt": "Vou te ligar mais tarde." },
+    { "en": "It will rain tomorrow.", "pt": "Vai chover amanhã." },
+    { "en": "I won't be late.", "pt": "Não vou me atrasar." },
+    { "en": "Will you help me?", "pt": "Você vai me ajudar?" },
+    { "en": "Don't worry. I'll help you.", "pt": "Não se preocupe. Eu vou te ajudar." }
+  ],
+  "guidedPractice": [
+    { "id": "fut-g1", "kind": "mc", "difficulty": "basic", "prompt": "I ___ call you later.", "options": ["will", "am", "did", "have"], "answer": "will", "full": "I'll call you later.", "pt": "Vou te ligar mais tarde.", "explanation": "Decisão espontânea → will + verbo base." },
+    { "id": "fut-g2", "kind": "mc", "difficulty": "basic", "prompt": "She ___ come to the party.", "options": ["won't", "isn't", "didn't", "doesn't"], "answer": "won't", "full": "She won't come to the party.", "pt": "Ela não vai vir à festa.", "explanation": "Negativa: will not → won't + verbo base." },
+    { "id": "fut-g3", "kind": "typed", "difficulty": "basic", "prompt": "It ___ (rain) tomorrow.", "accept": ["will rain"], "answer": "will rain", "full": "It will rain tomorrow.", "pt": "Vai chover amanhã.", "explanation": "Previsão → will + verbo base." },
+    { "id": "fut-g4", "kind": "mc", "difficulty": "intermediate", "prompt": "___ you help me?", "options": ["Will", "Do", "Are", "Did"], "answer": "Will", "full": "Will you help me?", "pt": "Você vai me ajudar?", "explanation": "Pergunta: Will + sujeito + verbo base." },
+    { "id": "fut-g5", "kind": "mc", "difficulty": "intermediate", "prompt": "I ___ be late. I promise.", "options": ["won't", "will", "am not", "didn't"], "answer": "won't", "full": "I won't be late. I promise.", "pt": "Não vou me atrasar. Prometo.", "explanation": "Promessa → won't + verbo base." },
+    { "id": "fut-g6", "kind": "typed", "difficulty": "intermediate", "prompt": "Don't worry, I ___ (help) you.", "accept": ["will help"], "answer": "will help", "full": "Don't worry, I'll help you.", "pt": "Não se preocupe, vou te ajudar.", "explanation": "Oferta espontânea → will + verbo base." },
+    { "id": "fut-g7", "kind": "mc", "difficulty": "advanced", "prompt": "A: Will you come? B: Yes, I ___.", "options": ["will", "won't", "do", "am"], "answer": "will", "full": "A: Will you come? B: Yes, I will.", "pt": "A: Você vai vir? B: Sim.", "explanation": "Resposta curta: Yes, + pronome + will." },
+    { "id": "fut-g8", "kind": "mc", "difficulty": "advanced", "prompt": "I think it ___ rain tonight.", "options": ["will", "is", "does", "did"], "answer": "will", "full": "I think it will rain tonight.", "pt": "Acho que vai chover hoje à noite.", "explanation": "Previsão → will + verbo base." }
+  ],
+  "reviewQuiz": [
+    { "id": "fut-r1", "kind": "mc", "difficulty": "basic", "prompt": "I ___ help you with that.", "options": ["will", "am", "did", "have"], "answer": "will", "full": "I'll help you with that.", "pt": "Vou te ajudar com isso.", "explanation": "Oferta → will + verbo base." },
+    { "id": "fut-r2", "kind": "typed", "difficulty": "basic", "prompt": "She ___ (call) you tomorrow.", "accept": ["will call"], "answer": "will call", "full": "She will call you tomorrow.", "pt": "Ela vai te ligar amanhã.", "explanation": "will + verbo base." },
+    { "id": "fut-r3", "kind": "mc", "difficulty": "basic", "prompt": "I ___ be late.", "options": ["won't", "isn't", "didn't", "doesn't"], "answer": "won't", "full": "I won't be late.", "pt": "Não vou me atrasar.", "explanation": "Negativa: won't + verbo base." },
+    { "id": "fut-r4", "kind": "mc", "difficulty": "intermediate", "prompt": "___ they come to dinner?", "options": ["Will", "Do", "Are", "Did"], "answer": "Will", "full": "Will they come to dinner?", "pt": "Eles vão vir para o jantar?", "explanation": "Pergunta: Will + sujeito + verbo base." },
+    { "id": "fut-r5", "kind": "typed", "difficulty": "intermediate", "prompt": "I'm sure she ___ (pass) the test.", "accept": ["will pass"], "answer": "will pass", "full": "I'm sure she will pass the test.", "pt": "Tenho certeza que ela vai passar na prova.", "explanation": "Previsão → will + verbo base." },
+    { "id": "fut-r6", "kind": "mc", "difficulty": "intermediate", "prompt": "I ___ forget your birthday.", "options": ["won't", "will", "am not", "didn't"], "answer": "won't", "full": "I won't forget your birthday.", "pt": "Não vou esquecer seu aniversário.", "explanation": "Promessa → won't + verbo base." },
+    { "id": "fut-r7", "kind": "mc", "difficulty": "advanced", "prompt": "A: Will she come? B: No, she ___.", "options": ["won't", "will", "isn't", "doesn't"], "answer": "won't", "full": "A: Will she come? B: No, she won't.", "pt": "A: Ela vai vir? B: Não.", "explanation": "Resposta curta negativa: No, she won't." },
+    { "id": "fut-r8", "kind": "typed", "difficulty": "advanced", "prompt": "I'll ___ (meet) you at the station.", "accept": ["meet"], "answer": "meet", "full": "I'll meet you at the station.", "pt": "Vou te encontrar na estação.", "explanation": "will + verbo base (sem to)." },
+    { "id": "fut-r9", "kind": "mc", "difficulty": "advanced", "prompt": "Don't worry, ___ take care of it.", "options": ["I'll", "I'm", "I did", "I have"], "answer": "I'll", "full": "Don't worry, I'll take care of it.", "pt": "Não se preocupe, vou cuidar disso.", "explanation": "Oferta espontânea → will ('ll)." },
+    { "id": "fut-r10", "kind": "mc", "difficulty": "advanced", "prompt": "I'm sure they ___ enjoy the movie.", "options": ["will", "are", "do", "did"], "answer": "will", "full": "I'm sure they will enjoy the movie.", "pt": "Tenho certeza que eles vão gostar do filme.", "explanation": "Previsão → will + verbo base." }
+  ]
+}

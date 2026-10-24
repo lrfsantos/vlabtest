@@ -1,0 +1,67 @@
+{
+  "id": "past-continuous",
+  "name": "Past Continuous",
+  "namePt": "Passado Contínuo",
+  "group": "past",
+  "order": 2,
+  "aux": "was / were",
+  "summaryPt": "Ação em andamento em um momento específico do passado.",
+  "meaningUses": [
+    { "pt": "Ação em andamento em um momento do passado", "en": "I was watching TV at 9 p.m.", "enPt": "Eu estava assistindo TV às 21h." },
+    { "pt": "Ação longa interrompida por outra", "en": "She was cooking when I arrived.", "enPt": "Ela estava cozinhando quando cheguei." },
+    { "pt": "Duas ações simultâneas no passado", "en": "He was studying while she was working.", "enPt": "Ele estudava enquanto ela trabalhava." }
+  ],
+  "formation": [
+    { "section": "Afirmativa", "pt": "Sujeito + was/were + verbo + -ing.", "pattern": "I was working — she was working — they were working", "examples": [{ "en": "I was watching TV.", "pt": "Eu estava assistindo TV." }] },
+    { "section": "Negativa", "pt": "Sujeito + wasn't/weren't + verbo + -ing.", "pattern": "I wasn't working — they weren't working", "examples": [{ "en": "They weren't sleeping.", "pt": "Eles não estavam dormindo." }] },
+    { "section": "Perguntas", "pt": "Was / Were + sujeito + verbo + -ing?", "pattern": "Were you working? — Was she sleeping?", "examples": [{ "en": "Were you studying at 8?", "pt": "Você estava estudando às 8?" }] },
+    { "section": "Respostas curtas", "pt": "Yes, + pronome + was/were. No, + pronome + wasn't/weren't.", "pattern": "Yes, I was. / No, she wasn't.", "examples": [{ "en": "A: Were you sleeping? B: Yes, I was.", "pt": "A: Você estava dormindo? B: Sim." }] }
+  ],
+  "subjectAgreement": [
+    { "pt": "I / he / she / it → was", "example": "I was working. She was working." },
+    { "pt": "you / we / they → were", "example": "You were working. We were working. They were working." }
+  ],
+  "spelling": [
+    { "pt": "Mesmas regras do -ing do presente contínuo.", "example": "write → writing, run → running, die → dying" }
+  ],
+  "pronunciation": [
+    { "pt": "was/were são geralmente átonos na fala.", "example": "I was working → /aɪ wəz ˈwɜːrkɪŋ/" }
+  ],
+  "commonErrors": [
+    { "pt": "Usar passado simples quando a ação estava em andamento", "wrong": "I watched TV at 9 p.m. when he called.", "right": "I was watching TV at 9 p.m. when he called. (a ação estava em andamento)" },
+    { "pt": "Confundir was e were", "wrong": "We was working.", "right": "We were working." },
+    { "pt": "Esquecer o -ing", "wrong": "She was cook when I arrived.", "right": "She was cooking when I arrived." }
+  ],
+  "contrast": [
+    { "with": "past-simple", "pt": "Past simple = ação concluída. Past continuous = ação em andamento (como pano de fundo).", "en": "She cooked dinner. (concluiu) — She was cooking when I arrived. (em andamento)", "enPt": "Ela cozinhou o jantar. — Ela estava cozinhando quando cheguei." }
+  ],
+  "examples": [
+    { "en": "I was watching TV at 9 p.m.", "pt": "Eu estava assistindo TV às 21h." },
+    { "en": "She was cooking when I arrived.", "pt": "Ela estava cozinhando quando cheguei." },
+    { "en": "They weren't sleeping.", "pt": "Eles não estavam dormindo." },
+    { "en": "Were you studying at 8?", "pt": "Você estava estudando às 8?" },
+    { "en": "He was studying while she was working.", "pt": "Ele estudava enquanto ela trabalhava." }
+  ],
+  "guidedPractice": [
+    { "id": "pastc-g1", "kind": "mc", "difficulty": "basic", "prompt": "I ___ watching TV at 9 p.m.", "options": ["was", "were", "am", "is"], "answer": "was", "full": "I was watching TV at 9 p.m.", "pt": "Eu estava assistindo TV às 21h.", "explanation": "Com I, use was." },
+    { "id": "pastc-g2", "kind": "mc", "difficulty": "basic", "prompt": "They ___ playing outside.", "options": ["were", "was", "are", "is"], "answer": "were", "full": "They were playing outside.", "pt": "Eles estavam brincando lá fora.", "explanation": "Com they, use were." },
+    { "id": "pastc-g3", "kind": "typed", "difficulty": "basic", "prompt": "She was ___ (cook) when I arrived.", "accept": ["cooking"], "answer": "cooking", "full": "She was cooking when I arrived.", "pt": "Ela estava cozinhando quando cheguei.", "explanation": "was + -ing (cook → cooking)." },
+    { "id": "pastc-g4", "kind": "mc", "difficulty": "intermediate", "prompt": "They ___ sleeping when I called.", "options": ["weren't", "wasn't", "don't", "didn't"], "answer": "weren't", "full": "They weren't sleeping when I called.", "pt": "Eles não estavam dormindo quando liguei.", "explanation": "Negativa com they: were + not." },
+    { "id": "pastc-g5", "kind": "mc", "difficulty": "intermediate", "prompt": "___ you studying at 8?", "options": ["Were", "Was", "Are", "Did"], "answer": "Were", "full": "Were you studying at 8?", "pt": "Você estava estudando às 8?", "explanation": "Pergunta com you: Were + sujeito + -ing." },
+    { "id": "pastc-g6", "kind": "typed", "difficulty": "intermediate", "prompt": "He was ___ (write) an email.", "accept": ["writing"], "answer": "writing", "full": "He was writing an email.", "pt": "Ele estava escrevendo um e-mail.", "explanation": "write → writing (e mudo cai)." },
+    { "id": "pastc-g7", "kind": "mc", "difficulty": "advanced", "prompt": "A: Were you sleeping? B: Yes, I ___.", "options": ["was", "were", "am", "did"], "answer": "was", "full": "A: Were you sleeping? B: Yes, I was.", "pt": "A: Você estava dormindo? B: Sim.", "explanation": "Resposta curta: Yes, + pronome + was." },
+    { "id": "pastc-g8", "kind": "typed", "difficulty": "advanced", "prompt": "He was ___ (run) in the park.", "accept": ["running"], "answer": "running", "full": "He was running in the park.", "pt": "Ele estava correndo no parque.", "explanation": "run → running (dobra a consoante)." }
+  ],
+  "reviewQuiz": [
+    { "id": "pastc-r1", "kind": "mc", "difficulty": "basic", "prompt": "She ___ cooking when I arrived.", "options": ["was", "were", "is", "am"], "answer": "was", "full": "She was cooking when I arrived.", "pt": "Ela estava cozinhando quando cheguei.", "explanation": "Com she, use was." },
+    { "id": "pastc-r2", "kind": "typed", "difficulty": "basic", "prompt": "We ___ (watch) a movie.", "accept": ["were watching"], "answer": "were watching", "full": "We were watching a movie.", "pt": "Estávamos assistindo a um filme.", "explanation": "Com we, use were + -ing." },
+    { "id": "pastc-r3", "kind": "mc", "difficulty": "basic", "prompt": "They ___ playing soccer.", "options": ["were", "was", "are", "is"], "answer": "were", "full": "They were playing soccer.", "pt": "Eles estavam jogando futebol.", "explanation": "Com they, use were." },
+    { "id": "pastc-r4", "kind": "mc", "difficulty": "intermediate", "prompt": "I ___ sleeping when you called.", "options": ["wasn't", "weren't", "don't", "didn't"], "answer": "wasn't", "full": "I wasn't sleeping when you called.", "pt": "Não estava dormindo quando você ligou.", "explanation": "Negativa com I: was + not." },
+    { "id": "pastc-r5", "kind": "mc", "difficulty": "intermediate", "prompt": "___ she working at 5?", "options": ["Was", "Were", "Is", "Did"], "answer": "Was", "full": "Was she working at 5?", "pt": "Ela estava trabalhando às 5?", "explanation": "Pergunta com she: Was + sujeito + -ing." },
+    { "id": "pastc-r6", "kind": "typed", "difficulty": "intermediate", "prompt": "They were ___ (talk) about the test.", "accept": ["talking"], "answer": "talking", "full": "They were talking about the test.", "pt": "Eles estavam falando sobre a prova.", "explanation": "were + -ing (talk → talking)." },
+    { "id": "pastc-r7", "kind": "mc", "difficulty": "advanced", "prompt": "A: Was she crying? B: No, she ___.", "options": ["wasn't", "weren't", "didn't", "doesn't"], "answer": "wasn't", "full": "A: Was she crying? B: No, she wasn't.", "pt": "A: Ela estava chorando? B: Não.", "explanation": "Resposta curta negativa: No, she wasn't." },
+    { "id": "pastc-r8", "kind": "typed", "difficulty": "advanced", "prompt": "He was ___ (sit) by the window.", "accept": ["sitting"], "answer": "sitting", "full": "He was sitting by the window.", "pt": "Ele estava sentado perto da janela.", "explanation": "sit → sitting (dobra a consoante)." },
+    { "id": "pastc-r9", "kind": "mc", "difficulty": "advanced", "prompt": "She was cooking ___ I arrived.", "options": ["when", "while", "during", "until"], "answer": "when", "full": "She was cooking when I arrived.", "pt": "Ela estava cozinhando quando cheguei.", "explanation": "when + ação pontual que interrompe." },
+    { "id": "pastc-r10", "kind": "mc", "difficulty": "advanced", "prompt": "He was studying ___ she was working.", "options": ["while", "when", "during", "after"], "answer": "while", "full": "He was studying while she was working.", "pt": "Ele estudava enquanto ela trabalhava.", "explanation": "while + duas ações simultâneas." }
+  ]
+}

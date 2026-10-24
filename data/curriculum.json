@@ -1,0 +1,34 @@
+{
+  "app": "Verb Lab",
+  "version": "v40",
+  "lang": "pt-BR",
+  "groups": [
+    { "id": "present", "name": "Presente", "desc": "Present Simple, Present Continuous, Present Perfect, Present Perfect Continuous.", "forms": [
+      { "id": "present-simple", "name": "Present Simple" },
+      { "id": "present-continuous", "name": "Present Continuous" },
+      { "id": "present-perfect", "name": "Present Perfect" },
+      { "id": "present-perfect-continuous", "name": "Present Perfect Continuous" }
+    ] },
+    { "id": "past", "name": "Passado", "desc": "Past Simple, Past Continuous, Past Perfect, Past Perfect Continuous.", "forms": [
+      { "id": "past-simple", "name": "Past Simple" },
+      { "id": "past-continuous", "name": "Past Continuous" },
+      { "id": "past-perfect", "name": "Past Perfect" },
+      { "id": "past-perfect-continuous", "name": "Past Perfect Continuous" }
+    ] },
+    { "id": "future", "name": "Futuro", "desc": "Future Simple (will), Future Continuous, Future Perfect, Future Perfect Continuous.", "forms": [
+      { "id": "future-simple", "name": "Future Simple (will)" },
+      { "id": "future-continuous", "name": "Future Continuous" },
+      { "id": "future-perfect", "name": "Future Perfect" },
+      { "id": "future-perfect-continuous", "name": "Future Perfect Continuous" }
+    ] },
+    { "id": "related", "name": "Construções relacionadas", "desc": "be going to, presente com valor de futuro, modais, condicionais, voz passiva, verb patterns, phrasal verbs.", "forms": [
+      { "id": "going-to", "name": "be going to" },
+      { "id": "present-for-future", "name": "Presente com valor de futuro" },
+      { "id": "modals", "name": "Modais" },
+      { "id": "conditionals", "name": "Condicionais" },
+      { "id": "passive", "name": "Voz passiva" },
+      { "id": "verb-patterns", "name": "Verb patterns" },
+      { "id": "phrasal-verbs", "name": "Phrasal verbs" }
+    ] }
+  ]
+}

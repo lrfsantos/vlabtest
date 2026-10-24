@@ -1,0 +1,66 @@
+{
+  "id": "present-perfect-continuous",
+  "name": "Present Perfect Continuous",
+  "namePt": "Present Perfect Continuous",
+  "group": "present",
+  "order": 4,
+  "aux": "have/has been",
+  "summaryPt": "Ação que começou no passado e continua até agora, com ênfase na duração.",
+  "meaningUses": [
+    { "pt": "Duração de uma ação que continua", "en": "I have been studying for two hours.", "enPt": "Estou estudando há duas horas." },
+    { "pt": "Ação recente com efeito visível agora", "en": "She has been crying.", "enPt": "Ela estava chorando (os olhos mostram isso)." },
+    { "pt": "Ênfase no processo, não no resultado", "en": "I have been working on this project.", "enPt": "Tenho trabalhado neste projeto." }
+  ],
+  "formation": [
+    { "section": "Afirmativa", "pt": "Sujeito + have/has + been + verbo + -ing.", "pattern": "I have been working — she has been working", "examples": [{ "en": "I have been working all day.", "pt": "Tenho trabalhado o dia todo." }] },
+    { "section": "Negativa", "pt": "Sujeito + haven't/hasn't + been + verbo + -ing.", "pattern": "I haven't been sleeping well", "examples": [{ "en": "I haven't been sleeping well.", "pt": "Não tenho dormido bem." }] },
+    { "section": "Perguntas", "pt": "Have / Has + sujeito + been + verbo + -ing?", "pattern": "Have you been waiting long?", "examples": [{ "en": "Have you been waiting long?", "pt": "Você está esperando há muito tempo?" }] },
+    { "section": "Respostas curtas", "pt": "Yes, + pronome + have/has. No, + pronome + haven't/hasn't.", "pattern": "Yes, I have. / No, she hasn't.", "examples": [{ "en": "A: Have you been studying? B: Yes, I have.", "pt": "A: Você tem estudado? B: Sim." }] }
+  ],
+  "subjectAgreement": [
+    { "pt": "he / she / it → has been", "example": "She has been working." },
+    { "pt": "I / you / we / they → have been", "example": "I have been working. We have been working." }
+  ],
+  "spelling": [],
+  "pronunciation": [
+    { "pt": "been é pronunciado /bɪn/ (curto) na fala rápida.", "example": "I've been working → /aɪv bɪn ˈwɜːrkɪŋ/" },
+    { "pt": "Em perguntas, não esqueça o -ing no verbo principal.", "example": "Have you been waiting?" }
+  ],
+  "commonErrors": [
+    { "pt": "Esquecer o been", "wrong": "I have working all day.", "right": "I have been working all day." },
+    { "pt": "Confundir com present perfect simples (sem ênfase na duração)", "wrong": "I have worked for two hours.", "right": "I have been working for two hours. (ênfase na duração)" },
+    { "pt": "Esquecer o -ing", "wrong": "She has been study.", "right": "She has been studying." }
+  ],
+  "contrast": [
+    { "with": "present-perfect", "pt": "Present perfect = resultado. Present perfect continuous = duração/processo.", "en": "I have written the report. (pronto) — I have been writing the report. (processo, talvez não pronto)", "enPt": "Escrevi o relatório. — Tenho escrito o relatório." }
+  ],
+  "examples": [
+    { "en": "I have been studying for two hours.", "pt": "Estou estudando há duas horas." },
+    { "en": "She has been working at this company since 2021.", "pt": "Ela trabalha nesta empresa desde 2021." },
+    { "en": "We have been waiting for the bus.", "pt": "Estamos esperando o ônibus." },
+    { "en": "I haven't been sleeping well.", "pt": "Não tenho dormido bem." },
+    { "en": "Have you been learning English long?", "pt": "Você está aprendendo inglês há muito tempo?" }
+  ],
+  "guidedPractice": [
+    { "id": "ppc-g1", "kind": "mc", "difficulty": "basic", "prompt": "I have ___ working all day.", "options": ["been", "being", "be", "was"], "answer": "been", "full": "I have been working all day.", "pt": "Tenho trabalhado o dia todo.", "explanation": "have + been + -ing." },
+    { "id": "ppc-g2", "kind": "mc", "difficulty": "basic", "prompt": "She ___ been studying for two hours.", "options": ["has", "have", "is", "does"], "answer": "has", "full": "She has been studying for two hours.", "pt": "Ela está estudando há duas horas.", "explanation": "Com she, use has." },
+    { "id": "ppc-g3", "kind": "typed", "difficulty": "basic", "prompt": "I have been ___ (work) all day.", "accept": ["working"], "answer": "working", "full": "I have been working all day.", "pt": "Tenho trabalhado o dia todo.", "explanation": "have been + verbo + -ing." },
+    { "id": "ppc-g4", "kind": "mc", "difficulty": "intermediate", "prompt": "___ you been waiting long?", "options": ["Have", "Has", "Is", "Do"], "answer": "Have", "full": "Have you been waiting long?", "pt": "Você está esperando há muito tempo?", "explanation": "Pergunta com you: Have + sujeito + been + -ing." },
+    { "id": "ppc-g5", "kind": "mc", "difficulty": "intermediate", "prompt": "I ___ been sleeping well.", "options": ["haven't", "hasn't", "don't", "isn't"], "answer": "haven't", "full": "I haven't been sleeping well.", "pt": "Não tenho dormido bem.", "explanation": "Negativa com I: have + not." },
+    { "id": "ppc-g6", "kind": "typed", "difficulty": "intermediate", "prompt": "She has been ___ (learn) English since 2020.", "accept": ["learning"], "answer": "learning", "full": "She has been learning English since 2020.", "pt": "Ela estuda inglês desde 2020.", "explanation": "has been + -ing (learn → learning)." },
+    { "id": "ppc-g7", "kind": "mc", "difficulty": "advanced", "prompt": "A: Have you been studying? B: Yes, I ___.", "options": ["have", "has", "am", "do"], "answer": "have", "full": "A: Have you been studying? B: Yes, I have.", "pt": "A: Você tem estudado? B: Sim.", "explanation": "Resposta curta: Yes, + pronome + have." },
+    { "id": "ppc-g8", "kind": "typed", "difficulty": "advanced", "prompt": "I have been ___ (read) all afternoon.", "accept": ["reading"], "answer": "reading", "full": "I have been reading all afternoon.", "pt": "Tenho lido a tarde toda.", "explanation": "have been + -ing (read → reading)." }
+  ],
+  "reviewQuiz": [
+    { "id": "ppc-r1", "kind": "mc", "difficulty": "basic", "prompt": "I have ___ working since morning.", "options": ["been", "being", "be", "was"], "answer": "been", "full": "I have been working since morning.", "pt": "Estou trabalhando desde de manhã.", "explanation": "have + been + -ing." },
+    { "id": "ppc-r2", "kind": "mc", "difficulty": "basic", "prompt": "She ___ been crying.", "options": ["has", "have", "is", "does"], "answer": "has", "full": "She has been crying.", "pt": "Ela estava chorando.", "explanation": "Com she, use has." },
+    { "id": "ppc-r3", "kind": "typed", "difficulty": "basic", "prompt": "They have been ___ (play) all day.", "accept": ["playing"], "answer": "playing", "full": "They have been playing all day.", "pt": "Eles têm brincado o dia todo.", "explanation": "have been + -ing." },
+    { "id": "ppc-r4", "kind": "mc", "difficulty": "intermediate", "prompt": "I ___ been sleeping well lately.", "options": ["haven't", "hasn't", "don't", "isn't"], "answer": "haven't", "full": "I haven't been sleeping well lately.", "pt": "Não tenho dormido bem ultimamente.", "explanation": "Negativa com I: have + not." },
+    { "id": "ppc-r5", "kind": "mc", "difficulty": "intermediate", "prompt": "___ she been working here long?", "options": ["Has", "Have", "Is", "Does"], "answer": "Has", "full": "Has she been working here long?", "pt": "Ela trabalha aqui há muito tempo?", "explanation": "Pergunta com she: Has + sujeito + been + -ing." },
+    { "id": "ppc-r6", "kind": "typed", "difficulty": "intermediate", "prompt": "We have been ___ (wait) for an hour.", "accept": ["waiting"], "answer": "waiting", "full": "We have been waiting for an hour.", "pt": "Estamos esperando há uma hora.", "explanation": "have been + -ing." },
+    { "id": "ppc-r7", "kind": "mc", "difficulty": "advanced", "prompt": "A: Has she been crying? B: No, she ___.", "options": ["hasn't", "haven't", "isn't", "doesn't"], "answer": "hasn't", "full": "A: Has she been crying? B: No, she hasn't.", "pt": "A: Ela estava chorando? B: Não.", "explanation": "Resposta curta negativa: No, she hasn't." },
+    { "id": "ppc-r8", "kind": "typed", "difficulty": "advanced", "prompt": "I have been ___ (write) emails all morning.", "accept": ["writing"], "answer": "writing", "full": "I have been writing emails all morning.", "pt": "Tenho escrito e-mails a manhã toda.", "explanation": "write → writing (e mudo cai)." },
+    { "id": "ppc-r9", "kind": "mc", "difficulty": "advanced", "prompt": "She has been working here ___ 2021.", "options": ["since", "for", "during", "from"], "answer": "since", "full": "She has been working here since 2021.", "pt": "Ela trabalha aqui desde 2021.", "explanation": "since + ponto de início." },
+    { "id": "ppc-r10", "kind": "mc", "difficulty": "advanced", "prompt": "I have been studying ___ three hours.", "options": ["for", "since", "during", "from"], "answer": "for", "full": "I have been studying for three hours.", "pt": "Estou estudando há três horas.", "explanation": "for + duração." }
+  ]
+}
