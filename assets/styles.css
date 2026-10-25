@@ -298,3 +298,14 @@ html{scroll-padding-bottom:9rem;-webkit-tap-highlight-color:transparent}
 .keep-target{display:inline-block;font-size:.85rem;font-weight:700;color:var(--bad-ink);background:var(--bad-bg);border:1px solid var(--bad-line);border-radius:4px;padding:2px 10px;margin-bottom:8px}
 .module-list{display:grid;gap:12px;margin-top:12px}
 .back-link{background:none;border:0;color:var(--accent-ink);font-weight:700;text-decoration:underline;min-height:44px;padding:0}
+
+/* v40: accordion lesson sections (reduce density) */
+.ls-sec{margin:8px 0;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--paper);overflow:hidden}
+.ls-sec summary{list-style:none;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;min-height:46px;padding:8px 14px;cursor:pointer;font-weight:700}
+.ls-sec summary::-webkit-details-marker{display:none}
+.ls-sec summary:hover{background:var(--accent-soft)}
+.ls-sec-t{font-size:1rem}
+.ls-sec-en{font-size:.85rem;color:var(--muted);font-weight:600}
+.ls-sec-chev{margin-left:auto;transition:transform .15s;color:var(--muted)}
+.ls-sec[open] .ls-sec-chev{transform:rotate(180deg)}
+.ls-sec-body{padding:4px 14px 14px;border-top:1px solid var(--line)}

@@ -202,58 +202,66 @@ function renderLesson(lesson){
   h+='<span class="lesson-label">'+esc(lesson.namePt)+'</span> '+lessonSeenNote(lesson.id);
   h+='<p class="m-sum">'+esc(lesson.summaryPt||'')+'</p>';
 
-  h+='<div class="ls-head">Usos e significados<span class="en">Meaning and uses</span></div>';
+  function sec(title, en, open, body){
+    return '<details class="ls-sec" '+(open?'open':'')+'><summary><span class="ls-sec-t">'+title+'</span><span class="ls-sec-en">'+en+'</span><span class="ls-sec-chev" aria-hidden="true">▾</span></summary><div class="ls-sec-body">'+body+'</div></details>';
+  }
+
+  var uses='';
   (lesson.meaningUses||[]).forEach(function(u){
-    h+='<div class="ls-row"><b>'+esc(u.pt)+'</b><div class="ls-ex"><div class="en" lang="en">'+esc(u.en)+'</div><div class="pt">'+esc(u.enPt||'')+'</div></div></div>';
+    uses+='<div class="ls-row"><b>'+esc(u.pt)+'</b><div class="ls-ex"><div class="en" lang="en">'+esc(u.en)+'</div><div class="pt">'+esc(u.enPt||'')+'</div></div></div>';
   });
+  h+=sec('Usos e significados','Meaning and uses',true,uses);
 
-  h+='<div class="ls-head">Formação<span class="en">Formation</span></div>';
+  var form='';
   (lesson.formation||[]).forEach(function(s){
-    h+='<div class="ls-row"><b>'+esc(s.section)+'</b><div style="color:var(--muted)">'+esc(s.pt||'')+'</div>';
-    if(s.pattern)h+='<div class="ls-pattern">'+esc(s.pattern)+'</div>';
-    (s.examples||[]).forEach(function(ex){h+='<div class="ls-ex"><div class="en" lang="en">'+esc(ex.en)+'</div><div class="pt">'+esc(ex.pt||'')+'</div></div>';});
-    h+='</div>';
+    form+='<div class="ls-row"><b>'+esc(s.section)+'</b><div style="color:var(--muted)">'+esc(s.pt||'')+'</div>';
+    if(s.pattern)form+='<div class="ls-pattern">'+esc(s.pattern)+'</div>';
+    (s.examples||[]).forEach(function(ex){form+='<div class="ls-ex"><div class="en" lang="en">'+esc(ex.en)+'</div><div class="pt">'+esc(ex.pt||'')+'</div></div>';});
+    form+='</div>';
   });
+  h+=sec('Formação','Formation',false,form);
 
-  if(lesson.subjectAgreement&&lesson.subjectAgreement.length){
-    h+='<div class="ls-head">Concordância<span class="en">Subject agreement</span></div>';
-    (lesson.subjectAgreement||[]).forEach(function(s){h+='<div class="ls-row"><b>'+esc(s.pt)+'</b><div class="ls-ex"><div class="en" lang="en">'+esc(s.example||'')+'</div></div></div>';});
-  }
-  if(lesson.spelling&&lesson.spelling.length){
-    h+='<div class="ls-head">Ortografia<span class="en">Spelling</span></div>';
-    (lesson.spelling||[]).forEach(function(s){h+='<div class="ls-row"><b>'+esc(s.pt)+'</b><div class="ls-ex"><div class="en" lang="en">'+esc(s.example||'')+'</div></div></div>';});
-  }
-  if(lesson.pronunciation&&lesson.pronunciation.length){
-    h+='<div class="ls-head">Pronúncia<span class="en">Pronunciation</span></div>';
-    (lesson.pronunciation||[]).forEach(function(s){h+='<div class="ls-row"><b>'+esc(s.pt)+'</b><div class="ls-ex"><div class="en" lang="en">'+esc(s.example||'')+'</div></div></div>';});
-  }
-  if(lesson.commonErrors&&lesson.commonErrors.length){
-    h+='<div class="ls-head">Erros comuns de quem fala português<span class="en">Common learner errors</span></div>';
-    (lesson.commonErrors||[]).forEach(function(s){
-      h+='<div class="ls-row"><b>'+esc(s.pt||'')+'</b>'
-        +'<div class="ls-ex"><div class="en"><span class="ls-wrong">'+esc(s.wrong||'')+'</span> → <span class="ls-right">'+esc(s.right||'')+'</span></div></div></div>';
-    });
-  }
-  if(lesson.contrast&&lesson.contrast.length){
-    h+='<div class="ls-head">Compare<span class="en">Contrast</span></div>';
-    (lesson.contrast||[]).forEach(function(s){
-      h+='<div class="ls-row"><b>'+esc(s.pt||'')+'</b><div class="ls-ex"><div class="en" lang="en">'+esc(s.en||'')+'</div><div class="pt">'+esc(s.enPt||'')+'</div></div></div>';
-    });
-  }
-  h+='<div class="ls-head">Exemplos<span class="en">Examples</span></div>';
-  (lesson.examples||[]).forEach(function(ex){
-    h+='<div class="ls-row"><div class="ls-ex"><div class="en" lang="en">'+esc(ex.en)+'</div><div class="pt">'+esc(ex.pt||'')+'</div></div></div>';
+  var agree='';
+  (lesson.subjectAgreement||[]).forEach(function(s){agree+='<div class="ls-row"><b>'+esc(s.pt)+'</b><div class="ls-ex"><div class="en" lang="en">'+esc(s.example||'')+'</div></div></div>';});
+  if(agree) h+=sec('Concordância','Subject agreement',false,agree);
+
+  var spell='';
+  (lesson.spelling||[]).forEach(function(s){spell+='<div class="ls-row"><b>'+esc(s.pt)+'</b><div class="ls-ex"><div class="en" lang="en">'+esc(s.example||'')+'</div></div></div>';});
+  if(spell) h+=sec('Ortografia','Spelling',false,spell);
+
+  var pron='';
+  (lesson.pronunciation||[]).forEach(function(s){pron+='<div class="ls-row"><b>'+esc(s.pt)+'</b><div class="ls-ex"><div class="en" lang="en">'+esc(s.example||'')+'</div></div></div>';});
+  if(pron) h+=sec('Pronúncia','Pronunciation',false,pron);
+
+  var errors='';
+  (lesson.commonErrors||[]).forEach(function(s){
+    errors+='<div class="ls-row"><b>'+esc(s.pt||'')+'</b>'
+      +'<div class="ls-ex"><div class="en"><span class="ls-wrong">'+esc(s.wrong||'')+'</span> → <span class="ls-right">'+esc(s.right||'')+'</span></div></div></div>';
   });
+  if(errors) h+=sec('Erros comuns de quem fala português','Common learner errors',false,errors);
+
+  var contrast='';
+  (lesson.contrast||[]).forEach(function(s){
+    contrast+='<div class="ls-row"><b>'+esc(s.pt||'')+'</b><div class="ls-ex"><div class="en" lang="en">'+esc(s.en||'')+'</div><div class="pt">'+esc(s.enPt||'')+'</div></div></div>';
+  });
+  if(contrast) h+=sec('Compare','Contrast',false,contrast);
+
+  var examples='';
+  (lesson.examples||[]).forEach(function(ex){
+    examples+='<div class="ls-row"><div class="ls-ex"><div class="en" lang="en">'+esc(ex.en)+'</div><div class="pt">'+esc(ex.pt||'')+'</div></div></div>';
+  });
+  h+=sec('Exemplos','Examples',true,examples);
 
   if(lesson.guidedPractice&&lesson.guidedPractice.length){
-    h+='<div class="ls-head">Prática guiada<span class="en">Guided practice</span></div>';
+    var guided='';
     (lesson.guidedPractice||[]).forEach(function(q,i){
       var ans=q.answer||(q.options&&q.options[0])||'';
-      h+='<div class="ls-row"><b>'+esc(lesson.namePt)+'</b><div class="focused-prompt" lang="en">'+esc(q.prompt)+'</div>'
+      guided+='<div class="ls-row"><b>'+esc(lesson.namePt)+'</b><div class="focused-prompt" lang="en">'+esc(q.prompt)+'</div>'
         +'<div class="pt">'+esc(q.pt||'')+'</div>'
         +'<div style="margin-top:6px"><button class="chip" data-action="reveal" data-arg="'+esc(lesson.id+'-g'+i)+'">Ver resposta</button>'
         +' <span class="reveal-answer" id="reveal-'+esc(lesson.id+'-g'+i)+'" hidden><b>'+esc(ans)+'</b> — '+esc(q.explanation||'')+'</span></div></div>';
     });
+    h+=sec('Prática guiada','Guided practice',false,guided);
   }
   h+='</div>';
   el.innerHTML=h;
